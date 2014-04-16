@@ -8,17 +8,17 @@
 
 #pragma once
 #include "ofMain.h"
+#import <QuartzCore/QuartzCore.h> 
 #include "ofxCoreImage.h"
 
-class ofxCIHexagonalPixellate{
+class ofxCIToneCurve{
     
-    //This CI Filter lets you adjust brightness, saturation and contrast
+    //This applies a gaussian blur core iamge filter
     
 public:
  
     
     void setup(int width, int height, CIContext* _glCIcontext){
-        
         genericRGB = CGColorSpaceCreateWithName(kCGColorSpaceGenericRGB);
         
         glCIcontext = _glCIcontext;
@@ -27,12 +27,12 @@ public:
         inRect = CGRectMake(0,0,width,height);
         outRect = CGRectMake(0,0,width,height);
         
-        filter = [CIFilter filterWithName:@"CIHexagonalPixellate"];
-        [filter setDefaults]; //always do this on load
+        filter = [CIFilter filterWithName:@"CIToneCurve"];
+        [filter setDefaults]; //always set this on load
     }
 
-    //-------------------------
-    void update(ofTexture tex){ //this takes an ofTexture and
+    
+    void update(ofTexture tex){ //this takes an ofTexture and turns it into a CI image for the filters
         
         texID = tex.texData.textureID;
         
@@ -44,45 +44,54 @@ public:
         [filter setValue:inputCIImage forKey:@"inputImage"];
     }
     
-    //-------------------------
-    void update(CIImage* inputImage){//don't use both updates with one class...use this for chaining - you need to start with an OF texture first though
+    void update(CIImage* inputImage){//don't use both updates with one class...use this for chaining
         [filter setValue:inputImage forKey:@"inputImage"];
         
     }
     
     //-------------------------
-    void setScale(float scale){
-        scale = ofClamp(scale,1, 100);
-        [filter setValue:[NSNumber numberWithFloat: scale] forKey:@"inputScale"];
+    //SET VALUES
+    
+    //Tone curve goes between 0 and 1
+    void setPoint0(int x, int y) {
+        [filter  setValue:[CIVector vectorWithX:x Y:y] forKey:@"inputPoint0"];
     }
-    //-------------------------
-    void setCenter(int x, int y) {
-        [filter  setValue:[CIVector vectorWithX:x Y:y] forKey:@"inputCenter"];
+    
+    void setPoint1(int x, int y) {
+        [filter  setValue:[CIVector vectorWithX:x Y:y] forKey:@"inputPoint1"];
     }
+    
+    void setPoint2(int x, int y) {
+        [filter  setValue:[CIVector vectorWithX:x Y:y] forKey:@"inputPoint2"];
+    }
+    
+    void setPoint3(int x, int y) {
+        [filter  setValue:[CIVector vectorWithX:x Y:y] forKey:@"inputPoint3"];
+    }
+    
+
     
     //-------------------------
     void setDefaults(){
         [filter setDefaults];
     }
     
-    //-------------------------
     CIImage* getCIImage(){ //use this to pass into other effects for chaining
         filterCIImage = [filter valueForKey:@"outputImage"];
         return filterCIImage;
     }
+
     
-    //-------------------------
     void draw(int x, int y){
         
         filterCIImage = [filter valueForKey:@"outputImage"];
         ofPushMatrix();
         ofTranslate(x,y);
-
+        ofSetColor(255);
         [glCIcontext drawImage:filterCIImage
                         inRect:outRect
                       fromRect:inRect];
         ofPopMatrix();
-        
     }
     
     

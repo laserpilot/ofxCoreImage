@@ -35,6 +35,16 @@
 #include "filters/ofxCIExposureAdjust.h"
 #include "filters/ofxCIGammaAdjust.h"
 #include "filters/ofxCIGloom.h"
+#include "filters/ofxCIEdgeWork.h"
+#include "filters/ofxCIColorInvert.h"
+#include "filters/ofxCIBoxBlur.h"
+#include "filters/ofxCICircularScreen.h"
+#include "filters/ofxCILineScreen.h"
+#include "filters/ofxCITorusLensDistortion.h"
+#include "filters/ofxCIPointillize.h"
+#include "filters/ofxCIOpTile.h"
+#include "filters/ofxCIMotionBlur.h"
+#include "filters/ofxCIToneCurve.h"
 
 
 //composite filters
@@ -101,6 +111,19 @@ public:
                                             colorSpace: genericRGB
                                                options: nil];
 
+    }
+    
+    void listAllFilters(){
+        
+           //[CIPlugIn loadAllPlugIns]; //when you uncomment - lets you access third party plugins
+        
+            NSArray* filters = [CIFilter filterNamesInCategories:nil];
+        
+            for (NSString* filterName in filters)
+            {
+                NSLog(@"Filter: %@", filterName);
+                NSLog(@"Parameters: %@", [[CIFilter filterWithName:filterName] attributes]);
+            }
     }
     
 

@@ -52,7 +52,7 @@ public:
     
     //-------------------------
     void setIntensity(float intensity){
-        intensity = ofClamp(scale,-10, 10);
+        intensity = ofClamp(intensity,-10, 10);
         [filter setValue:[NSNumber numberWithFloat: intensity] forKey:@"inputEV"];
     }
 

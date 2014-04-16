@@ -10,7 +10,7 @@
 #include "ofMain.h"
 #include "ofxCoreImage.h"
 
-class ofxCIHexagonalPixellate{
+class ofxCIPointillize{
     
     //This CI Filter lets you adjust brightness, saturation and contrast
     
@@ -27,7 +27,7 @@ public:
         inRect = CGRectMake(0,0,width,height);
         outRect = CGRectMake(0,0,width,height);
         
-        filter = [CIFilter filterWithName:@"CIHexagonalPixellate"];
+        filter = [CIFilter filterWithName:@"CIPointillize"];
         [filter setDefaults]; //always do this on load
     }
 
@@ -51,9 +51,9 @@ public:
     }
     
     //-------------------------
-    void setScale(float scale){
-        scale = ofClamp(scale,1, 100);
-        [filter setValue:[NSNumber numberWithFloat: scale] forKey:@"inputScale"];
+    void setRadius(float radius){
+        radius = ofClamp(radius,1, 100);
+        [filter setValue:[NSNumber numberWithFloat: radius] forKey:@"inputRadius"];
     }
     //-------------------------
     void setCenter(int x, int y) {

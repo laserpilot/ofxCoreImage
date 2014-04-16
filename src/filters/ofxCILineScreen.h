@@ -10,7 +10,7 @@
 #include "ofMain.h"
 #include "ofxCoreImage.h"
 
-class ofxCIHexagonalPixellate{
+class ofxCILineScreen{
     
     //This CI Filter lets you adjust brightness, saturation and contrast
     
@@ -27,7 +27,7 @@ public:
         inRect = CGRectMake(0,0,width,height);
         outRect = CGRectMake(0,0,width,height);
         
-        filter = [CIFilter filterWithName:@"CIHexagonalPixellate"];
+        filter = [CIFilter filterWithName:@"CILineScreen"];
         [filter setDefaults]; //always do this on load
     }
 
@@ -51,15 +51,23 @@ public:
     }
     
     //-------------------------
-    void setScale(float scale){
-        scale = ofClamp(scale,1, 100);
-        [filter setValue:[NSNumber numberWithFloat: scale] forKey:@"inputScale"];
+    void setSharpness(float sharpness){
+        sharpness = ofClamp(sharpness,0, 1);
+        [filter setValue:[NSNumber numberWithFloat: sharpness] forKey:@"inputSharpness"];
+    }
+    //-------------------------
+    void setWidth(float scale){
+        scale = ofClamp(scale,0, 50);
+        [filter setValue:[NSNumber numberWithFloat: scale] forKey:@"inputWidth"];
     }
     //-------------------------
     void setCenter(int x, int y) {
         [filter  setValue:[CIVector vectorWithX:x Y:y] forKey:@"inputCenter"];
     }
-    
+    void setAngle(float angle){
+        angle = ofClamp(angle,-PI/2,PI/2);
+        [filter setValue:[NSNumber numberWithFloat: angle] forKey:@"inputAngle"];
+    }
     //-------------------------
     void setDefaults(){
         [filter setDefaults];

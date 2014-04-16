@@ -10,9 +10,10 @@
 #include "ofMain.h"
 #include "ofxCoreImage.h"
 
-class ofxCIHexagonalPixellate{
+class ofxCIOpTile{
     
     //This CI Filter lets you adjust brightness, saturation and contrast
+    //Set: setAngle, setCenter, setCount
     
 public:
  
@@ -27,8 +28,8 @@ public:
         inRect = CGRectMake(0,0,width,height);
         outRect = CGRectMake(0,0,width,height);
         
-        filter = [CIFilter filterWithName:@"CIHexagonalPixellate"];
-        [filter setDefaults]; //always do this on load
+        filter = [CIFilter filterWithName:@"CIOpTile"];
+        [filter setDefaults]; //always do this on load just in case
     }
 
     //-------------------------
@@ -51,15 +52,25 @@ public:
     }
     
     //-------------------------
-    void setScale(float scale){
-        scale = ofClamp(scale,1, 100);
-        [filter setValue:[NSNumber numberWithFloat: scale] forKey:@"inputScale"];
-    }
-    //-------------------------
     void setCenter(int x, int y) {
         [filter  setValue:[CIVector vectorWithX:x Y:y] forKey:@"inputCenter"];
     }
-    
+
+    //-------------------------
+    void setRadius(float radius){
+        radius = ofClamp(radius,1, 500);
+        [filter setValue:[NSNumber numberWithFloat: radius] forKey:@"inputRadius"];
+    }
+    //-------------------------
+    void setWidth(float width){
+        width = ofClamp(width,1, 1000);
+        [filter setValue:[NSNumber numberWithFloat: width] forKey:@"inputWidth"];
+    }
+    //-------------------------
+    void setScale(float scale){
+        scale = ofClamp(scale,1, 10);
+        [filter setValue:[NSNumber numberWithFloat: scale] forKey:@"inputScale"];
+    }
     //-------------------------
     void setDefaults(){
         [filter setDefaults];

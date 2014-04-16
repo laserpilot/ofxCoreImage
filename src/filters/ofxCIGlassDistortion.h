@@ -118,6 +118,7 @@ private:
     CGRect      outRect;
     CGRect      inRect;
     CIContext*  glCIcontext;
-    CIImage*    inputCIImage, inputBGCIImage;
+    CIImage*    inputCIImage;
+    CIImage*    inputBGCIImage;
     CIFilter* filter;
 };

@@ -45,6 +45,9 @@
 #include "filters/ofxCIOpTile.h"
 #include "filters/ofxCIMotionBlur.h"
 #include "filters/ofxCIToneCurve.h"
+#include "filters/ofxCIZoomBlur.h"
+#include "filters/ofxCIFalseColor.h"
+#include "filters/ofxCIColorMonochrome.h"
 
 
 //composite filters

@@ -50,9 +50,11 @@ public:
     void setCenter(int x, int y) {
         [filter  setValue:[CIVector vectorWithX:x Y:y] forKey:@"inputCenter"];
     }
+    
+    //-------------------------
     void setAmount(float amount){
-        radius = ofClamp(radius,0,200);
-        [filter setValue:[NSNumber numberWithFloat: radius] forKey:@"inputAmount"];
+        amount = ofClamp(amount,0,200);
+        [filter setValue:[NSNumber numberWithFloat: amount] forKey:@"inputAmount"];
     }
 
     

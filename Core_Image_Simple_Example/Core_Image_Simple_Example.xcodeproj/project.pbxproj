@@ -116,6 +116,8 @@
 		50AEEC1718FF39F700CD04BD /* ofxCIMotionBlur.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIMotionBlur.h; path = ../src/filters/ofxCIMotionBlur.h; sourceTree = "<group>"; };
 		50AEEC1818FF3B3000CD04BD /* ofxCIToneCurve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIToneCurve.h; path = ../src/filters/ofxCIToneCurve.h; sourceTree = "<group>"; };
 		50AEEC1918FF3C3500CD04BD /* ofxCIZoomBlur.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIZoomBlur.h; path = ../src/filters/ofxCIZoomBlur.h; sourceTree = "<group>"; };
+		50AEEC1A18FF3E4100CD04BD /* ofxCIFalseColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIFalseColor.h; path = ../src/filters/ofxCIFalseColor.h; sourceTree = "<group>"; };
+		50AEEC1B18FF3F8A00CD04BD /* ofxCIColorMonochrome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIColorMonochrome.h; path = ../src/filters/ofxCIColorMonochrome.h; sourceTree = "<group>"; };
 		8133A77401657F07C6F9C90E /* ofxCoreImage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCoreImage.h; path = ../../../addons/ofxCoreImage/src/ofxCoreImage.h; sourceTree = SOURCE_ROOT; };
 		A4F14F2A7CC2541BDC674B1A /* ofxCICrystallize.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCICrystallize.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCICrystallize.h; sourceTree = SOURCE_ROOT; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
@@ -179,6 +181,8 @@
 		09520DB1FB8198C1FA40E3CD /* filters */ = {
 			isa = PBXGroup;
 			children = (
+				50AEEC1B18FF3F8A00CD04BD /* ofxCIColorMonochrome.h */,
+				50AEEC1A18FF3E4100CD04BD /* ofxCIFalseColor.h */,
 				50AEEC1918FF3C3500CD04BD /* ofxCIZoomBlur.h */,
 				50AEEC1818FF3B3000CD04BD /* ofxCIToneCurve.h */,
 				50AEEC1718FF39F700CD04BD /* ofxCIMotionBlur.h */,

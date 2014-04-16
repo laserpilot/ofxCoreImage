@@ -91,6 +91,24 @@
 		50AEEBFC18FEF97500CD04BD /* ofxCISourceInCompositing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCISourceInCompositing.h; sourceTree = "<group>"; };
 		50AEEBFD18FEF97500CD04BD /* ofxCISourceOutCompositing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCISourceOutCompositing.h; sourceTree = "<group>"; };
 		50AEEBFE18FEF97500CD04BD /* ofxCISourceOverCompositing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCISourceOverCompositing.h; sourceTree = "<group>"; };
+		50AEEC0118FF1A2B00CD04BD /* ofxCIVortexDistortion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIVortexDistortion.h; path = ../src/filters/ofxCIVortexDistortion.h; sourceTree = "<group>"; };
+		50AEEC0218FF1BA400CD04BD /* ofxCIHoleDistortion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIHoleDistortion.h; path = ../src/filters/ofxCIHoleDistortion.h; sourceTree = "<group>"; };
+		50AEEC0318FF1F2900CD04BD /* ofxCICircularWrapDistortion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCICircularWrapDistortion.h; path = ../src/filters/ofxCICircularWrapDistortion.h; sourceTree = "<group>"; };
+		50AEEC0418FF21E200CD04BD /* ofxCIBumpDistortionLinear.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIBumpDistortionLinear.h; path = ../src/filters/ofxCIBumpDistortionLinear.h; sourceTree = "<group>"; };
+		50AEEC0518FF22A400CD04BD /* ofxCIGlassDistortion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIGlassDistortion.h; path = ../src/filters/ofxCIGlassDistortion.h; sourceTree = "<group>"; };
+		50AEEC0618FF23B100CD04BD /* ofxCIGlassLozenge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIGlassLozenge.h; path = ../src/filters/ofxCIGlassLozenge.h; sourceTree = "<group>"; };
+		50AEEC0718FF266000CD04BD /* ofxCIPixellate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIPixellate.h; path = ../src/filters/ofxCIPixellate.h; sourceTree = "<group>"; };
+		50AEEC0818FF286800CD04BD /* ofxCIColorPosterize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIColorPosterize.h; path = ../src/filters/ofxCIColorPosterize.h; sourceTree = "<group>"; };
+		50AEEC0918FF2A0500CD04BD /* ofxCICircleSplashDistortion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCICircleSplashDistortion.h; path = ../src/filters/ofxCICircleSplashDistortion.h; sourceTree = "<group>"; };
+		50AEEC0A18FF2A9200CD04BD /* ofxCIDroste.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIDroste.h; path = ../src/filters/ofxCIDroste.h; sourceTree = "<group>"; };
+		50AEEC0B18FF2BBC00CD04BD /* ofxCIEdges.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIEdges.h; path = ../src/filters/ofxCIEdges.h; sourceTree = "<group>"; };
+		50AEEC0C18FF2C1A00CD04BD /* ofxCIExposureAdjust.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIExposureAdjust.h; path = ../src/filters/ofxCIExposureAdjust.h; sourceTree = "<group>"; };
+		50AEEC0D18FF2CD300CD04BD /* ofxCIGammaAdjust.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIGammaAdjust.h; path = ../src/filters/ofxCIGammaAdjust.h; sourceTree = "<group>"; };
+		50AEEC0E18FF2F0F00CD04BD /* ofxCIGloom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIGloom.h; path = ../src/filters/ofxCIGloom.h; sourceTree = "<group>"; };
+		50AEEC0F18FF2F9E00CD04BD /* ofxCIEdgeWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIEdgeWork.h; path = ../src/filters/ofxCIEdgeWork.h; sourceTree = "<group>"; };
+		50AEEC1018FF303200CD04BD /* ofxCIColorInvert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIColorInvert.h; path = ../src/filters/ofxCIColorInvert.h; sourceTree = "<group>"; };
+		50AEEC1118FF315000CD04BD /* ofxCIBoxBlur.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIBoxBlur.h; path = ../src/filters/ofxCIBoxBlur.h; sourceTree = "<group>"; };
+		50AEEC1218FF31B900CD04BD /* ofxCICircularScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCICircularScreen.h; path = ../src/filters/ofxCICircularScreen.h; sourceTree = "<group>"; };
 		8133A77401657F07C6F9C90E /* ofxCoreImage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCoreImage.h; path = ../../../addons/ofxCoreImage/src/ofxCoreImage.h; sourceTree = SOURCE_ROOT; };
 		A4F14F2A7CC2541BDC674B1A /* ofxCICrystallize.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCICrystallize.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCICrystallize.h; sourceTree = SOURCE_ROOT; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
@@ -154,6 +172,24 @@
 		09520DB1FB8198C1FA40E3CD /* filters */ = {
 			isa = PBXGroup;
 			children = (
+				50AEEC1218FF31B900CD04BD /* ofxCICircularScreen.h */,
+				50AEEC1118FF315000CD04BD /* ofxCIBoxBlur.h */,
+				50AEEC1018FF303200CD04BD /* ofxCIColorInvert.h */,
+				50AEEC0F18FF2F9E00CD04BD /* ofxCIEdgeWork.h */,
+				50AEEC0E18FF2F0F00CD04BD /* ofxCIGloom.h */,
+				50AEEC0D18FF2CD300CD04BD /* ofxCIGammaAdjust.h */,
+				50AEEC0C18FF2C1A00CD04BD /* ofxCIExposureAdjust.h */,
+				50AEEC0B18FF2BBC00CD04BD /* ofxCIEdges.h */,
+				50AEEC0A18FF2A9200CD04BD /* ofxCIDroste.h */,
+				50AEEC0918FF2A0500CD04BD /* ofxCICircleSplashDistortion.h */,
+				50AEEC0818FF286800CD04BD /* ofxCIColorPosterize.h */,
+				50AEEC0718FF266000CD04BD /* ofxCIPixellate.h */,
+				50AEEC0618FF23B100CD04BD /* ofxCIGlassLozenge.h */,
+				50AEEC0518FF22A400CD04BD /* ofxCIGlassDistortion.h */,
+				50AEEC0418FF21E200CD04BD /* ofxCIBumpDistortionLinear.h */,
+				50AEEC0318FF1F2900CD04BD /* ofxCICircularWrapDistortion.h */,
+				50AEEC0218FF1BA400CD04BD /* ofxCIHoleDistortion.h */,
+				50AEEC0118FF1A2B00CD04BD /* ofxCIVortexDistortion.h */,
 				50AEEBE518FEEE5600CD04BD /* ofxCITwirlDistortion.h */,
 				50AEEBE418FEE8B100CD04BD /* ofxCIHexagonalPixellate.h */,
 				50AEEBE318FEE7E000CD04BD /* ofxCIBumpDistortion.h */,

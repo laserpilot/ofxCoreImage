@@ -21,6 +21,21 @@
 #include "filters/ofxCITwirlDistortion.h"
 #include "filters/ofxCIBumpDistortion.h"
 #include "filters/ofxCIHexagonalPixellate.h"
+#include "filters/ofxCIPixellate.h"
+#include "filters/ofxCIVortexDistortion.h"
+#include "filters/ofxCIHoleDistortion.h"
+#include "filters/ofxCICircleSplashDistortion.h"
+#include "filters/ofxCICircularWrapDistortion.h"
+#include "filters/ofxCIGlassDistortion.h"
+#include "filters/ofxCIGlassLozenge.h"
+#include "filters/ofxCIBumpDistortion.h"
+#include "filters/ofxCIColorPosterize.h"
+#include "filters/ofxCIDroste.h"
+#include "filters/ofxCIEdges.h"
+#include "filters/ofxCIExposureAdjust.h"
+#include "filters/ofxCIGammaAdjust.h"
+#include "filters/ofxCIGloom.h"
+
 
 //composite filters
 #include "composite/ofxCIAdditionCompositing.h"
@@ -43,6 +58,7 @@
 #include "composite/ofxCISourceInCompositing.h"
 #include "composite/ofxCISourceOutCompositing.h"
 #include "composite/ofxCISourceOverCompositing.h"
+
 
 //This implementation of Core Image is for really easy application of standard filters to OF sketches
 

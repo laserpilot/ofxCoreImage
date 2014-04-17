@@ -7,7 +7,7 @@ void ofApp::setup(){
     ofClear(0);
     sourceFbo.end();
     
-    coreBase.setup(); //really not sure if this is necessary yet - but i didnt want to set up multiple ci contexts
+    coreBase.setup(); //really not sure if this is necessary yet - but i didnt want to set up multiple CI contexts
     blurFilter.setup(ofGetWidth(), ofGetHeight(), coreBase.glCIcontext);
     hueFilter.setup(ofGetWidth(), ofGetHeight(), coreBase.glCIcontext);
     kaleFilter.setup(ofGetWidth(), ofGetHeight(), coreBase.glCIcontext);
@@ -33,7 +33,7 @@ void ofApp::update(){
 void ofApp::draw(){
     //draw stuff into FBO so it can be filtered by core image
     sourceFbo.begin();
-    //ofClear(0,0,0,255); //can set this alpha to 0 to make the FBO transparent but your effects won't necessarily be seen
+    ofClear(0,0,0,255); //can set this alpha to 0 to make the FBO transparent but your effects won't necessarily be seen
     
     ofSetColor(20, 130, 250);
     ofNoFill();

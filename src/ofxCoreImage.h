@@ -20,6 +20,7 @@
 #include "filters/ofxCIPinchDistortion.h"
 #include "filters/ofxCITwirlDistortion.h"
 #include "filters/ofxCIBumpDistortion.h"
+#include "filters/ofxCIBumpDistortionLinear.h"
 #include "filters/ofxCIHexagonalPixellate.h"
 #include "filters/ofxCIPixellate.h"
 #include "filters/ofxCIVortexDistortion.h"
@@ -72,14 +73,16 @@
 #include "composite/ofxCISourceOutCompositing.h"
 #include "composite/ofxCISourceOverCompositing.h"
 
+//Transitions
+#include "transitions/ofxCIRippleTransition.h"
+
 
 //This implementation of Core Image is for really easy application of standard filters to OF sketches
 
-//DO NOT USE THIS IN PRODUCTION - yet - memory leaks are probably everywhere
+//DO NOT USE THIS IN PRODUCTION - yet - memory leaks are probably everywhere and releasing isn't necessarily handled correctly
 
 class ofxCI{
     
-    //This applies a gaussian blur core iamge filter
     
 public:
     

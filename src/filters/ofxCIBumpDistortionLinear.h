@@ -13,8 +13,6 @@
 
 class ofxCIBumpDistortionLinear{
     
- 
-    
 public:
  
     
@@ -54,7 +52,6 @@ public:
     void setCenter(int x, int y) {
         [filter  setValue:[CIVector vectorWithX:x Y:y] forKey:@"inputCenter"];
     }
-    
     void setRadius(int radius){
         radius = ofClamp(radius,0,600);
         [filter setValue:[NSNumber numberWithFloat: radius] forKey:@"inputRadius"];

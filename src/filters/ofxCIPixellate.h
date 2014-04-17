@@ -53,7 +53,7 @@ public:
     //-------------------------
     void setScale(float scale){
         scale = ofClamp(scale,1, 100);
-        [filter setValue:[NSNumber numberWithFloat: scale] forKey:@"inputRadius"];
+        [filter setValue:[NSNumber numberWithFloat: scale] forKey:@"inputScale"];
     }
     //-------------------------
     void setCenter(int x, int y) {

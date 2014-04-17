@@ -11,7 +11,7 @@
 #import <QuartzCore/QuartzCore.h> 
 #include "ofxCoreImage.h"
 
-class ofxCICircularWrapDistortion{
+class ofxCICircularWrap{
     
     
 public:
@@ -26,7 +26,7 @@ public:
         inRect = CGRectMake(0,0,width,height);
         outRect = CGRectMake(0,0,width,height);
         
-        filter = [CIFilter filterWithName:@"CICircularWrapDistortion"];
+        filter = [CIFilter filterWithName:@"CICircularWrap"];
         [filter setDefaults]; //always set this on load
     }
 

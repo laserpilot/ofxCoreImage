@@ -65,7 +65,7 @@ public:
         [filter  setValue:[CIVector vectorWithX:x Y:y] forKey:@"inputCenter"];
     }
     void setAngle(float angle){
-        angle = ofClamp(angle,-PI/2,PI/2);
+        angle = ofWrap(angle,-PI/2,PI/2);
         [filter setValue:[NSNumber numberWithFloat: angle] forKey:@"inputAngle"];
     }
     //-------------------------

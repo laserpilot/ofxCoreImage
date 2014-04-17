@@ -57,9 +57,9 @@ public:
     }
 
     //-------------------------
-    void setRadius(float radius){
-        radius = ofClamp(radius,1, 500);
-        [filter setValue:[NSNumber numberWithFloat: radius] forKey:@"inputRadius"];
+    void setAngle(float angle){
+        angle = ofWrap(angle,-PI, PI);
+        [filter setValue:[NSNumber numberWithFloat: angle] forKey:@"inputAngle"];
     }
     //-------------------------
     void setWidth(float width){
@@ -68,7 +68,7 @@ public:
     }
     //-------------------------
     void setScale(float scale){
-        scale = ofClamp(scale,1, 10);
+        scale = ofClamp(scale,0.1, 10);
         [filter setValue:[NSNumber numberWithFloat: scale] forKey:@"inputScale"];
     }
     //-------------------------

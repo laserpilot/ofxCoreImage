@@ -118,6 +118,7 @@
 		50AEEC1918FF3C3500CD04BD /* ofxCIZoomBlur.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIZoomBlur.h; path = ../src/filters/ofxCIZoomBlur.h; sourceTree = "<group>"; };
 		50AEEC1A18FF3E4100CD04BD /* ofxCIFalseColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIFalseColor.h; path = ../src/filters/ofxCIFalseColor.h; sourceTree = "<group>"; };
 		50AEEC1B18FF3F8A00CD04BD /* ofxCIColorMonochrome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIColorMonochrome.h; path = ../src/filters/ofxCIColorMonochrome.h; sourceTree = "<group>"; };
+		50AEEC1D19002B2800CD04BD /* ofxCIRippleTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIRippleTransition.h; sourceTree = "<group>"; };
 		8133A77401657F07C6F9C90E /* ofxCoreImage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCoreImage.h; path = ../../../addons/ofxCoreImage/src/ofxCoreImage.h; sourceTree = SOURCE_ROOT; };
 		A4F14F2A7CC2541BDC674B1A /* ofxCICrystallize.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCICrystallize.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCICrystallize.h; sourceTree = SOURCE_ROOT; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
@@ -250,6 +251,15 @@
 			path = ../../../addons/ofxCoreImage/src/composite;
 			sourceTree = "<group>";
 		};
+		50AEEC1C19002B2800CD04BD /* transitions */ = {
+			isa = PBXGroup;
+			children = (
+				50AEEC1D19002B2800CD04BD /* ofxCIRippleTransition.h */,
+			);
+			name = transitions;
+			path = ../src/transitions;
+			sourceTree = "<group>";
+		};
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
@@ -350,6 +360,7 @@
 		F59A338CE7C19151F2638612 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				50AEEC1C19002B2800CD04BD /* transitions */,
 				50AEEBE918FEF50D00CD04BD /* composite */,
 				09520DB1FB8198C1FA40E3CD /* filters */,
 				8133A77401657F07C6F9C90E /* ofxCoreImage.h */,

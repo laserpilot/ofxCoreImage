@@ -45,15 +45,14 @@ class ofxCIFilter
 public:
     ofxCIFilter(){};
     void setup(int width, int height, CIContext* _glCIcontext);
-    void loadFilter();
+    virtual void loadFilter(); //each subclass will load its own filter
     void update(ofTexture tex);
     void update(CIImage* inputImage);//don't use both updates in one instance...use this for chaining
     void setDefaults();
     CIImage* getCIImage();
     void draw(int x, int y);
     
-
-        CIFilter* filter;
+    CIFilter* filter;
     
 protected:
     

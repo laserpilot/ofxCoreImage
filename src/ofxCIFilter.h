@@ -36,7 +36,7 @@
 #pragma once
 #include "ofMain.h"
 #import <QuartzCore/QuartzCore.h> 
-#include "ofxCoreImage.h"
+
 
 class ofxCIFilter
 {

@@ -9,6 +9,7 @@
 #pragma once
 #include "ofMain.h"
 #import <QuartzCore/QuartzCore.h> 
+#include "ofxCIFilter.h"
 
 //general image filters
 #include "filters/ofxCIBlur.h"

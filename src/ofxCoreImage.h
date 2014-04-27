@@ -80,13 +80,17 @@
 
 //This implementation of Core Image is for really easy application of standard filters to OF sketches
 
-//DO NOT USE THIS IN PRODUCTION - yet - memory leaks are probably everywhere and releasing isn't necessarily handled correctly
 
 class ofxCI{
     
-    
 public:
     
+    
+    void setup(); //use this to set up your shared CI context
+    void listAllFilters();
+    CIContext* getCIContext();
+    
+
     CGLContextObj   CGLContext;
     NSOpenGLPixelFormatAttribute*   attr;
     NSOpenGLPixelFormat*    pf;
@@ -100,39 +104,4 @@ public:
     CIImage*    inputCIImage;
     CIFilter* filter;
     
-    void setup(){
-        genericRGB = CGColorSpaceCreateWithName(kCGColorSpaceGenericRGB);
-        // Create the pixel format attributes
-        NSOpenGLPixelFormatAttribute attr[] = {
-            NSOpenGLPFAAccelerated,
-            NSOpenGLPFANoRecovery,
-            NSOpenGLPFAColorSize, 32,
-            0
-        };
-        CGColorSpaceRelease(genericRGB);
-        // Setup the pixel format object:
-        pf=[[NSOpenGLPixelFormat alloc] initWithAttributes:attr];
-        // Setup the core image context, tied to the OF Open GL context:
-        glCIcontext = [CIContext contextWithCGLContext: CGLGetCurrentContext()
-                                           pixelFormat: CGLPixelFormatObj(pf)
-                                            colorSpace: genericRGB
-                                               options: nil];
-
-    }
-    
-    void listAllFilters(){
-        
-           //[CIPlugIn loadAllPlugIns]; //when you uncomment - lets you access third party plugins
-        
-            NSArray* filters = [CIFilter filterNamesInCategories:nil];
-        
-            for (NSString* filterName in filters)
-            {
-                NSLog(@"Filter: %@", filterName);
-                NSLog(@"Parameters: %@", [[CIFilter filterWithName:filterName] attributes]);
-            }
-    }
-    
-
-
 };

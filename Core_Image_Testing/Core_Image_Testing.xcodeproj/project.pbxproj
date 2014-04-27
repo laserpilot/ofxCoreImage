@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		38672D27C985B97ED23201E2 /* ofxCoreImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = FACB96D00DEA09D4B802A334 /* ofxCoreImage.mm */; };
+		503C80F2190DB41F0073688C /* ofxCIBlur.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503C80F1190DB41F0073688C /* ofxCIBlur.mm */; };
+		503C80F4190DB65E0073688C /* ofxCIBloom.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503C80F3190DB65D0073688C /* ofxCIBloom.mm */; };
 		507DB02719076AC60024A706 /* ofxCIHue.mm in Sources */ = {isa = PBXBuildFile; fileRef = 507DB02619076AC60024A706 /* ofxCIHue.mm */; };
 		50AEEBDF18FED51800CD04BD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AEEBDE18FED51800CD04BD /* QuartzCore.framework */; };
 		50F5A118190AA0EC00B49B59 /* ofxCIFilter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 50F5A117190AA0EC00B49B59 /* ofxCIFilter.mm */; };
@@ -65,6 +67,8 @@
 
 /* Begin PBXFileReference section */
 		32F1D0898C36E233361AFE79 /* ofxCIHue.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIHue.h; path = ../src/filters/ofxCIHue.h; sourceTree = "<group>"; };
+		503C80F1190DB41F0073688C /* ofxCIBlur.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIBlur.mm; path = ../src/filters/ofxCIBlur.mm; sourceTree = "<group>"; };
+		503C80F3190DB65D0073688C /* ofxCIBloom.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIBloom.mm; path = ../src/filters/ofxCIBloom.mm; sourceTree = "<group>"; };
 		507DB02619076AC60024A706 /* ofxCIHue.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIHue.mm; path = ../src/filters/ofxCIHue.mm; sourceTree = "<group>"; };
 		50AEEBDC18FED3D800CD04BD /* ofxCIBlur.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = ofxCIBlur.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIBlur.h; sourceTree = "<group>"; };
 		50AEEBDE18FED51800CD04BD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -218,8 +222,10 @@
 				50AEEBE418FEE8B100CD04BD /* ofxCIHexagonalPixellate.h */,
 				50AEEBE318FEE7E000CD04BD /* ofxCIBumpDistortion.h */,
 				50AEEBE218FEE62500CD04BD /* ofxCIBloom.h */,
+				503C80F3190DB65D0073688C /* ofxCIBloom.mm */,
 				50AEEBE018FEE33100CD04BD /* ofxCIPinchDistortion.h */,
 				50AEEBDC18FED3D800CD04BD /* ofxCIBlur.h */,
+				503C80F1190DB41F0073688C /* ofxCIBlur.mm */,
 				F5B67C3B67AA468696EBD2D3 /* ofxCIColorControls.h */,
 				A4F14F2A7CC2541BDC674B1A /* ofxCICrystallize.h */,
 				507DB02619076AC60024A706 /* ofxCIHue.mm */,
@@ -468,6 +474,8 @@
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
 				507DB02719076AC60024A706 /* ofxCIHue.mm in Sources */,
 				50F5A118190AA0EC00B49B59 /* ofxCIFilter.mm in Sources */,
+				503C80F4190DB65E0073688C /* ofxCIBloom.mm in Sources */,
+				503C80F2190DB41F0073688C /* ofxCIBlur.mm in Sources */,
 				38672D27C985B97ED23201E2 /* ofxCoreImage.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

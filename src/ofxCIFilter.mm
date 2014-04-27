@@ -59,3 +59,17 @@ void ofxCIFilter::draw(int x, int y){
                   fromRect:inRect];
     ofPopMatrix();
 }
+
+//--------------------------
+void ofxCIFilter::draw(int x, int y, int width, int height){
+    
+    inRect = CGRectMake(x,y,width,height);
+    outRect = CGRectMake(x,y,width,height);
+    
+    filterCIImage = [filter valueForKey:@"outputImage"];
+    ofSetColor(255);
+    [glCIcontext drawImage:filterCIImage
+                    inRect:outRect
+                  fromRect:inRect];
+
+}

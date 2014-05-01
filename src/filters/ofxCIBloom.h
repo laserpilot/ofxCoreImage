@@ -11,15 +11,12 @@
 
 class ofxCIBloom: public ofxCIFilter{
     
-    //This applies a Bloom filter
+    //This applies a Bloom filter - glow+blur
     
 public:
  
-
-        
     void loadFilter();
     void setRadius(int radius);
     void setIntensity(float intensity);
     
-
 };

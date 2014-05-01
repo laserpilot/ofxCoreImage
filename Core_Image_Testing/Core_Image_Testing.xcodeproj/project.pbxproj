@@ -8,8 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		38672D27C985B97ED23201E2 /* ofxCoreImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = FACB96D00DEA09D4B802A334 /* ofxCoreImage.mm */; };
+		502507F91912D847008BE18C /* ofxCIBoxBlur.mm in Sources */ = {isa = PBXBuildFile; fileRef = 502507F81912D846008BE18C /* ofxCIBoxBlur.mm */; };
+		502507FB1912D963008BE18C /* ofxCIBumpDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 502507FA1912D963008BE18C /* ofxCIBumpDistortion.mm */; };
+		502507FD1912DA61008BE18C /* ofxCIBumpDistortionLinear.mm in Sources */ = {isa = PBXBuildFile; fileRef = 502507FC1912DA61008BE18C /* ofxCIBumpDistortionLinear.mm */; };
+		502507FF1912DCE4008BE18C /* ofxCIColorControls.mm in Sources */ = {isa = PBXBuildFile; fileRef = 502507FE1912DCE4008BE18C /* ofxCIColorControls.mm */; };
+		502508011912DEE4008BE18C /* ofxCIColorInvert.mm in Sources */ = {isa = PBXBuildFile; fileRef = 502508001912DEE4008BE18C /* ofxCIColorInvert.mm */; };
+		502508031912E079008BE18C /* ofxCIExposureAdjust.mm in Sources */ = {isa = PBXBuildFile; fileRef = 502508021912E079008BE18C /* ofxCIExposureAdjust.mm */; };
+		502508051912E189008BE18C /* ofxCIGammaAdjust.mm in Sources */ = {isa = PBXBuildFile; fileRef = 502508041912E189008BE18C /* ofxCIGammaAdjust.mm */; };
 		503C80F2190DB41F0073688C /* ofxCIBlur.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503C80F1190DB41F0073688C /* ofxCIBlur.mm */; };
 		503C80F4190DB65E0073688C /* ofxCIBloom.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503C80F3190DB65D0073688C /* ofxCIBloom.mm */; };
+		503C80F6190DB8390073688C /* ofxCIGloom.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503C80F5190DB8390073688C /* ofxCIGloom.mm */; };
 		507DB02719076AC60024A706 /* ofxCIHue.mm in Sources */ = {isa = PBXBuildFile; fileRef = 507DB02619076AC60024A706 /* ofxCIHue.mm */; };
 		50AEEBDF18FED51800CD04BD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AEEBDE18FED51800CD04BD /* QuartzCore.framework */; };
 		50F5A118190AA0EC00B49B59 /* ofxCIFilter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 50F5A117190AA0EC00B49B59 /* ofxCIFilter.mm */; };
@@ -67,8 +75,16 @@
 
 /* Begin PBXFileReference section */
 		32F1D0898C36E233361AFE79 /* ofxCIHue.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIHue.h; path = ../src/filters/ofxCIHue.h; sourceTree = "<group>"; };
+		502507F81912D846008BE18C /* ofxCIBoxBlur.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIBoxBlur.mm; path = ../src/filters/ofxCIBoxBlur.mm; sourceTree = "<group>"; };
+		502507FA1912D963008BE18C /* ofxCIBumpDistortion.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIBumpDistortion.mm; path = ../src/filters/ofxCIBumpDistortion.mm; sourceTree = "<group>"; };
+		502507FC1912DA61008BE18C /* ofxCIBumpDistortionLinear.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIBumpDistortionLinear.mm; path = ../src/filters/ofxCIBumpDistortionLinear.mm; sourceTree = "<group>"; };
+		502507FE1912DCE4008BE18C /* ofxCIColorControls.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIColorControls.mm; path = ../src/filters/ofxCIColorControls.mm; sourceTree = "<group>"; };
+		502508001912DEE4008BE18C /* ofxCIColorInvert.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIColorInvert.mm; path = ../src/filters/ofxCIColorInvert.mm; sourceTree = "<group>"; };
+		502508021912E079008BE18C /* ofxCIExposureAdjust.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIExposureAdjust.mm; path = ../src/filters/ofxCIExposureAdjust.mm; sourceTree = "<group>"; };
+		502508041912E189008BE18C /* ofxCIGammaAdjust.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIGammaAdjust.mm; path = ../src/filters/ofxCIGammaAdjust.mm; sourceTree = "<group>"; };
 		503C80F1190DB41F0073688C /* ofxCIBlur.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIBlur.mm; path = ../src/filters/ofxCIBlur.mm; sourceTree = "<group>"; };
 		503C80F3190DB65D0073688C /* ofxCIBloom.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIBloom.mm; path = ../src/filters/ofxCIBloom.mm; sourceTree = "<group>"; };
+		503C80F5190DB8390073688C /* ofxCIGloom.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIGloom.mm; path = ../src/filters/ofxCIGloom.mm; sourceTree = "<group>"; };
 		507DB02619076AC60024A706 /* ofxCIHue.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIHue.mm; path = ../src/filters/ofxCIHue.mm; sourceTree = "<group>"; };
 		50AEEBDC18FED3D800CD04BD /* ofxCIBlur.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = ofxCIBlur.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIBlur.h; sourceTree = "<group>"; };
 		50AEEBDE18FED51800CD04BD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -202,11 +218,16 @@
 				50AEEC1318FF32E900CD04BD /* ofxCILineScreen.h */,
 				50AEEC1218FF31B900CD04BD /* ofxCICircularScreen.h */,
 				50AEEC1118FF315000CD04BD /* ofxCIBoxBlur.h */,
+				502507F81912D846008BE18C /* ofxCIBoxBlur.mm */,
 				50AEEC1018FF303200CD04BD /* ofxCIColorInvert.h */,
+				502508001912DEE4008BE18C /* ofxCIColorInvert.mm */,
 				50AEEC0F18FF2F9E00CD04BD /* ofxCIEdgeWork.h */,
 				50AEEC0E18FF2F0F00CD04BD /* ofxCIGloom.h */,
+				503C80F5190DB8390073688C /* ofxCIGloom.mm */,
 				50AEEC0D18FF2CD300CD04BD /* ofxCIGammaAdjust.h */,
+				502508041912E189008BE18C /* ofxCIGammaAdjust.mm */,
 				50AEEC0C18FF2C1A00CD04BD /* ofxCIExposureAdjust.h */,
+				502508021912E079008BE18C /* ofxCIExposureAdjust.mm */,
 				50AEEC0B18FF2BBC00CD04BD /* ofxCIEdges.h */,
 				50AEEC0A18FF2A9200CD04BD /* ofxCIDroste.h */,
 				50AEEC0918FF2A0500CD04BD /* ofxCICircleSplashDistortion.h */,
@@ -215,18 +236,21 @@
 				50AEEC0618FF23B100CD04BD /* ofxCIGlassLozenge.h */,
 				50AEEC0518FF22A400CD04BD /* ofxCIGlassDistortion.h */,
 				50AEEC0418FF21E200CD04BD /* ofxCIBumpDistortionLinear.h */,
+				502507FC1912DA61008BE18C /* ofxCIBumpDistortionLinear.mm */,
 				50AEEC0318FF1F2900CD04BD /* ofxCICircularWrapDistortion.h */,
 				50AEEC0218FF1BA400CD04BD /* ofxCIHoleDistortion.h */,
 				50AEEC0118FF1A2B00CD04BD /* ofxCIVortexDistortion.h */,
 				50AEEBE518FEEE5600CD04BD /* ofxCITwirlDistortion.h */,
 				50AEEBE418FEE8B100CD04BD /* ofxCIHexagonalPixellate.h */,
 				50AEEBE318FEE7E000CD04BD /* ofxCIBumpDistortion.h */,
+				502507FA1912D963008BE18C /* ofxCIBumpDistortion.mm */,
 				50AEEBE218FEE62500CD04BD /* ofxCIBloom.h */,
 				503C80F3190DB65D0073688C /* ofxCIBloom.mm */,
 				50AEEBE018FEE33100CD04BD /* ofxCIPinchDistortion.h */,
 				50AEEBDC18FED3D800CD04BD /* ofxCIBlur.h */,
 				503C80F1190DB41F0073688C /* ofxCIBlur.mm */,
 				F5B67C3B67AA468696EBD2D3 /* ofxCIColorControls.h */,
+				502507FE1912DCE4008BE18C /* ofxCIColorControls.mm */,
 				A4F14F2A7CC2541BDC674B1A /* ofxCICrystallize.h */,
 				507DB02619076AC60024A706 /* ofxCIHue.mm */,
 				32F1D0898C36E233361AFE79 /* ofxCIHue.h */,
@@ -472,11 +496,19 @@
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				502508011912DEE4008BE18C /* ofxCIColorInvert.mm in Sources */,
+				502507FB1912D963008BE18C /* ofxCIBumpDistortion.mm in Sources */,
+				502507FD1912DA61008BE18C /* ofxCIBumpDistortionLinear.mm in Sources */,
 				507DB02719076AC60024A706 /* ofxCIHue.mm in Sources */,
+				502508051912E189008BE18C /* ofxCIGammaAdjust.mm in Sources */,
+				502507FF1912DCE4008BE18C /* ofxCIColorControls.mm in Sources */,
 				50F5A118190AA0EC00B49B59 /* ofxCIFilter.mm in Sources */,
+				503C80F6190DB8390073688C /* ofxCIGloom.mm in Sources */,
 				503C80F4190DB65E0073688C /* ofxCIBloom.mm in Sources */,
 				503C80F2190DB41F0073688C /* ofxCIBlur.mm in Sources */,
+				502507F91912D847008BE18C /* ofxCIBoxBlur.mm in Sources */,
 				38672D27C985B97ED23201E2 /* ofxCoreImage.mm in Sources */,
+				502508031912E079008BE18C /* ofxCIExposureAdjust.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

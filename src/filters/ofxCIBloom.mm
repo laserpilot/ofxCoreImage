@@ -1,12 +1,4 @@
-//
-//  ofxEasyCI.h
-//  coreImage_sketch
-//
-//  Created by Blair Neal on 4/15/14.
-//
-//
 
-#pragma once
 #include "ofxCIBloom.h"
 
 void ofxCIBloom::loadFilter(){

@@ -52,17 +52,18 @@ class ofxCIFilter
     
 public:
     ofxCIFilter(){};
+    ~ofxCIFilter(){};
+    
     void setup(int width, int height, CIContext* _glCIcontext);
     virtual void loadFilter(); //this method is overloaded with "virtual" - each subclass will load its own filter using this method
-    void update(ofTexture tex);
-    void update(CIImage* inputImage);//don't use both updates in one instance...use this for chaining
+    virtual void update(ofTexture tex); //some filters load 2 textures
+    virtual void update(CIImage* inputImage);//don't use both updates in one instance...use this for chaining
     void setDefaults();
     
     void draw(int x, int y);
     void draw(int x, int y, int width, int height);
     
 	CIImage * getCIImage();
-    
 	CIFilter* filter;
     
 protected:
@@ -70,13 +71,14 @@ protected:
     CGLContextObj   CGLContext;
     CGColorSpaceRef genericRGB;
     CGSize      texSize;
-    GLint       texID;
+    GLint       texID, texID2;
     CGRect      outRect;
     CGRect      inRect;
 	
 	NSOpenGLPixelFormatAttribute*   attr;
     NSOpenGLPixelFormat*    pf;
 	CIImage*    filterCIImage;
+    CIImage*    inputBGCIImage; //some filters use 2 CI Images for blending
     CIContext*  glCIcontext;
     CIImage*    inputCIImage;
 };

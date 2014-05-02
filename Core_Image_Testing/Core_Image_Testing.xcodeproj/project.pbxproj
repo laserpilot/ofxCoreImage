@@ -25,6 +25,23 @@
 		500F6E381914098F00BB16B6 /* ofxCIGloom.mm in Sources */ = {isa = PBXBuildFile; fileRef = 500F6E271914098F00BB16B6 /* ofxCIGloom.mm */; };
 		500F6E391914098F00BB16B6 /* ofxCIHue.mm in Sources */ = {isa = PBXBuildFile; fileRef = 500F6E281914098F00BB16B6 /* ofxCIHue.mm */; };
 		500F6E3A1914098F00BB16B6 /* ofxCILineScreen.mm in Sources */ = {isa = PBXBuildFile; fileRef = 500F6E291914098F00BB16B6 /* ofxCILineScreen.mm */; };
+		500F6E3C1914323300BB16B6 /* ofxCICrystallize.mm in Sources */ = {isa = PBXBuildFile; fileRef = 500F6E3B1914323300BB16B6 /* ofxCICrystallize.mm */; };
+		500F6E3E19143F6400BB16B6 /* ofxCIDroste.mm in Sources */ = {isa = PBXBuildFile; fileRef = 500F6E3D19143F6400BB16B6 /* ofxCIDroste.mm */; };
+		500F6E401914413E00BB16B6 /* ofxCIEdges.mm in Sources */ = {isa = PBXBuildFile; fileRef = 500F6E3F1914413E00BB16B6 /* ofxCIEdges.mm */; };
+		500F6E42191441CC00BB16B6 /* ofxCIEdgeWork.mm in Sources */ = {isa = PBXBuildFile; fileRef = 500F6E41191441CC00BB16B6 /* ofxCIEdgeWork.mm */; };
+		500F6E441914424B00BB16B6 /* ofxCIFalseColor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 500F6E431914424B00BB16B6 /* ofxCIFalseColor.mm */; };
+		500F6E461914433D00BB16B6 /* ofxCIKaleidoscope.mm in Sources */ = {isa = PBXBuildFile; fileRef = 500F6E451914433D00BB16B6 /* ofxCIKaleidoscope.mm */; };
+		500F6E48191443F800BB16B6 /* ofxCIGlassDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 500F6E47191443F800BB16B6 /* ofxCIGlassDistortion.mm */; };
+		500F6E4A1914457200BB16B6 /* ofxCIGlassLozenge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 500F6E491914457200BB16B6 /* ofxCIGlassLozenge.mm */; };
+		500F6E4C191446BA00BB16B6 /* ofxCIHexagonalPixellate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 500F6E4B191446BA00BB16B6 /* ofxCIHexagonalPixellate.mm */; };
+		500F6E4E1914479200BB16B6 /* ofxCIHoleDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 500F6E4D1914479200BB16B6 /* ofxCIHoleDistortion.mm */; };
+		500F6E501914484200BB16B6 /* ofxCIPixellate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 500F6E4F1914484100BB16B6 /* ofxCIPixellate.mm */; };
+		500F6E521914492200BB16B6 /* ofxCIPointillize.mm in Sources */ = {isa = PBXBuildFile; fileRef = 500F6E511914492200BB16B6 /* ofxCIPointillize.mm */; };
+		500F6E5419144B4800BB16B6 /* ofxCIMotionBlur.mm in Sources */ = {isa = PBXBuildFile; fileRef = 500F6E5319144B4800BB16B6 /* ofxCIMotionBlur.mm */; };
+		500F6E5619144C4C00BB16B6 /* ofxCIPinchDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 500F6E5519144C4C00BB16B6 /* ofxCIPinchDistortion.mm */; };
+		500F6E58191452B900BB16B6 /* ofxCIOpTile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 500F6E57191452B900BB16B6 /* ofxCIOpTile.mm */; };
+		500F6E5A191458AC00BB16B6 /* ofxCIToneCurve.mm in Sources */ = {isa = PBXBuildFile; fileRef = 500F6E59191458AC00BB16B6 /* ofxCIToneCurve.mm */; };
+		500F6E5C19145A1500BB16B6 /* ofxCITorusLensDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 500F6E5B19145A1500BB16B6 /* ofxCITorusLensDistortion.mm */; };
 		50AEEBDF18FED51800CD04BD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AEEBDE18FED51800CD04BD /* QuartzCore.framework */; };
 		50F5A118190AA0EC00B49B59 /* ofxCIFilter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 50F5A117190AA0EC00B49B59 /* ofxCIFilter.mm */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
@@ -98,6 +115,23 @@
 		500F6E271914098F00BB16B6 /* ofxCIGloom.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIGloom.mm; path = ../src/filters/ofxCIGloom.mm; sourceTree = "<group>"; };
 		500F6E281914098F00BB16B6 /* ofxCIHue.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIHue.mm; path = ../src/filters/ofxCIHue.mm; sourceTree = "<group>"; };
 		500F6E291914098F00BB16B6 /* ofxCILineScreen.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCILineScreen.mm; path = ../src/filters/ofxCILineScreen.mm; sourceTree = "<group>"; };
+		500F6E3B1914323300BB16B6 /* ofxCICrystallize.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCICrystallize.mm; path = ../src/filters/ofxCICrystallize.mm; sourceTree = "<group>"; };
+		500F6E3D19143F6400BB16B6 /* ofxCIDroste.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIDroste.mm; path = ../src/filters/ofxCIDroste.mm; sourceTree = "<group>"; };
+		500F6E3F1914413E00BB16B6 /* ofxCIEdges.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIEdges.mm; path = ../src/filters/ofxCIEdges.mm; sourceTree = "<group>"; };
+		500F6E41191441CC00BB16B6 /* ofxCIEdgeWork.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIEdgeWork.mm; path = ../src/filters/ofxCIEdgeWork.mm; sourceTree = "<group>"; };
+		500F6E431914424B00BB16B6 /* ofxCIFalseColor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIFalseColor.mm; path = ../src/filters/ofxCIFalseColor.mm; sourceTree = "<group>"; };
+		500F6E451914433D00BB16B6 /* ofxCIKaleidoscope.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIKaleidoscope.mm; path = ../src/filters/ofxCIKaleidoscope.mm; sourceTree = "<group>"; };
+		500F6E47191443F800BB16B6 /* ofxCIGlassDistortion.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIGlassDistortion.mm; path = ../src/filters/ofxCIGlassDistortion.mm; sourceTree = "<group>"; };
+		500F6E491914457200BB16B6 /* ofxCIGlassLozenge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIGlassLozenge.mm; path = ../src/filters/ofxCIGlassLozenge.mm; sourceTree = "<group>"; };
+		500F6E4B191446BA00BB16B6 /* ofxCIHexagonalPixellate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIHexagonalPixellate.mm; path = ../src/filters/ofxCIHexagonalPixellate.mm; sourceTree = "<group>"; };
+		500F6E4D1914479200BB16B6 /* ofxCIHoleDistortion.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIHoleDistortion.mm; path = ../src/filters/ofxCIHoleDistortion.mm; sourceTree = "<group>"; };
+		500F6E4F1914484100BB16B6 /* ofxCIPixellate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIPixellate.mm; path = ../src/filters/ofxCIPixellate.mm; sourceTree = "<group>"; };
+		500F6E511914492200BB16B6 /* ofxCIPointillize.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIPointillize.mm; path = ../src/filters/ofxCIPointillize.mm; sourceTree = "<group>"; };
+		500F6E5319144B4800BB16B6 /* ofxCIMotionBlur.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIMotionBlur.mm; path = ../src/filters/ofxCIMotionBlur.mm; sourceTree = "<group>"; };
+		500F6E5519144C4C00BB16B6 /* ofxCIPinchDistortion.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIPinchDistortion.mm; path = ../src/filters/ofxCIPinchDistortion.mm; sourceTree = "<group>"; };
+		500F6E57191452B900BB16B6 /* ofxCIOpTile.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIOpTile.mm; path = ../src/filters/ofxCIOpTile.mm; sourceTree = "<group>"; };
+		500F6E59191458AC00BB16B6 /* ofxCIToneCurve.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIToneCurve.mm; path = ../src/filters/ofxCIToneCurve.mm; sourceTree = "<group>"; };
+		500F6E5B19145A1500BB16B6 /* ofxCITorusLensDistortion.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCITorusLensDistortion.mm; path = ../src/filters/ofxCITorusLensDistortion.mm; sourceTree = "<group>"; };
 		50AEEBDC18FED3D800CD04BD /* ofxCIBlur.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = ofxCIBlur.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIBlur.h; sourceTree = "<group>"; };
 		50AEEBDE18FED51800CD04BD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		50AEEBE018FEE33100CD04BD /* ofxCIPinchDistortion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIPinchDistortion.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIPinchDistortion.h; sourceTree = "<group>"; };
@@ -222,12 +256,18 @@
 				50AEEC1B18FF3F8A00CD04BD /* ofxCIColorMonochrome.h */,
 				500F6E231914098E00BB16B6 /* ofxCIColorMonochrome.mm */,
 				50AEEC1A18FF3E4100CD04BD /* ofxCIFalseColor.h */,
+				500F6E431914424B00BB16B6 /* ofxCIFalseColor.mm */,
 				50AEEC1918FF3C3500CD04BD /* ofxCIZoomBlur.h */,
 				50AEEC1818FF3B3000CD04BD /* ofxCIToneCurve.h */,
+				500F6E59191458AC00BB16B6 /* ofxCIToneCurve.mm */,
 				50AEEC1718FF39F700CD04BD /* ofxCIMotionBlur.h */,
+				500F6E5319144B4800BB16B6 /* ofxCIMotionBlur.mm */,
 				50AEEC1618FF360600CD04BD /* ofxCIOpTile.h */,
+				500F6E57191452B900BB16B6 /* ofxCIOpTile.mm */,
 				50AEEC1518FF355C00CD04BD /* ofxCIPointillize.h */,
+				500F6E511914492200BB16B6 /* ofxCIPointillize.mm */,
 				50AEEC1418FF343B00CD04BD /* ofxCITorusLensDistortion.h */,
+				500F6E5B19145A1500BB16B6 /* ofxCITorusLensDistortion.mm */,
 				50AEEC1318FF32E900CD04BD /* ofxCILineScreen.h */,
 				500F6E291914098F00BB16B6 /* ofxCILineScreen.mm */,
 				50AEEC1218FF31B900CD04BD /* ofxCICircularScreen.h */,
@@ -237,6 +277,7 @@
 				50AEEC1018FF303200CD04BD /* ofxCIColorInvert.h */,
 				500F6E221914098E00BB16B6 /* ofxCIColorInvert.mm */,
 				50AEEC0F18FF2F9E00CD04BD /* ofxCIEdgeWork.h */,
+				500F6E41191441CC00BB16B6 /* ofxCIEdgeWork.mm */,
 				50AEEC0E18FF2F0F00CD04BD /* ofxCIGloom.h */,
 				500F6E271914098F00BB16B6 /* ofxCIGloom.mm */,
 				50AEEC0D18FF2CD300CD04BD /* ofxCIGammaAdjust.h */,
@@ -244,35 +285,45 @@
 				50AEEC0C18FF2C1A00CD04BD /* ofxCIExposureAdjust.h */,
 				500F6E251914098F00BB16B6 /* ofxCIExposureAdjust.mm */,
 				50AEEC0B18FF2BBC00CD04BD /* ofxCIEdges.h */,
+				500F6E3F1914413E00BB16B6 /* ofxCIEdges.mm */,
 				50AEEC0A18FF2A9200CD04BD /* ofxCIDroste.h */,
+				500F6E3D19143F6400BB16B6 /* ofxCIDroste.mm */,
 				50AEEC0918FF2A0500CD04BD /* ofxCICircleSplashDistortion.h */,
 				500F6E1E1914098E00BB16B6 /* ofxCICircleSplashDistortion.mm */,
 				50AEEC0818FF286800CD04BD /* ofxCIColorPosterize.h */,
 				500F6E241914098F00BB16B6 /* ofxCIColorPosterize.mm */,
 				50AEEC0718FF266000CD04BD /* ofxCIPixellate.h */,
+				500F6E4F1914484100BB16B6 /* ofxCIPixellate.mm */,
 				50AEEC0618FF23B100CD04BD /* ofxCIGlassLozenge.h */,
+				500F6E491914457200BB16B6 /* ofxCIGlassLozenge.mm */,
 				50AEEC0518FF22A400CD04BD /* ofxCIGlassDistortion.h */,
+				500F6E47191443F800BB16B6 /* ofxCIGlassDistortion.mm */,
 				50AEEC0418FF21E200CD04BD /* ofxCIBumpDistortionLinear.h */,
 				500F6E1D1914098E00BB16B6 /* ofxCIBumpDistortionLinear.mm */,
 				50AEEC0318FF1F2900CD04BD /* ofxCICircularWrapDistortion.h */,
 				500F6E201914098E00BB16B6 /* ofxCICircularWrapDistortion.mm */,
 				50AEEC0218FF1BA400CD04BD /* ofxCIHoleDistortion.h */,
+				500F6E4D1914479200BB16B6 /* ofxCIHoleDistortion.mm */,
 				50AEEC0118FF1A2B00CD04BD /* ofxCIVortexDistortion.h */,
 				50AEEBE518FEEE5600CD04BD /* ofxCITwirlDistortion.h */,
 				50AEEBE418FEE8B100CD04BD /* ofxCIHexagonalPixellate.h */,
+				500F6E4B191446BA00BB16B6 /* ofxCIHexagonalPixellate.mm */,
 				50AEEBE318FEE7E000CD04BD /* ofxCIBumpDistortion.h */,
 				500F6E1C1914098E00BB16B6 /* ofxCIBumpDistortion.mm */,
 				50AEEBE218FEE62500CD04BD /* ofxCIBloom.h */,
 				500F6E191914098E00BB16B6 /* ofxCIBloom.mm */,
 				50AEEBE018FEE33100CD04BD /* ofxCIPinchDistortion.h */,
+				500F6E5519144C4C00BB16B6 /* ofxCIPinchDistortion.mm */,
 				50AEEBDC18FED3D800CD04BD /* ofxCIBlur.h */,
 				500F6E1A1914098E00BB16B6 /* ofxCIBlur.mm */,
 				F5B67C3B67AA468696EBD2D3 /* ofxCIColorControls.h */,
 				500F6E211914098E00BB16B6 /* ofxCIColorControls.mm */,
 				A4F14F2A7CC2541BDC674B1A /* ofxCICrystallize.h */,
+				500F6E3B1914323300BB16B6 /* ofxCICrystallize.mm */,
 				32F1D0898C36E233361AFE79 /* ofxCIHue.h */,
 				500F6E281914098F00BB16B6 /* ofxCIHue.mm */,
 				C15581F5EC84D83AA45387C2 /* ofxCIKaleidoscope.h */,
+				500F6E451914433D00BB16B6 /* ofxCIKaleidoscope.mm */,
 			);
 			name = filters;
 			sourceTree = "<group>";
@@ -514,24 +565,41 @@
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				500F6E361914098F00BB16B6 /* ofxCIExposureAdjust.mm in Sources */,
+				500F6E461914433D00BB16B6 /* ofxCIKaleidoscope.mm in Sources */,
 				500F6E2D1914098F00BB16B6 /* ofxCIBumpDistortion.mm in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				500F6E3E19143F6400BB16B6 /* ofxCIDroste.mm in Sources */,
+				500F6E42191441CC00BB16B6 /* ofxCIEdgeWork.mm in Sources */,
 				500F6E381914098F00BB16B6 /* ofxCIGloom.mm in Sources */,
 				500F6E2A1914098F00BB16B6 /* ofxCIBloom.mm in Sources */,
 				500F6E321914098F00BB16B6 /* ofxCIColorControls.mm in Sources */,
+				500F6E5419144B4800BB16B6 /* ofxCIMotionBlur.mm in Sources */,
 				50F5A118190AA0EC00B49B59 /* ofxCIFilter.mm in Sources */,
+				500F6E5C19145A1500BB16B6 /* ofxCITorusLensDistortion.mm in Sources */,
 				500F6E351914098F00BB16B6 /* ofxCIColorPosterize.mm in Sources */,
 				500F6E2B1914098F00BB16B6 /* ofxCIBlur.mm in Sources */,
+				500F6E48191443F800BB16B6 /* ofxCIGlassDistortion.mm in Sources */,
+				500F6E5A191458AC00BB16B6 /* ofxCIToneCurve.mm in Sources */,
+				500F6E521914492200BB16B6 /* ofxCIPointillize.mm in Sources */,
 				500F6E2C1914098F00BB16B6 /* ofxCIBoxBlur.mm in Sources */,
 				500F6E331914098F00BB16B6 /* ofxCIColorInvert.mm in Sources */,
+				500F6E3C1914323300BB16B6 /* ofxCICrystallize.mm in Sources */,
+				500F6E4E1914479200BB16B6 /* ofxCIHoleDistortion.mm in Sources */,
 				500F6E3A1914098F00BB16B6 /* ofxCILineScreen.mm in Sources */,
+				500F6E4A1914457200BB16B6 /* ofxCIGlassLozenge.mm in Sources */,
+				500F6E5619144C4C00BB16B6 /* ofxCIPinchDistortion.mm in Sources */,
 				500F6E301914098F00BB16B6 /* ofxCICircularScreen.mm in Sources */,
+				500F6E4C191446BA00BB16B6 /* ofxCIHexagonalPixellate.mm in Sources */,
+				500F6E441914424B00BB16B6 /* ofxCIFalseColor.mm in Sources */,
 				500F6E371914098F00BB16B6 /* ofxCIGammaAdjust.mm in Sources */,
 				38672D27C985B97ED23201E2 /* ofxCoreImage.mm in Sources */,
 				500F6E2E1914098F00BB16B6 /* ofxCIBumpDistortionLinear.mm in Sources */,
+				500F6E501914484200BB16B6 /* ofxCIPixellate.mm in Sources */,
 				500F6E391914098F00BB16B6 /* ofxCIHue.mm in Sources */,
 				500F6E311914098F00BB16B6 /* ofxCICircularWrapDistortion.mm in Sources */,
+				500F6E58191452B900BB16B6 /* ofxCIOpTile.mm in Sources */,
 				500F6E341914098F00BB16B6 /* ofxCIColorMonochrome.mm in Sources */,
+				500F6E401914413E00BB16B6 /* ofxCIEdges.mm in Sources */,
 				500F6E2F1914098F00BB16B6 /* ofxCICircleSplashDistortion.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

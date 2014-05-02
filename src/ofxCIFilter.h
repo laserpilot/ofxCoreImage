@@ -29,14 +29,22 @@
  *
  *  ************************************************************************************
  */
-
 #ifndef OFXCIFILTER
 #define OFXCIFILTER
 
 #pragma once
-#include "ofMain.h"
-#import <QuartzCore/QuartzCore.h> 
 
+#include "ofMain.h"
+#include <OpenGL/OpenGL.h>
+
+#if defined(__OBJC__)
+#import <QuartzCore/QuartzCore.h>
+#elif defined(__cplusplus)
+class CIImage;
+class CIContext;
+class CIFilter;
+
+#endif
 
 class ofxCIFilter
 {
@@ -49,25 +57,28 @@ public:
     void update(ofTexture tex);
     void update(CIImage* inputImage);//don't use both updates in one instance...use this for chaining
     void setDefaults();
-    CIImage* getCIImage();
+    
     void draw(int x, int y);
     void draw(int x, int y, int width, int height);
-    CIFilter* filter;
+    
+	CIImage * getCIImage();
+    
+	CIFilter* filter;
     
 protected:
     
     CGLContextObj   CGLContext;
-    NSOpenGLPixelFormatAttribute*   attr;
-    NSOpenGLPixelFormat*    pf;
     CGColorSpaceRef genericRGB;
-    CIImage*    filterCIImage;
     CGSize      texSize;
     GLint       texID;
     CGRect      outRect;
     CGRect      inRect;
+	
+	NSOpenGLPixelFormatAttribute*   attr;
+    NSOpenGLPixelFormat*    pf;
+	CIImage*    filterCIImage;
     CIContext*  glCIcontext;
     CIImage*    inputCIImage;
-
 };
 
 #endif

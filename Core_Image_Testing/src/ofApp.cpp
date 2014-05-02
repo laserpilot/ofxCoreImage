@@ -259,7 +259,7 @@ void ofApp::setupFilters(){
     
     //SET UP ALLLLLL THE FILTERS
     coreBase.setup(); //really not sure if this is necessary yet - but i didnt want to set up multiple CI contexts
-    blurFilter.setup(ofGetWidth(), ofGetHeight(), coreBase.getCIContext());
+    blurFilter.setup(ofGetWidth(), ofGetHeight(), coreBase.glCIcontext);
     hueFilter.setup(ofGetWidth(), ofGetHeight(), coreBase.glCIcontext);
     kaleFilter.setup(ofGetWidth(), ofGetHeight(), coreBase.glCIcontext);
     crystalFilter.setup(ofGetWidth(), ofGetHeight(), coreBase.glCIcontext);

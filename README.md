@@ -1,14 +1,14 @@
 ofxCoreImage
 ============
 
-This gives you several classes to easily use OSX's Core image filters within openFrameworks
+This gives you several classes to easily use OSX's Core image filters within openFrameworks 0.8.0+
 
-CURRENTLY A WORK IN PROGRESS - DON'T USE IN PRODUCTION YET
+CURRENTLY A WORK IN PROGRESS - Beware using in real productions yet - there are some memory leaks with the BoxBlur and ZoomBlur filters that are inherent in OSX.
 
-This lets you really easily implement Core Image Filters into OF programs on OSX only. The document "CIFilters.txt" gives you a list/attributes/description of all possible built in filters. EVentually more filters will be built out into their own class.
+This addon lets you really easily implement Core Image Filters into OF programs on OSX only. The document "CIFilters.txt" gives you a list/attributes/description of all possible built in filters. You can also make your own classes for third party filters like those from FX Factory.
 
-I would use my example file as a starter template for your own project for now
+I would use my example file as a starter template for your own project for now:
 
-If starting a project from scratch you will need to add QuartzCore to your project in build phases
+If starting a project from scratch you will need to add QuartzCore to your project in build phases!
 
-You will also need to use a GLUT window and the main and app files need to be .mm's
+This is also not currently working inside the default GLFW window, so you will need to build using the older GLUT windows

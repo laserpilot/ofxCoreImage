@@ -67,6 +67,7 @@
 		50EF6788191C471B005902CE /* ofxCISourceAtopCompositing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 50EF6787191C471B005902CE /* ofxCISourceAtopCompositing.mm */; };
 		50EF678A191C4763005902CE /* ofxCISourceOutCompositing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 50EF6789191C4763005902CE /* ofxCISourceOutCompositing.mm */; };
 		50EF678C191C47D5005902CE /* ofxCIRippleTransition.mm in Sources */ = {isa = PBXBuildFile; fileRef = 50EF678B191C47D5005902CE /* ofxCIRippleTransition.mm */; };
+		50EF678F191C4D11005902CE /* ofxCIDissolveTransition.mm in Sources */ = {isa = PBXBuildFile; fileRef = 50EF678E191C4D11005902CE /* ofxCIDissolveTransition.mm */; };
 		50F5A118190AA0EC00B49B59 /* ofxCIFilter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 50F5A117190AA0EC00B49B59 /* ofxCIFilter.mm */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
@@ -236,6 +237,8 @@
 		50EF6787191C471B005902CE /* ofxCISourceAtopCompositing.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCISourceAtopCompositing.mm; sourceTree = "<group>"; };
 		50EF6789191C4763005902CE /* ofxCISourceOutCompositing.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCISourceOutCompositing.mm; sourceTree = "<group>"; };
 		50EF678B191C47D5005902CE /* ofxCIRippleTransition.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIRippleTransition.mm; sourceTree = "<group>"; };
+		50EF678D191C4D11005902CE /* ofxCIDissolveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCIDissolveTransition.h; sourceTree = "<group>"; };
+		50EF678E191C4D11005902CE /* ofxCIDissolveTransition.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIDissolveTransition.mm; sourceTree = "<group>"; };
 		50F5A116190AA0EC00B49B59 /* ofxCIFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxCIFilter.h; path = ../src/ofxCIFilter.h; sourceTree = "<group>"; };
 		50F5A117190AA0EC00B49B59 /* ofxCIFilter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIFilter.mm; path = ../src/ofxCIFilter.mm; sourceTree = "<group>"; };
 		8133A77401657F07C6F9C90E /* ofxCoreImage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCoreImage.h; path = ../src/ofxCoreImage.h; sourceTree = SOURCE_ROOT; };
@@ -430,6 +433,8 @@
 		50AEEC1C19002B2800CD04BD /* transitions */ = {
 			isa = PBXGroup;
 			children = (
+				50EF678D191C4D11005902CE /* ofxCIDissolveTransition.h */,
+				50EF678E191C4D11005902CE /* ofxCIDissolveTransition.mm */,
 				50AEEC1D19002B2800CD04BD /* ofxCIRippleTransition.h */,
 				50EF678B191C47D5005902CE /* ofxCIRippleTransition.mm */,
 			);
@@ -643,6 +648,7 @@
 				50EF6782191C4623005902CE /* ofxCISoftLightBlendMode.mm in Sources */,
 				500F6E3E19143F6400BB16B6 /* ofxCIDroste.mm in Sources */,
 				500F6E42191441CC00BB16B6 /* ofxCIEdgeWork.mm in Sources */,
+				50EF678F191C4D11005902CE /* ofxCIDissolveTransition.mm in Sources */,
 				50EF6778191C44C1005902CE /* ofxCILuminosityBlendMode.mm in Sources */,
 				500F6E381914098F00BB16B6 /* ofxCIGloom.mm in Sources */,
 				50EF6764191C3E0E005902CE /* ofxCIAdditionCompositing.mm in Sources */,

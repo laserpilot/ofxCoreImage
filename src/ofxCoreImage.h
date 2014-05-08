@@ -113,6 +113,7 @@ class NSOpenGLPixelFormat;
 
 //Transitions
 #include "transitions/ofxCIRippleTransition.h"
+#include "transitions/ofxCIDissolveTransition.h"
 
 //This implementation of Core Image is for really easy application of standard filters to OF sketches
 

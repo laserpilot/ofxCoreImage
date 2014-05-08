@@ -1,14 +1,52 @@
+/*
+ *  ofxCoreImage
+ *
+ *  Created by Blair Neal on 04/26/14.
+ *  Copyright 2014 http://www.blairneal.com All rights reserved.
+ *
+ *  Redistribution and use in source and binary forms, with or without
+ *  modification, are permitted provided that the following conditions are met:
+ *
+ *     * Redistributions of source code must retain the above copyright
+ *       notice, this list of conditions and the following disclaimer.
+ *     * Redistributions in binary form must reproduce the above copyright
+ *       notice, this list of conditions and the following disclaimer in the
+ *       documentation and/or other materials provided with the distribution.
+ *     * Neither the name of the author nor the names of its contributors
+ *       may be used to endorse or promote products derived from this software
+ *       without specific prior written permission.
+ *
+ *  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ *  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+ *  THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ *  ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+ *  FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ *  (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+ *  OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+ *  OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+ *  OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+ *  OF THE POSSIBILITY OF SUCH DAMAGE.
+ *
+ *  ************************************************************************************
+ */
 
-//
-//  ofxCoreImage.h
-//  coreImage_sketch
-//
-//  Created by Blair Neal on 4/15/14.
-//
-//
+
 #pragma once
+
+
 #include "ofMain.h"
-#import <QuartzCore/QuartzCore.h> 
+
+#ifdef __OBJC__
+#import <QuartzCore/QuartzCore.h>
+#elif defined(__cplusplus)
+class CIContext;
+class CIImage;
+class CIFilter;
+class NSOpenGLPixelFormatAttribute;
+class NSOpenGLPixelFormat;
+#endif
+
+#include "ofxCIFilter.h"
 
 //general image filters
 #include "filters/ofxCIBlur.h"
@@ -76,62 +114,29 @@
 //Transitions
 #include "transitions/ofxCIRippleTransition.h"
 
-
 //This implementation of Core Image is for really easy application of standard filters to OF sketches
-
-//DO NOT USE THIS IN PRODUCTION - yet - memory leaks are probably everywhere and releasing isn't necessarily handled correctly
 
 class ofxCI{
     
-    
 public:
     
-    CGLContextObj   CGLContext;
-    NSOpenGLPixelFormatAttribute*   attr;
+    
+    void setup(); //use this to set up your shared CI context
+    void listAllFilters();
+    
+	CIContext * getCIContext();
+	
+    CIContext*  glCIcontext;
+    CIImage*    inputCIImage;
+    CIFilter* filter;
+	NSOpenGLPixelFormatAttribute*   attr;
     NSOpenGLPixelFormat*    pf;
+	CIImage*    filterCIImage;
+	
+    CGLContextObj   CGLContext;
     CGColorSpaceRef genericRGB;
-    CIImage*    filterCIImage;
     CGSize      texSize;
     GLint       texID;
     CGRect      outRect;
     CGRect      inRect;
-    CIContext*  glCIcontext;
-    CIImage*    inputCIImage;
-    CIFilter* filter;
-    
-    void setup(){
-        genericRGB = CGColorSpaceCreateWithName(kCGColorSpaceGenericRGB);
-        // Create the pixel format attributes
-        NSOpenGLPixelFormatAttribute attr[] = {
-            NSOpenGLPFAAccelerated,
-            NSOpenGLPFANoRecovery,
-            NSOpenGLPFAColorSize, 32,
-            0
-        };
-        CGColorSpaceRelease(genericRGB);
-        // Setup the pixel format object:
-        pf=[[NSOpenGLPixelFormat alloc] initWithAttributes:attr];
-        // Setup the core image context, tied to the OF Open GL context:
-        glCIcontext = [CIContext contextWithCGLContext: CGLGetCurrentContext()
-                                           pixelFormat: CGLPixelFormatObj(pf)
-                                            colorSpace: genericRGB
-                                               options: nil];
-
-    }
-    
-    void listAllFilters(){
-        
-           //[CIPlugIn loadAllPlugIns]; //when you uncomment - lets you access third party plugins
-        
-            NSArray* filters = [CIFilter filterNamesInCategories:nil];
-        
-            for (NSString* filterName in filters)
-            {
-                NSLog(@"Filter: %@", filterName);
-                NSLog(@"Parameters: %@", [[CIFilter filterWithName:filterName] attributes]);
-            }
-    }
-    
-
-
 };

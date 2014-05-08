@@ -79,6 +79,7 @@ protected:
     NSOpenGLPixelFormat*    pf;
 	CIImage*    filterCIImage;
     CIImage*    inputBGCIImage; //some filters use 2 CI Images for blending
+    CIImage*    inputShadingImage; //some filters take a third image for a shading texture
     CIContext*  glCIcontext;
     CIImage*    inputCIImage;
 };

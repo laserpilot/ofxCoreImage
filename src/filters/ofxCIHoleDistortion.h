@@ -1,7 +1,7 @@
 #pragma once
 #include "ofxCIFilter.h"
 
-class ofxCIHoleDistortion{
+class ofxCIHoleDistortion : public ofxCIFilter{
     
 public:
  

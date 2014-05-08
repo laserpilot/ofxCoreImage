@@ -6,7 +6,7 @@ void ofxCIEdgeWork::loadFilter(){
     [filter setDefaults]; //always set this on load
 }
 //-------------------------
-void setRadius(float radius){
+void ofxCIEdgeWork::setRadius(float radius){
     radius = ofClamp(radius,0, 20);
     [filter setValue:[NSNumber numberWithFloat: radius] forKey:@"inputRadius"];
 }

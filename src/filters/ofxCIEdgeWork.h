@@ -1,7 +1,7 @@
 #pragma once
 #include "ofxCIFilter.h"
 
-class ofxCIEdgeWork{
+class ofxCIEdgeWork : public ofxCIFilter {
     
 public:
  

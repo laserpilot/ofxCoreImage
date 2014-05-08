@@ -1,7 +1,7 @@
 #pragma once
 #include "ofxCIFilter.h"
 
-class ofxCIOpTile{
+class ofxCIOpTile : public ofxCIFilter{
     
     //This CI Filter lets you adjust brightness, saturation and contrast
     //Set: setAngle, setCenter, setCount

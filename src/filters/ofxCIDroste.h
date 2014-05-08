@@ -15,6 +15,6 @@ public:
     void setPeriodicity(int periodicity);
     void setRotation(float rotation);
     void setStrands(float strands);
-    void setZoom(float zoom); }
+    void setZoom(float zoom); 
 
 };

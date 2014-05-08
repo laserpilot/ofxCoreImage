@@ -1,7 +1,7 @@
 
 #include "ofxCICrystallize.h"
 
-void ofxCIColorPosterize::loadFilter(){
+void ofxCICrystallize::loadFilter(){
     filter = [CIFilter filterWithName:@"CICrystallize"];
     [filter setDefaults]; //always set this on load
 }

@@ -87,6 +87,7 @@ class NSOpenGLPixelFormat;
 #include "filters/ofxCIZoomBlur.h"
 #include "filters/ofxCIFalseColor.h"
 #include "filters/ofxCIColorMonochrome.h"
+#include "filters/ofxCICrop.h"
 
 
 //composite filters
@@ -113,6 +114,10 @@ class NSOpenGLPixelFormat;
 
 //Transitions
 #include "transitions/ofxCIRippleTransition.h"
+#include "transitions/ofxCIDissolveTransition.h"
+#include "transitions/ofxCICopyMachineTransition.h"
+#include "transitions/ofxCIBarsSwipeTransition.h"
+
 
 //This implementation of Core Image is for really easy application of standard filters to OF sketches
 

@@ -42,6 +42,10 @@
 		500F6E58191452B900BB16B6 /* ofxCIOpTile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 500F6E57191452B900BB16B6 /* ofxCIOpTile.mm */; };
 		500F6E5A191458AC00BB16B6 /* ofxCIToneCurve.mm in Sources */ = {isa = PBXBuildFile; fileRef = 500F6E59191458AC00BB16B6 /* ofxCIToneCurve.mm */; };
 		500F6E5C19145A1500BB16B6 /* ofxCITorusLensDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 500F6E5B19145A1500BB16B6 /* ofxCITorusLensDistortion.mm */; };
+		5080E416191C6E5100D17A74 /* ofxCIDissolveTransition.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5080E415191C6E5100D17A74 /* ofxCIDissolveTransition.mm */; };
+		5080E419191C6E9900D17A74 /* ofxCICopyMachineTransition.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5080E418191C6E9900D17A74 /* ofxCICopyMachineTransition.mm */; };
+		5080E41C191C711200D17A74 /* ofxCICrop.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5080E41B191C711200D17A74 /* ofxCICrop.mm */; };
+		5080E41F191C728100D17A74 /* ofxCIBarsSwipeTransition.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5080E41E191C728100D17A74 /* ofxCIBarsSwipeTransition.mm */; };
 		50AEEBDF18FED51800CD04BD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AEEBDE18FED51800CD04BD /* QuartzCore.framework */; };
 		50EF675E191C3A46005902CE /* ofxCITwirlDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 50EF675D191C3A46005902CE /* ofxCITwirlDistortion.mm */; };
 		50EF6760191C3B39005902CE /* ofxCIVortexDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 50EF675F191C3B39005902CE /* ofxCIVortexDistortion.mm */; };
@@ -156,6 +160,14 @@
 		500F6E57191452B900BB16B6 /* ofxCIOpTile.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIOpTile.mm; path = ../src/filters/ofxCIOpTile.mm; sourceTree = "<group>"; };
 		500F6E59191458AC00BB16B6 /* ofxCIToneCurve.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCIToneCurve.mm; path = ../src/filters/ofxCIToneCurve.mm; sourceTree = "<group>"; };
 		500F6E5B19145A1500BB16B6 /* ofxCITorusLensDistortion.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCITorusLensDistortion.mm; path = ../src/filters/ofxCITorusLensDistortion.mm; sourceTree = "<group>"; };
+		5080E414191C6E5100D17A74 /* ofxCIDissolveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCIDissolveTransition.h; sourceTree = "<group>"; };
+		5080E415191C6E5100D17A74 /* ofxCIDissolveTransition.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIDissolveTransition.mm; sourceTree = "<group>"; };
+		5080E417191C6E9900D17A74 /* ofxCICopyMachineTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCICopyMachineTransition.h; sourceTree = "<group>"; };
+		5080E418191C6E9900D17A74 /* ofxCICopyMachineTransition.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCICopyMachineTransition.mm; sourceTree = "<group>"; };
+		5080E41A191C711200D17A74 /* ofxCICrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxCICrop.h; path = ../src/filters/ofxCICrop.h; sourceTree = "<group>"; };
+		5080E41B191C711200D17A74 /* ofxCICrop.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ofxCICrop.mm; path = ../src/filters/ofxCICrop.mm; sourceTree = "<group>"; };
+		5080E41D191C728100D17A74 /* ofxCIBarsSwipeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxCIBarsSwipeTransition.h; sourceTree = "<group>"; };
+		5080E41E191C728100D17A74 /* ofxCIBarsSwipeTransition.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIBarsSwipeTransition.mm; sourceTree = "<group>"; };
 		50AEEBDC18FED3D800CD04BD /* ofxCIBlur.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = ofxCIBlur.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIBlur.h; sourceTree = "<group>"; };
 		50AEEBDE18FED51800CD04BD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		50AEEBE018FEE33100CD04BD /* ofxCIPinchDistortion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofxCIPinchDistortion.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIPinchDistortion.h; sourceTree = "<group>"; };
@@ -301,6 +313,8 @@
 		09520DB1FB8198C1FA40E3CD /* filters */ = {
 			isa = PBXGroup;
 			children = (
+				5080E41A191C711200D17A74 /* ofxCICrop.h */,
+				5080E41B191C711200D17A74 /* ofxCICrop.mm */,
 				50AEEC1B18FF3F8A00CD04BD /* ofxCIColorMonochrome.h */,
 				500F6E231914098E00BB16B6 /* ofxCIColorMonochrome.mm */,
 				50AEEC1A18FF3E4100CD04BD /* ofxCIFalseColor.h */,
@@ -430,6 +444,12 @@
 		50AEEC1C19002B2800CD04BD /* transitions */ = {
 			isa = PBXGroup;
 			children = (
+				5080E41D191C728100D17A74 /* ofxCIBarsSwipeTransition.h */,
+				5080E41E191C728100D17A74 /* ofxCIBarsSwipeTransition.mm */,
+				5080E417191C6E9900D17A74 /* ofxCICopyMachineTransition.h */,
+				5080E418191C6E9900D17A74 /* ofxCICopyMachineTransition.mm */,
+				5080E414191C6E5100D17A74 /* ofxCIDissolveTransition.h */,
+				5080E415191C6E5100D17A74 /* ofxCIDissolveTransition.mm */,
 				50AEEC1D19002B2800CD04BD /* ofxCIRippleTransition.h */,
 				50EF678B191C47D5005902CE /* ofxCIRippleTransition.mm */,
 			);
@@ -643,6 +663,7 @@
 				50EF6782191C4623005902CE /* ofxCISoftLightBlendMode.mm in Sources */,
 				500F6E3E19143F6400BB16B6 /* ofxCIDroste.mm in Sources */,
 				500F6E42191441CC00BB16B6 /* ofxCIEdgeWork.mm in Sources */,
+				5080E416191C6E5100D17A74 /* ofxCIDissolveTransition.mm in Sources */,
 				50EF6778191C44C1005902CE /* ofxCILuminosityBlendMode.mm in Sources */,
 				500F6E381914098F00BB16B6 /* ofxCIGloom.mm in Sources */,
 				50EF6764191C3E0E005902CE /* ofxCIAdditionCompositing.mm in Sources */,
@@ -671,6 +692,7 @@
 				50EF678A191C4763005902CE /* ofxCISourceOutCompositing.mm in Sources */,
 				500F6E3A1914098F00BB16B6 /* ofxCILineScreen.mm in Sources */,
 				50EF6786191C46D5005902CE /* ofxCISourceInCompositing.mm in Sources */,
+				5080E41F191C728100D17A74 /* ofxCIBarsSwipeTransition.mm in Sources */,
 				500F6E4A1914457200BB16B6 /* ofxCIGlassLozenge.mm in Sources */,
 				50EF677C191C456B005902CE /* ofxCIOverlayBlendMode.mm in Sources */,
 				500F6E5619144C4C00BB16B6 /* ofxCIPinchDistortion.mm in Sources */,
@@ -691,9 +713,11 @@
 				500F6E391914098F00BB16B6 /* ofxCIHue.mm in Sources */,
 				50EF6766191C3EC4005902CE /* ofxCIColorBlendMode.mm in Sources */,
 				50EF676C191C42A2005902CE /* ofxCIDarkenBlendMode.mm in Sources */,
+				5080E419191C6E9900D17A74 /* ofxCICopyMachineTransition.mm in Sources */,
 				50EF675E191C3A46005902CE /* ofxCITwirlDistortion.mm in Sources */,
 				500F6E311914098F00BB16B6 /* ofxCICircularWrapDistortion.mm in Sources */,
 				500F6E58191452B900BB16B6 /* ofxCIOpTile.mm in Sources */,
+				5080E41C191C711200D17A74 /* ofxCICrop.mm in Sources */,
 				500F6E341914098F00BB16B6 /* ofxCIColorMonochrome.mm in Sources */,
 				500F6E401914413E00BB16B6 /* ofxCIEdges.mm in Sources */,
 				500F6E2F1914098F00BB16B6 /* ofxCICircleSplashDistortion.mm in Sources */,

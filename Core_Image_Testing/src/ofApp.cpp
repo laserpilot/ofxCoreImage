@@ -238,7 +238,7 @@ void ofApp::draw(){
     }
     
     //kaleFilter.draw(0,0);
-        ofDrawBitmapStringHighlight("Current Filter: " + ofToString(1+filterNum)+ " /25" , 20,20 );
+        ofDrawBitmapStringHighlight("Current Filter: " + ofToString(1+filterNum)+ " /34" , 20,20 );
     ofDrawBitmapStringHighlight("Press ' ' to go to the next filter. \nMove the mouse to control parameters", 20,40 );
     ofDrawBitmapStringHighlight("Press 'c' to activate camera." , 20,80 );
 }

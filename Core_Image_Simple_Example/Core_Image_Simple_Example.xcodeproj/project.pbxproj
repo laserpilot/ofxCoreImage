@@ -7,91 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5019FF8619F5BC3200A898FA /* ofxCIAdditionCompositing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF0519F5BC3200A898FA /* ofxCIAdditionCompositing.mm */; };
-		5019FF8719F5BC3200A898FA /* ofxCIColorBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF0719F5BC3200A898FA /* ofxCIColorBlendMode.mm */; };
-		5019FF8819F5BC3200A898FA /* ofxCIColorBurnBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF0919F5BC3200A898FA /* ofxCIColorBurnBlendMode.mm */; };
-		5019FF8919F5BC3200A898FA /* ofxCIColorDodgeBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF0B19F5BC3200A898FA /* ofxCIColorDodgeBlendMode.mm */; };
-		5019FF8A19F5BC3200A898FA /* ofxCIDarkenBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF0D19F5BC3200A898FA /* ofxCIDarkenBlendMode.mm */; };
-		5019FF8B19F5BC3200A898FA /* ofxCIDifferenceBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF0F19F5BC3200A898FA /* ofxCIDifferenceBlendMode.mm */; };
-		5019FF8C19F5BC3200A898FA /* ofxCIExclusionBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF1119F5BC3200A898FA /* ofxCIExclusionBlendMode.mm */; };
-		5019FF8D19F5BC3200A898FA /* ofxCIHardLightBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF1319F5BC3200A898FA /* ofxCIHardLightBlendMode.mm */; };
-		5019FF8E19F5BC3200A898FA /* ofxCIHueBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF1519F5BC3200A898FA /* ofxCIHueBlendMode.mm */; };
-		5019FF8F19F5BC3200A898FA /* ofxCILightenBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF1719F5BC3200A898FA /* ofxCILightenBlendMode.mm */; };
-		5019FF9019F5BC3200A898FA /* ofxCILuminosityBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF1919F5BC3200A898FA /* ofxCILuminosityBlendMode.mm */; };
-		5019FF9119F5BC3200A898FA /* ofxCIMultiplyBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF1B19F5BC3200A898FA /* ofxCIMultiplyBlendMode.mm */; };
-		5019FF9219F5BC3200A898FA /* ofxCIOverlayBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF1D19F5BC3200A898FA /* ofxCIOverlayBlendMode.mm */; };
-		5019FF9319F5BC3200A898FA /* ofxCISaturationBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF1F19F5BC3200A898FA /* ofxCISaturationBlendMode.mm */; };
-		5019FF9419F5BC3200A898FA /* ofxCIScreenBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF2119F5BC3200A898FA /* ofxCIScreenBlendMode.mm */; };
-		5019FF9519F5BC3200A898FA /* ofxCISoftLightBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF2319F5BC3200A898FA /* ofxCISoftLightBlendMode.mm */; };
-		5019FF9619F5BC3200A898FA /* ofxCISourceAtopCompositing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF2519F5BC3200A898FA /* ofxCISourceAtopCompositing.mm */; };
-		5019FF9719F5BC3200A898FA /* ofxCISourceInCompositing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF2719F5BC3200A898FA /* ofxCISourceInCompositing.mm */; };
-		5019FF9819F5BC3200A898FA /* ofxCISourceOutCompositing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF2919F5BC3200A898FA /* ofxCISourceOutCompositing.mm */; };
-		5019FF9919F5BC3200A898FA /* ofxCISourceOverCompositing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF2B19F5BC3200A898FA /* ofxCISourceOverCompositing.mm */; };
-		5019FF9A19F5BC3200A898FA /* ofxCIBloom.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF2E19F5BC3200A898FA /* ofxCIBloom.mm */; };
-		5019FF9B19F5BC3200A898FA /* ofxCIBlur.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF3019F5BC3200A898FA /* ofxCIBlur.mm */; };
-		5019FF9C19F5BC3200A898FA /* ofxCIBoxBlur.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF3219F5BC3200A898FA /* ofxCIBoxBlur.mm */; };
-		5019FF9D19F5BC3200A898FA /* ofxCIBumpDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF3419F5BC3200A898FA /* ofxCIBumpDistortion.mm */; };
-		5019FF9E19F5BC3200A898FA /* ofxCIBumpDistortionLinear.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF3619F5BC3200A898FA /* ofxCIBumpDistortionLinear.mm */; };
-		5019FF9F19F5BC3200A898FA /* ofxCICircleSplashDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF3819F5BC3200A898FA /* ofxCICircleSplashDistortion.mm */; };
-		5019FFA019F5BC3200A898FA /* ofxCICircularScreen.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF3A19F5BC3200A898FA /* ofxCICircularScreen.mm */; };
-		5019FFA119F5BC3200A898FA /* ofxCICircularWrapDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF3C19F5BC3200A898FA /* ofxCICircularWrapDistortion.mm */; };
-		5019FFA219F5BC3200A898FA /* ofxCIColorControls.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF3E19F5BC3200A898FA /* ofxCIColorControls.mm */; };
-		5019FFA319F5BC3200A898FA /* ofxCIColorInvert.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF4019F5BC3200A898FA /* ofxCIColorInvert.mm */; };
-		5019FFA419F5BC3200A898FA /* ofxCIColorMonochrome.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF4219F5BC3200A898FA /* ofxCIColorMonochrome.mm */; };
-		5019FFA519F5BC3200A898FA /* ofxCIColorPosterize.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF4419F5BC3200A898FA /* ofxCIColorPosterize.mm */; };
-		5019FFA619F5BC3200A898FA /* ofxCICrop.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF4619F5BC3200A898FA /* ofxCICrop.mm */; };
-		5019FFA719F5BC3200A898FA /* ofxCICrystallize.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF4819F5BC3200A898FA /* ofxCICrystallize.mm */; };
-		5019FFA819F5BC3200A898FA /* ofxCIDroste.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF4A19F5BC3200A898FA /* ofxCIDroste.mm */; };
-		5019FFA919F5BC3200A898FA /* ofxCIEdges.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF4C19F5BC3200A898FA /* ofxCIEdges.mm */; };
-		5019FFAA19F5BC3200A898FA /* ofxCIEdgeWork.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF4E19F5BC3200A898FA /* ofxCIEdgeWork.mm */; };
-		5019FFAB19F5BC3200A898FA /* ofxCIExposureAdjust.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF5019F5BC3200A898FA /* ofxCIExposureAdjust.mm */; };
-		5019FFAC19F5BC3200A898FA /* ofxCIFalseColor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF5219F5BC3200A898FA /* ofxCIFalseColor.mm */; };
-		5019FFAD19F5BC3200A898FA /* ofxCIGammaAdjust.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF5419F5BC3200A898FA /* ofxCIGammaAdjust.mm */; };
-		5019FFAE19F5BC3200A898FA /* ofxCIGlassDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF5619F5BC3200A898FA /* ofxCIGlassDistortion.mm */; };
-		5019FFAF19F5BC3200A898FA /* ofxCIGlassLozenge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF5819F5BC3200A898FA /* ofxCIGlassLozenge.mm */; };
-		5019FFB019F5BC3200A898FA /* ofxCIGloom.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF5A19F5BC3200A898FA /* ofxCIGloom.mm */; };
-		5019FFB119F5BC3200A898FA /* ofxCIHexagonalPixellate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF5C19F5BC3200A898FA /* ofxCIHexagonalPixellate.mm */; };
-		5019FFB219F5BC3200A898FA /* ofxCIHoleDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF5E19F5BC3200A898FA /* ofxCIHoleDistortion.mm */; };
-		5019FFB319F5BC3200A898FA /* ofxCIHue.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF6019F5BC3200A898FA /* ofxCIHue.mm */; };
-		5019FFB419F5BC3200A898FA /* ofxCIKaleidoscope.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF6219F5BC3200A898FA /* ofxCIKaleidoscope.mm */; };
-		5019FFB519F5BC3200A898FA /* ofxCILineScreen.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF6419F5BC3200A898FA /* ofxCILineScreen.mm */; };
-		5019FFB619F5BC3200A898FA /* ofxCIMotionBlur.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF6619F5BC3200A898FA /* ofxCIMotionBlur.mm */; };
-		5019FFB719F5BC3200A898FA /* ofxCIOpTile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF6819F5BC3200A898FA /* ofxCIOpTile.mm */; };
-		5019FFB819F5BC3200A898FA /* ofxCIPinchDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF6A19F5BC3200A898FA /* ofxCIPinchDistortion.mm */; };
-		5019FFB919F5BC3200A898FA /* ofxCIPixellate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF6C19F5BC3200A898FA /* ofxCIPixellate.mm */; };
-		5019FFBA19F5BC3200A898FA /* ofxCIPointillize.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF6E19F5BC3200A898FA /* ofxCIPointillize.mm */; };
-		5019FFBB19F5BC3200A898FA /* ofxCIToneCurve.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF7019F5BC3200A898FA /* ofxCIToneCurve.mm */; };
-		5019FFBC19F5BC3200A898FA /* ofxCITorusLensDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF7219F5BC3200A898FA /* ofxCITorusLensDistortion.mm */; };
-		5019FFBD19F5BC3200A898FA /* ofxCITwirlDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF7419F5BC3200A898FA /* ofxCITwirlDistortion.mm */; };
-		5019FFBE19F5BC3200A898FA /* ofxCIVortexDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF7619F5BC3200A898FA /* ofxCIVortexDistortion.mm */; };
-		5019FFBF19F5BC3200A898FA /* ofxCIZoomBlur.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF7819F5BC3200A898FA /* ofxCIZoomBlur.mm */; };
-		5019FFC019F5BC3200A898FA /* ofxCIFilter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF7A19F5BC3200A898FA /* ofxCIFilter.mm */; };
-		5019FFC119F5BC3200A898FA /* ofxCoreImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF7C19F5BC3200A898FA /* ofxCoreImage.mm */; };
-		5019FFC219F5BC3200A898FA /* ofxCIBarsSwipeTransition.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF7F19F5BC3200A898FA /* ofxCIBarsSwipeTransition.mm */; };
-		5019FFC319F5BC3200A898FA /* ofxCICopyMachineTransition.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF8119F5BC3200A898FA /* ofxCICopyMachineTransition.mm */; };
-		5019FFC419F5BC3200A898FA /* ofxCIDissolveTransition.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF8319F5BC3200A898FA /* ofxCIDissolveTransition.mm */; };
-		5019FFC519F5BC3200A898FA /* ofxCIRippleTransition.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5019FF8519F5BC3200A898FA /* ofxCIRippleTransition.mm */; };
-		50AEEBDF18FED51800CD04BD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AEEBDE18FED51800CD04BD /* QuartzCore.framework */; };
-		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
+		03B616DFDC9A2166DC2F55BC /* ofxCIBumpDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A3F444CADDAA423CD2E8F /* ofxCIBumpDistortion.mm */; };
+		077D9154BA3246F0D540BF23 /* ofxCICircularWrapDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7A23A525CFD9C0C21FA04085 /* ofxCICircularWrapDistortion.mm */; };
+		07D6D8ED366586F8FD116FAF /* ofxCITorusLensDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4EF0557CC4F82F0397808EBE /* ofxCITorusLensDistortion.mm */; };
+		0BDE05146CE6226BE3A229FB /* ofxCICrystallize.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB0FE1A196D6D93F28588F /* ofxCICrystallize.mm */; };
+		0DD897497FE609B9105A5900 /* ofxCIExposureAdjust.mm in Sources */ = {isa = PBXBuildFile; fileRef = 548F29D0F0AAB35CE826D742 /* ofxCIExposureAdjust.mm */; };
+		0EE12384604DCD15F03027CB /* ofxCIDroste.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3A5258780B4EB4301888099 /* ofxCIDroste.mm */; };
+		114B24A4F9B66BCDDD95ACD1 /* ofxCIZoomBlur.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86FCE91652F6167D134E1040 /* ofxCIZoomBlur.mm */; };
+		11930E6238649BFEE898F582 /* ofxCIPixellate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 81A4647890ACB1C3E222CDCB /* ofxCIPixellate.mm */; };
+		178B2C21472754117696AAAB /* ofxCIEdgeWork.mm in Sources */ = {isa = PBXBuildFile; fileRef = EBC2E3D0AFB35110C40F17EF /* ofxCIEdgeWork.mm */; };
+		18A4BA4B5142137DD5CE6A47 /* ofxCICircularScreen.mm in Sources */ = {isa = PBXBuildFile; fileRef = 425D72E2388DFB1B652FD779 /* ofxCICircularScreen.mm */; };
+		2BC0DACFE4CFF1635CAC51A5 /* ofxCICrop.mm in Sources */ = {isa = PBXBuildFile; fileRef = ECE350476251E97DACAD2D92 /* ofxCICrop.mm */; };
+		2C59C2AED14BD766BEBF30D0 /* ofxCIExclusionBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 912E8EEB016B494CB6D74BC7 /* ofxCIExclusionBlendMode.mm */; };
+		2E1F8466346EC66E6310469A /* ofxCIEdges.mm in Sources */ = {isa = PBXBuildFile; fileRef = C7233082ED91D4B51614C190 /* ofxCIEdges.mm */; };
+		2E9FCED609B935E53AF37B0F /* ofxCIPinchDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EEFFCD598BD3041E48B56 /* ofxCIPinchDistortion.mm */; };
+		3562B748DEC32EF60D2FF8A5 /* ofxCICircleSplashDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 684B7D598A00A64F82A58C32 /* ofxCICircleSplashDistortion.mm */; };
+		38672D27C985B97ED23201E2 /* ofxCoreImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = FACB96D00DEA09D4B802A334 /* ofxCoreImage.mm */; };
+		3944E71A74F1C55FF3CE7D77 /* ofxCIHoleDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = A73132C488F273CF39B99336 /* ofxCIHoleDistortion.mm */; };
+		3BD0F154AB85274F14951748 /* ofxCIAdditionCompositing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 99341F1A2C652BC5B2FCCC22 /* ofxCIAdditionCompositing.mm */; };
+		41CBDBBA2331E53BA93268F6 /* ofxCIBloom.mm in Sources */ = {isa = PBXBuildFile; fileRef = 620B077FAE129A0BCBDF940A /* ofxCIBloom.mm */; };
+		4A20652009810918A69B9212 /* ofxCIColorBurnBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2288983C504C3C26C5691251 /* ofxCIColorBurnBlendMode.mm */; };
+		503C2BCB1BF543CE002A5847 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 503C2BC91BF543CE002A5847 /* main.cpp */; };
+		503C2BCC1BF543CE002A5847 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 503C2BCA1BF543CE002A5847 /* ofApp.cpp */; };
+		5415D487965A26FDA8A626CD /* ofxCISoftLightBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = BE9117E282FF14DC27158DA7 /* ofxCISoftLightBlendMode.mm */; };
+		5451EAFF86D36F77E9D11654 /* ofxCIBlur.mm in Sources */ = {isa = PBXBuildFile; fileRef = A528BBA6017B8692A6EC33D9 /* ofxCIBlur.mm */; };
+		54D6C7444B126D54CF038E1F /* ofxCIVortexDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 178B501C73880595C7568509 /* ofxCIVortexDistortion.mm */; };
+		5F14E145F3B1985A3947D501 /* ofxCIBarsSwipeTransition.mm in Sources */ = {isa = PBXBuildFile; fileRef = E3C9DBA62299CDD38D6D905D /* ofxCIBarsSwipeTransition.mm */; };
+		62A1BC98CCE43EA89FC216B9 /* ofxCIGloom.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1004E2878B3F5E41F8E2A0BA /* ofxCIGloom.mm */; };
+		6A92BF5BE3222386C0EE0856 /* ofxCIColorPosterize.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3F061EF99E63933EFA434630 /* ofxCIColorPosterize.mm */; };
+		6CE22B65FFAD854CF7D44C92 /* ofxCITwirlDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29ED34A7CDBAD74DC767344D /* ofxCITwirlDistortion.mm */; };
+		6E7A2C16D2AF515042F4D00D /* ofxCIFilter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0CFDE1272A0731FDD1100F63 /* ofxCIFilter.mm */; };
+		6FD3E7CEDA40068AB815C0D2 /* ofxCIHexagonalPixellate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8C6C78C9CB3C5C1163ECCDEA /* ofxCIHexagonalPixellate.mm */; };
+		71DE8412221AF4C0FCB6C058 /* ofxCIDifferenceBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 94A1B31C8B94C29FB23AA3A9 /* ofxCIDifferenceBlendMode.mm */; };
+		723D1D825C7F3E9DA834654C /* ofxCIMultiplyBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = DF5660CE5F9B92F1262BD0B8 /* ofxCIMultiplyBlendMode.mm */; };
+		7862F11AFCBB92134265B067 /* ofxCIDarkenBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 47BF0060FE3C99A65F3B4A0E /* ofxCIDarkenBlendMode.mm */; };
+		7C6A44AEC1D843E2F77A9099 /* ofxCIOpTile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E5BD60CA83641255C403753 /* ofxCIOpTile.mm */; };
+		8022BE1A794E080EC4112972 /* ofxCISaturationBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 59B4A748590C21B9F7CBCA3E /* ofxCISaturationBlendMode.mm */; };
+		86BDC927AD3B5555AF6D74A5 /* ofxCILuminosityBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6FB1B20CE305E1BE451B7FFD /* ofxCILuminosityBlendMode.mm */; };
+		86F90573E41A7B860E712901 /* ofxCIHardLightBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = F1CF748773DFC13061C812BF /* ofxCIHardLightBlendMode.mm */; };
+		886EAC34FD30EB4D959CDB62 /* ofxCIDissolveTransition.mm in Sources */ = {isa = PBXBuildFile; fileRef = ACCF804FF63736AA972366BD /* ofxCIDissolveTransition.mm */; };
+		891BFCC802A9ABBB797D6834 /* ofxCILightenBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF00459A514A9113E78B0D29 /* ofxCILightenBlendMode.mm */; };
+		8A21A4C3E896D93CC30785B0 /* ofxCIColorDodgeBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = C7EB9DB4166D511042369BD3 /* ofxCIColorDodgeBlendMode.mm */; };
+		8A25CB6F0C3B5C5FD367B527 /* ofxCIColorBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = DA2D5E1EC07946C381C19872 /* ofxCIColorBlendMode.mm */; };
+		8BB44D744175FCFBE47D3D62 /* ofxCISourceOutCompositing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 35673A00EF7F9590FD37BDF3 /* ofxCISourceOutCompositing.mm */; };
+		8D900E01647B3F2EB71F4E40 /* ofxCICopyMachineTransition.mm in Sources */ = {isa = PBXBuildFile; fileRef = 652C2AE075B245A9C2E1F9B4 /* ofxCICopyMachineTransition.mm */; };
+		90FE24EEAD1A153436D10B4B /* ofxCISourceOverCompositing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7F9BFE99D67D5B0BBE711729 /* ofxCISourceOverCompositing.mm */; };
+		9B8DFD4D8FBD036548D88C3F /* ofxCILineScreen.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE622561D329AE921E986023 /* ofxCILineScreen.mm */; };
+		9BC728CB7503495718233041 /* ofxCIGlassLozenge.mm in Sources */ = {isa = PBXBuildFile; fileRef = B4385A5996F7E18F6B4FF924 /* ofxCIGlassLozenge.mm */; };
+		A202CB7AAB94B8A400246FE0 /* ofxCIBumpDistortionLinear.mm in Sources */ = {isa = PBXBuildFile; fileRef = 628645575090BFD5550908E1 /* ofxCIBumpDistortionLinear.mm */; };
+		B3355B37DF5A927786F708B8 /* ofxCIHueBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69A1247E8A49134F9C414311 /* ofxCIHueBlendMode.mm */; };
+		B56D6AC69293368BB22A9BEF /* ofxCISourceAtopCompositing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5C083CC20803E149B4418CF1 /* ofxCISourceAtopCompositing.mm */; };
+		B60C728A4F2B6C2A684356FA /* ofxCIColorControls.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9434745C8F02FA5CC2C5EF31 /* ofxCIColorControls.mm */; };
+		B78118CAF831E45BEAD9F857 /* ofxCIScreenBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 70AE20EF7F67850BD622C273 /* ofxCIScreenBlendMode.mm */; };
+		BA4F397523CF522876BB5ED5 /* ofxCIOverlayBlendMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = D5EF87B148DAE16D5DE2100C /* ofxCIOverlayBlendMode.mm */; };
+		BAB3A4807001D4EB03273D5C /* ofxCISourceInCompositing.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC866E8B17F7E719F4803731 /* ofxCISourceInCompositing.mm */; };
+		BE84E8E15A08BE7C7DAB03D2 /* ofxCIBoxBlur.mm in Sources */ = {isa = PBXBuildFile; fileRef = 891DAC1568CBC8CCD5D0CE29 /* ofxCIBoxBlur.mm */; };
+		C414AF1ADFAC4A19D7934B7A /* ofxCIKaleidoscope.mm in Sources */ = {isa = PBXBuildFile; fileRef = FF247C98D4BEBD80B342077D /* ofxCIKaleidoscope.mm */; };
+		C4A8F0E4E7D8751FB8521A05 /* ofxCIColorMonochrome.mm in Sources */ = {isa = PBXBuildFile; fileRef = EFE32FD6F03903AA41C69E58 /* ofxCIColorMonochrome.mm */; };
+		C65CCD58EF882B385963241C /* ofxCIRippleTransition.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6C667E7F513841AAD6111DA4 /* ofxCIRippleTransition.mm */; };
+		C85E293ACD637AE8236A47BF /* ofxCIColorInvert.mm in Sources */ = {isa = PBXBuildFile; fileRef = DDA795BDF91B0F34462CBA46 /* ofxCIColorInvert.mm */; };
+		CA2CC286A3EC690FC221B202 /* ofxCIGammaAdjust.mm in Sources */ = {isa = PBXBuildFile; fileRef = 865D1CBD79A176168FE2D2DA /* ofxCIGammaAdjust.mm */; };
+		D5F48A9EB9F4572A71B82AA6 /* ofxCIMotionBlur.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD3C06466F2270245EC11B5B /* ofxCIMotionBlur.mm */; };
+		D7D2C85F9F075B9C71E0F257 /* ofxCIFalseColor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 291367ECA8A027BC6AE2854F /* ofxCIFalseColor.mm */; };
+		DF0263FBAACAC694373F3839 /* ofxCIPointillize.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7FB4E0EDA33BADD6334DFE95 /* ofxCIPointillize.mm */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
-		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
-		E45BE97C0E8CC7DD009D7055 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9720E8CC7DD009D7055 /* ApplicationServices.framework */; };
-		E45BE97D0E8CC7DD009D7055 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9730E8CC7DD009D7055 /* AudioToolbox.framework */; };
-		E45BE97E0E8CC7DD009D7055 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9740E8CC7DD009D7055 /* Carbon.framework */; };
-		E45BE97F0E8CC7DD009D7055 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9750E8CC7DD009D7055 /* CoreAudio.framework */; };
-		E45BE9800E8CC7DD009D7055 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9760E8CC7DD009D7055 /* CoreFoundation.framework */; };
-		E45BE9810E8CC7DD009D7055 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9770E8CC7DD009D7055 /* CoreServices.framework */; };
-		E45BE9830E8CC7DD009D7055 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9790E8CC7DD009D7055 /* OpenGL.framework */; };
-		E45BE9840E8CC7DD009D7055 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE97A0E8CC7DD009D7055 /* QuickTime.framework */; };
-		E4B69E200A3A1BDC003C02F2 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.mm */; };
-		E4B69E210A3A1BDC003C02F2 /* ofApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.mm */; };
-		E4C2424710CC5A17004149E2 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424410CC5A17004149E2 /* AppKit.framework */; };
-		E4C2424810CC5A17004149E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424510CC5A17004149E2 /* Cocoa.framework */; };
-		E4C2424910CC5A17004149E2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424610CC5A17004149E2 /* IOKit.framework */; };
-		E4EB6799138ADC1D00A09F29 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
-		E7E077E515D3B63C0020DFD4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E077E415D3B63C0020DFD4 /* CoreVideo.framework */; };
-		E7E077E815D3B6510020DFD4 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E077E715D3B6510020DFD4 /* QTKit.framework */; };
-		E7F985F815E0DEA3003869B5 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F985F515E0DE99003869B5 /* Accelerate.framework */; };
+		EA31164F452066BE46682CB4 /* ofxCIToneCurve.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5AA5158663C0FFFF72B86026 /* ofxCIToneCurve.mm */; };
+		EC359EBE0698DC73D36919F0 /* ofxCIGlassDistortion.mm in Sources */ = {isa = PBXBuildFile; fileRef = B1C25774B6F4770692ADFB1C /* ofxCIGlassDistortion.mm */; };
+		F1D0E126E80DDB07F58955C5 /* ofxCIHue.mm in Sources */ = {isa = PBXBuildFile; fileRef = C9792D60F2A21591CC6B9694 /* ofxCIHue.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,166 +100,148 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5019FF0419F5BC3200A898FA /* ofxCIAdditionCompositing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIAdditionCompositing.h; sourceTree = "<group>"; };
-		5019FF0519F5BC3200A898FA /* ofxCIAdditionCompositing.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIAdditionCompositing.mm; sourceTree = "<group>"; };
-		5019FF0619F5BC3200A898FA /* ofxCIColorBlendMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIColorBlendMode.h; sourceTree = "<group>"; };
-		5019FF0719F5BC3200A898FA /* ofxCIColorBlendMode.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIColorBlendMode.mm; sourceTree = "<group>"; };
-		5019FF0819F5BC3200A898FA /* ofxCIColorBurnBlendMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIColorBurnBlendMode.h; sourceTree = "<group>"; };
-		5019FF0919F5BC3200A898FA /* ofxCIColorBurnBlendMode.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIColorBurnBlendMode.mm; sourceTree = "<group>"; };
-		5019FF0A19F5BC3200A898FA /* ofxCIColorDodgeBlendMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIColorDodgeBlendMode.h; sourceTree = "<group>"; };
-		5019FF0B19F5BC3200A898FA /* ofxCIColorDodgeBlendMode.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIColorDodgeBlendMode.mm; sourceTree = "<group>"; };
-		5019FF0C19F5BC3200A898FA /* ofxCIDarkenBlendMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIDarkenBlendMode.h; sourceTree = "<group>"; };
-		5019FF0D19F5BC3200A898FA /* ofxCIDarkenBlendMode.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIDarkenBlendMode.mm; sourceTree = "<group>"; };
-		5019FF0E19F5BC3200A898FA /* ofxCIDifferenceBlendMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIDifferenceBlendMode.h; sourceTree = "<group>"; };
-		5019FF0F19F5BC3200A898FA /* ofxCIDifferenceBlendMode.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIDifferenceBlendMode.mm; sourceTree = "<group>"; };
-		5019FF1019F5BC3200A898FA /* ofxCIExclusionBlendMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIExclusionBlendMode.h; sourceTree = "<group>"; };
-		5019FF1119F5BC3200A898FA /* ofxCIExclusionBlendMode.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIExclusionBlendMode.mm; sourceTree = "<group>"; };
-		5019FF1219F5BC3200A898FA /* ofxCIHardLightBlendMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIHardLightBlendMode.h; sourceTree = "<group>"; };
-		5019FF1319F5BC3200A898FA /* ofxCIHardLightBlendMode.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIHardLightBlendMode.mm; sourceTree = "<group>"; };
-		5019FF1419F5BC3200A898FA /* ofxCIHueBlendMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIHueBlendMode.h; sourceTree = "<group>"; };
-		5019FF1519F5BC3200A898FA /* ofxCIHueBlendMode.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIHueBlendMode.mm; sourceTree = "<group>"; };
-		5019FF1619F5BC3200A898FA /* ofxCILightenBlendMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCILightenBlendMode.h; sourceTree = "<group>"; };
-		5019FF1719F5BC3200A898FA /* ofxCILightenBlendMode.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCILightenBlendMode.mm; sourceTree = "<group>"; };
-		5019FF1819F5BC3200A898FA /* ofxCILuminosityBlendMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCILuminosityBlendMode.h; sourceTree = "<group>"; };
-		5019FF1919F5BC3200A898FA /* ofxCILuminosityBlendMode.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCILuminosityBlendMode.mm; sourceTree = "<group>"; };
-		5019FF1A19F5BC3200A898FA /* ofxCIMultiplyBlendMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIMultiplyBlendMode.h; sourceTree = "<group>"; };
-		5019FF1B19F5BC3200A898FA /* ofxCIMultiplyBlendMode.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIMultiplyBlendMode.mm; sourceTree = "<group>"; };
-		5019FF1C19F5BC3200A898FA /* ofxCIOverlayBlendMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIOverlayBlendMode.h; sourceTree = "<group>"; };
-		5019FF1D19F5BC3200A898FA /* ofxCIOverlayBlendMode.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIOverlayBlendMode.mm; sourceTree = "<group>"; };
-		5019FF1E19F5BC3200A898FA /* ofxCISaturationBlendMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCISaturationBlendMode.h; sourceTree = "<group>"; };
-		5019FF1F19F5BC3200A898FA /* ofxCISaturationBlendMode.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCISaturationBlendMode.mm; sourceTree = "<group>"; };
-		5019FF2019F5BC3200A898FA /* ofxCIScreenBlendMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIScreenBlendMode.h; sourceTree = "<group>"; };
-		5019FF2119F5BC3200A898FA /* ofxCIScreenBlendMode.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIScreenBlendMode.mm; sourceTree = "<group>"; };
-		5019FF2219F5BC3200A898FA /* ofxCISoftLightBlendMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCISoftLightBlendMode.h; sourceTree = "<group>"; };
-		5019FF2319F5BC3200A898FA /* ofxCISoftLightBlendMode.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCISoftLightBlendMode.mm; sourceTree = "<group>"; };
-		5019FF2419F5BC3200A898FA /* ofxCISourceAtopCompositing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCISourceAtopCompositing.h; sourceTree = "<group>"; };
-		5019FF2519F5BC3200A898FA /* ofxCISourceAtopCompositing.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCISourceAtopCompositing.mm; sourceTree = "<group>"; };
-		5019FF2619F5BC3200A898FA /* ofxCISourceInCompositing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCISourceInCompositing.h; sourceTree = "<group>"; };
-		5019FF2719F5BC3200A898FA /* ofxCISourceInCompositing.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCISourceInCompositing.mm; sourceTree = "<group>"; };
-		5019FF2819F5BC3200A898FA /* ofxCISourceOutCompositing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCISourceOutCompositing.h; sourceTree = "<group>"; };
-		5019FF2919F5BC3200A898FA /* ofxCISourceOutCompositing.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCISourceOutCompositing.mm; sourceTree = "<group>"; };
-		5019FF2A19F5BC3200A898FA /* ofxCISourceOverCompositing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCISourceOverCompositing.h; sourceTree = "<group>"; };
-		5019FF2B19F5BC3200A898FA /* ofxCISourceOverCompositing.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCISourceOverCompositing.mm; sourceTree = "<group>"; };
-		5019FF2D19F5BC3200A898FA /* ofxCIBloom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIBloom.h; sourceTree = "<group>"; };
-		5019FF2E19F5BC3200A898FA /* ofxCIBloom.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIBloom.mm; sourceTree = "<group>"; };
-		5019FF2F19F5BC3200A898FA /* ofxCIBlur.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIBlur.h; sourceTree = "<group>"; };
-		5019FF3019F5BC3200A898FA /* ofxCIBlur.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIBlur.mm; sourceTree = "<group>"; };
-		5019FF3119F5BC3200A898FA /* ofxCIBoxBlur.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIBoxBlur.h; sourceTree = "<group>"; };
-		5019FF3219F5BC3200A898FA /* ofxCIBoxBlur.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIBoxBlur.mm; sourceTree = "<group>"; };
-		5019FF3319F5BC3200A898FA /* ofxCIBumpDistortion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIBumpDistortion.h; sourceTree = "<group>"; };
-		5019FF3419F5BC3200A898FA /* ofxCIBumpDistortion.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIBumpDistortion.mm; sourceTree = "<group>"; };
-		5019FF3519F5BC3200A898FA /* ofxCIBumpDistortionLinear.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIBumpDistortionLinear.h; sourceTree = "<group>"; };
-		5019FF3619F5BC3200A898FA /* ofxCIBumpDistortionLinear.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIBumpDistortionLinear.mm; sourceTree = "<group>"; };
-		5019FF3719F5BC3200A898FA /* ofxCICircleSplashDistortion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCICircleSplashDistortion.h; sourceTree = "<group>"; };
-		5019FF3819F5BC3200A898FA /* ofxCICircleSplashDistortion.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCICircleSplashDistortion.mm; sourceTree = "<group>"; };
-		5019FF3919F5BC3200A898FA /* ofxCICircularScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCICircularScreen.h; sourceTree = "<group>"; };
-		5019FF3A19F5BC3200A898FA /* ofxCICircularScreen.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCICircularScreen.mm; sourceTree = "<group>"; };
-		5019FF3B19F5BC3200A898FA /* ofxCICircularWrapDistortion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCICircularWrapDistortion.h; sourceTree = "<group>"; };
-		5019FF3C19F5BC3200A898FA /* ofxCICircularWrapDistortion.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCICircularWrapDistortion.mm; sourceTree = "<group>"; };
-		5019FF3D19F5BC3200A898FA /* ofxCIColorControls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIColorControls.h; sourceTree = "<group>"; };
-		5019FF3E19F5BC3200A898FA /* ofxCIColorControls.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIColorControls.mm; sourceTree = "<group>"; };
-		5019FF3F19F5BC3200A898FA /* ofxCIColorInvert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIColorInvert.h; sourceTree = "<group>"; };
-		5019FF4019F5BC3200A898FA /* ofxCIColorInvert.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIColorInvert.mm; sourceTree = "<group>"; };
-		5019FF4119F5BC3200A898FA /* ofxCIColorMonochrome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIColorMonochrome.h; sourceTree = "<group>"; };
-		5019FF4219F5BC3200A898FA /* ofxCIColorMonochrome.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIColorMonochrome.mm; sourceTree = "<group>"; };
-		5019FF4319F5BC3200A898FA /* ofxCIColorPosterize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIColorPosterize.h; sourceTree = "<group>"; };
-		5019FF4419F5BC3200A898FA /* ofxCIColorPosterize.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIColorPosterize.mm; sourceTree = "<group>"; };
-		5019FF4519F5BC3200A898FA /* ofxCICrop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCICrop.h; sourceTree = "<group>"; };
-		5019FF4619F5BC3200A898FA /* ofxCICrop.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCICrop.mm; sourceTree = "<group>"; };
-		5019FF4719F5BC3200A898FA /* ofxCICrystallize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCICrystallize.h; sourceTree = "<group>"; };
-		5019FF4819F5BC3200A898FA /* ofxCICrystallize.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCICrystallize.mm; sourceTree = "<group>"; };
-		5019FF4919F5BC3200A898FA /* ofxCIDroste.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIDroste.h; sourceTree = "<group>"; };
-		5019FF4A19F5BC3200A898FA /* ofxCIDroste.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIDroste.mm; sourceTree = "<group>"; };
-		5019FF4B19F5BC3200A898FA /* ofxCIEdges.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIEdges.h; sourceTree = "<group>"; };
-		5019FF4C19F5BC3200A898FA /* ofxCIEdges.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIEdges.mm; sourceTree = "<group>"; };
-		5019FF4D19F5BC3200A898FA /* ofxCIEdgeWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIEdgeWork.h; sourceTree = "<group>"; };
-		5019FF4E19F5BC3200A898FA /* ofxCIEdgeWork.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIEdgeWork.mm; sourceTree = "<group>"; };
-		5019FF4F19F5BC3200A898FA /* ofxCIExposureAdjust.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIExposureAdjust.h; sourceTree = "<group>"; };
-		5019FF5019F5BC3200A898FA /* ofxCIExposureAdjust.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIExposureAdjust.mm; sourceTree = "<group>"; };
-		5019FF5119F5BC3200A898FA /* ofxCIFalseColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIFalseColor.h; sourceTree = "<group>"; };
-		5019FF5219F5BC3200A898FA /* ofxCIFalseColor.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIFalseColor.mm; sourceTree = "<group>"; };
-		5019FF5319F5BC3200A898FA /* ofxCIGammaAdjust.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIGammaAdjust.h; sourceTree = "<group>"; };
-		5019FF5419F5BC3200A898FA /* ofxCIGammaAdjust.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIGammaAdjust.mm; sourceTree = "<group>"; };
-		5019FF5519F5BC3200A898FA /* ofxCIGlassDistortion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIGlassDistortion.h; sourceTree = "<group>"; };
-		5019FF5619F5BC3200A898FA /* ofxCIGlassDistortion.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIGlassDistortion.mm; sourceTree = "<group>"; };
-		5019FF5719F5BC3200A898FA /* ofxCIGlassLozenge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIGlassLozenge.h; sourceTree = "<group>"; };
-		5019FF5819F5BC3200A898FA /* ofxCIGlassLozenge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIGlassLozenge.mm; sourceTree = "<group>"; };
-		5019FF5919F5BC3200A898FA /* ofxCIGloom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIGloom.h; sourceTree = "<group>"; };
-		5019FF5A19F5BC3200A898FA /* ofxCIGloom.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIGloom.mm; sourceTree = "<group>"; };
-		5019FF5B19F5BC3200A898FA /* ofxCIHexagonalPixellate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIHexagonalPixellate.h; sourceTree = "<group>"; };
-		5019FF5C19F5BC3200A898FA /* ofxCIHexagonalPixellate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIHexagonalPixellate.mm; sourceTree = "<group>"; };
-		5019FF5D19F5BC3200A898FA /* ofxCIHoleDistortion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIHoleDistortion.h; sourceTree = "<group>"; };
-		5019FF5E19F5BC3200A898FA /* ofxCIHoleDistortion.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIHoleDistortion.mm; sourceTree = "<group>"; };
-		5019FF5F19F5BC3200A898FA /* ofxCIHue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIHue.h; sourceTree = "<group>"; };
-		5019FF6019F5BC3200A898FA /* ofxCIHue.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIHue.mm; sourceTree = "<group>"; };
-		5019FF6119F5BC3200A898FA /* ofxCIKaleidoscope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIKaleidoscope.h; sourceTree = "<group>"; };
-		5019FF6219F5BC3200A898FA /* ofxCIKaleidoscope.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIKaleidoscope.mm; sourceTree = "<group>"; };
-		5019FF6319F5BC3200A898FA /* ofxCILineScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCILineScreen.h; sourceTree = "<group>"; };
-		5019FF6419F5BC3200A898FA /* ofxCILineScreen.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCILineScreen.mm; sourceTree = "<group>"; };
-		5019FF6519F5BC3200A898FA /* ofxCIMotionBlur.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIMotionBlur.h; sourceTree = "<group>"; };
-		5019FF6619F5BC3200A898FA /* ofxCIMotionBlur.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIMotionBlur.mm; sourceTree = "<group>"; };
-		5019FF6719F5BC3200A898FA /* ofxCIOpTile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIOpTile.h; sourceTree = "<group>"; };
-		5019FF6819F5BC3200A898FA /* ofxCIOpTile.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIOpTile.mm; sourceTree = "<group>"; };
-		5019FF6919F5BC3200A898FA /* ofxCIPinchDistortion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIPinchDistortion.h; sourceTree = "<group>"; };
-		5019FF6A19F5BC3200A898FA /* ofxCIPinchDistortion.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIPinchDistortion.mm; sourceTree = "<group>"; };
-		5019FF6B19F5BC3200A898FA /* ofxCIPixellate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIPixellate.h; sourceTree = "<group>"; };
-		5019FF6C19F5BC3200A898FA /* ofxCIPixellate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIPixellate.mm; sourceTree = "<group>"; };
-		5019FF6D19F5BC3200A898FA /* ofxCIPointillize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIPointillize.h; sourceTree = "<group>"; };
-		5019FF6E19F5BC3200A898FA /* ofxCIPointillize.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIPointillize.mm; sourceTree = "<group>"; };
-		5019FF6F19F5BC3200A898FA /* ofxCIToneCurve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIToneCurve.h; sourceTree = "<group>"; };
-		5019FF7019F5BC3200A898FA /* ofxCIToneCurve.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIToneCurve.mm; sourceTree = "<group>"; };
-		5019FF7119F5BC3200A898FA /* ofxCITorusLensDistortion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCITorusLensDistortion.h; sourceTree = "<group>"; };
-		5019FF7219F5BC3200A898FA /* ofxCITorusLensDistortion.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCITorusLensDistortion.mm; sourceTree = "<group>"; };
-		5019FF7319F5BC3200A898FA /* ofxCITwirlDistortion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCITwirlDistortion.h; sourceTree = "<group>"; };
-		5019FF7419F5BC3200A898FA /* ofxCITwirlDistortion.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCITwirlDistortion.mm; sourceTree = "<group>"; };
-		5019FF7519F5BC3200A898FA /* ofxCIVortexDistortion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIVortexDistortion.h; sourceTree = "<group>"; };
-		5019FF7619F5BC3200A898FA /* ofxCIVortexDistortion.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIVortexDistortion.mm; sourceTree = "<group>"; };
-		5019FF7719F5BC3200A898FA /* ofxCIZoomBlur.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIZoomBlur.h; sourceTree = "<group>"; };
-		5019FF7819F5BC3200A898FA /* ofxCIZoomBlur.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIZoomBlur.mm; sourceTree = "<group>"; };
-		5019FF7919F5BC3200A898FA /* ofxCIFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIFilter.h; sourceTree = "<group>"; };
-		5019FF7A19F5BC3200A898FA /* ofxCIFilter.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIFilter.mm; sourceTree = "<group>"; };
-		5019FF7B19F5BC3200A898FA /* ofxCoreImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCoreImage.h; sourceTree = "<group>"; };
-		5019FF7C19F5BC3200A898FA /* ofxCoreImage.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCoreImage.mm; sourceTree = "<group>"; };
-		5019FF7E19F5BC3200A898FA /* ofxCIBarsSwipeTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIBarsSwipeTransition.h; sourceTree = "<group>"; };
-		5019FF7F19F5BC3200A898FA /* ofxCIBarsSwipeTransition.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIBarsSwipeTransition.mm; sourceTree = "<group>"; };
-		5019FF8019F5BC3200A898FA /* ofxCICopyMachineTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCICopyMachineTransition.h; sourceTree = "<group>"; };
-		5019FF8119F5BC3200A898FA /* ofxCICopyMachineTransition.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCICopyMachineTransition.mm; sourceTree = "<group>"; };
-		5019FF8219F5BC3200A898FA /* ofxCIDissolveTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIDissolveTransition.h; sourceTree = "<group>"; };
-		5019FF8319F5BC3200A898FA /* ofxCIDissolveTransition.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIDissolveTransition.mm; sourceTree = "<group>"; };
-		5019FF8419F5BC3200A898FA /* ofxCIRippleTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCIRippleTransition.h; sourceTree = "<group>"; };
-		5019FF8519F5BC3200A898FA /* ofxCIRippleTransition.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxCIRippleTransition.mm; sourceTree = "<group>"; };
-		50AEEBDE18FED51800CD04BD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
+		019B9E7C40EB387ACEE3BE1B /* ofxCICircularScreen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCICircularScreen.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCICircularScreen.h; sourceTree = SOURCE_ROOT; };
+		04303C68A82D9A8528CDB172 /* ofxCIToneCurve.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIToneCurve.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIToneCurve.h; sourceTree = SOURCE_ROOT; };
+		05182F9D16F7504D755341F4 /* ofxCIMultiplyBlendMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIMultiplyBlendMode.h; path = ../../../addons/ofxCoreImage/src/composite/ofxCIMultiplyBlendMode.h; sourceTree = SOURCE_ROOT; };
+		0AEB0FE1A196D6D93F28588F /* ofxCICrystallize.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCICrystallize.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCICrystallize.mm; sourceTree = SOURCE_ROOT; };
+		0CFDE1272A0731FDD1100F63 /* ofxCIFilter.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIFilter.mm; path = ../../../addons/ofxCoreImage/src/ofxCIFilter.mm; sourceTree = SOURCE_ROOT; };
+		1004E2878B3F5E41F8E2A0BA /* ofxCIGloom.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIGloom.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIGloom.mm; sourceTree = SOURCE_ROOT; };
+		11A112C39B5C619DB56B65E2 /* ofxCIDissolveTransition.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIDissolveTransition.h; path = ../../../addons/ofxCoreImage/src/transitions/ofxCIDissolveTransition.h; sourceTree = SOURCE_ROOT; };
+		1489B937C8627B030F012FE8 /* ofxCICopyMachineTransition.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCICopyMachineTransition.h; path = ../../../addons/ofxCoreImage/src/transitions/ofxCICopyMachineTransition.h; sourceTree = SOURCE_ROOT; };
+		175868D2C6953E5004E76642 /* ofxCIColorInvert.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIColorInvert.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIColorInvert.h; sourceTree = SOURCE_ROOT; };
+		178B501C73880595C7568509 /* ofxCIVortexDistortion.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIVortexDistortion.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIVortexDistortion.mm; sourceTree = SOURCE_ROOT; };
+		18FCB1D65F4616FE974C1772 /* ofxCICrop.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCICrop.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCICrop.h; sourceTree = SOURCE_ROOT; };
+		1C01DB9E51C7C84291843BBB /* ofxCILightenBlendMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCILightenBlendMode.h; path = ../../../addons/ofxCoreImage/src/composite/ofxCILightenBlendMode.h; sourceTree = SOURCE_ROOT; };
+		20C4955A731BBF934ADC8EE9 /* ofxCICircleSplashDistortion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCICircleSplashDistortion.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCICircleSplashDistortion.h; sourceTree = SOURCE_ROOT; };
+		2288983C504C3C26C5691251 /* ofxCIColorBurnBlendMode.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIColorBurnBlendMode.mm; path = ../../../addons/ofxCoreImage/src/composite/ofxCIColorBurnBlendMode.mm; sourceTree = SOURCE_ROOT; };
+		28D0D68F4B9634FE0F226199 /* ofxCIBoxBlur.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIBoxBlur.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIBoxBlur.h; sourceTree = SOURCE_ROOT; };
+		291367ECA8A027BC6AE2854F /* ofxCIFalseColor.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIFalseColor.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIFalseColor.mm; sourceTree = SOURCE_ROOT; };
+		29ED34A7CDBAD74DC767344D /* ofxCITwirlDistortion.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCITwirlDistortion.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCITwirlDistortion.mm; sourceTree = SOURCE_ROOT; };
+		3139A7944341124BC01710F0 /* ofxCIPinchDistortion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIPinchDistortion.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIPinchDistortion.h; sourceTree = SOURCE_ROOT; };
+		31D067B008325AD5FDCEDF17 /* ofxCICircularWrapDistortion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCICircularWrapDistortion.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCICircularWrapDistortion.h; sourceTree = SOURCE_ROOT; };
+		32F1D0898C36E233361AFE79 /* ofxCIHue.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIHue.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIHue.h; sourceTree = SOURCE_ROOT; };
+		35673A00EF7F9590FD37BDF3 /* ofxCISourceOutCompositing.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCISourceOutCompositing.mm; path = ../../../addons/ofxCoreImage/src/composite/ofxCISourceOutCompositing.mm; sourceTree = SOURCE_ROOT; };
+		37312088EBD99B018EC1645C /* ofxCIDarkenBlendMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIDarkenBlendMode.h; path = ../../../addons/ofxCoreImage/src/composite/ofxCIDarkenBlendMode.h; sourceTree = SOURCE_ROOT; };
+		3C8A3F444CADDAA423CD2E8F /* ofxCIBumpDistortion.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIBumpDistortion.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIBumpDistortion.mm; sourceTree = SOURCE_ROOT; };
+		3F061EF99E63933EFA434630 /* ofxCIColorPosterize.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIColorPosterize.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIColorPosterize.mm; sourceTree = SOURCE_ROOT; };
+		425D72E2388DFB1B652FD779 /* ofxCICircularScreen.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCICircularScreen.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCICircularScreen.mm; sourceTree = SOURCE_ROOT; };
+		4384F834B793C20F14375B6B /* ofxCIMotionBlur.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIMotionBlur.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIMotionBlur.h; sourceTree = SOURCE_ROOT; };
+		474A1B8067A1CBE4ECB4F783 /* ofxCIBumpDistortion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIBumpDistortion.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIBumpDistortion.h; sourceTree = SOURCE_ROOT; };
+		47BF0060FE3C99A65F3B4A0E /* ofxCIDarkenBlendMode.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIDarkenBlendMode.mm; path = ../../../addons/ofxCoreImage/src/composite/ofxCIDarkenBlendMode.mm; sourceTree = SOURCE_ROOT; };
+		4E5BD60CA83641255C403753 /* ofxCIOpTile.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIOpTile.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIOpTile.mm; sourceTree = SOURCE_ROOT; };
+		4EEC15BD9106A2AC395F7960 /* ofxCIScreenBlendMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIScreenBlendMode.h; path = ../../../addons/ofxCoreImage/src/composite/ofxCIScreenBlendMode.h; sourceTree = SOURCE_ROOT; };
+		4EF0557CC4F82F0397808EBE /* ofxCITorusLensDistortion.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCITorusLensDistortion.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCITorusLensDistortion.mm; sourceTree = SOURCE_ROOT; };
+		503C2BC91BF543CE002A5847 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../../../../Dropbox/Backups/of_v0.8.4_osx_release/addons/ofxCoreImage/Core_Image_Simple_Example/src/main.cpp; sourceTree = "<group>"; };
+		503C2BCA1BF543CE002A5847 /* ofApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofApp.cpp; path = ../../../../../../Dropbox/Backups/of_v0.8.4_osx_release/addons/ofxCoreImage/Core_Image_Simple_Example/src/ofApp.cpp; sourceTree = "<group>"; };
+		548F29D0F0AAB35CE826D742 /* ofxCIExposureAdjust.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIExposureAdjust.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIExposureAdjust.mm; sourceTree = SOURCE_ROOT; };
+		59B4A748590C21B9F7CBCA3E /* ofxCISaturationBlendMode.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCISaturationBlendMode.mm; path = ../../../addons/ofxCoreImage/src/composite/ofxCISaturationBlendMode.mm; sourceTree = SOURCE_ROOT; };
+		5AA5158663C0FFFF72B86026 /* ofxCIToneCurve.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIToneCurve.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIToneCurve.mm; sourceTree = SOURCE_ROOT; };
+		5B973D997FF7276892721CC8 /* ofxCILineScreen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCILineScreen.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCILineScreen.h; sourceTree = SOURCE_ROOT; };
+		5BF574E7E6E086264F08BAF3 /* ofxCIBumpDistortionLinear.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIBumpDistortionLinear.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIBumpDistortionLinear.h; sourceTree = SOURCE_ROOT; };
+		5C083CC20803E149B4418CF1 /* ofxCISourceAtopCompositing.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCISourceAtopCompositing.mm; path = ../../../addons/ofxCoreImage/src/composite/ofxCISourceAtopCompositing.mm; sourceTree = SOURCE_ROOT; };
+		5DD2FB9A782574F08BD0D9FB /* ofxCIFilter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIFilter.h; path = ../../../addons/ofxCoreImage/src/ofxCIFilter.h; sourceTree = SOURCE_ROOT; };
+		620B077FAE129A0BCBDF940A /* ofxCIBloom.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIBloom.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIBloom.mm; sourceTree = SOURCE_ROOT; };
+		628645575090BFD5550908E1 /* ofxCIBumpDistortionLinear.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIBumpDistortionLinear.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIBumpDistortionLinear.mm; sourceTree = SOURCE_ROOT; };
+		652C2AE075B245A9C2E1F9B4 /* ofxCICopyMachineTransition.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCICopyMachineTransition.mm; path = ../../../addons/ofxCoreImage/src/transitions/ofxCICopyMachineTransition.mm; sourceTree = SOURCE_ROOT; };
+		684B7D598A00A64F82A58C32 /* ofxCICircleSplashDistortion.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCICircleSplashDistortion.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCICircleSplashDistortion.mm; sourceTree = SOURCE_ROOT; };
+		69A1247E8A49134F9C414311 /* ofxCIHueBlendMode.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIHueBlendMode.mm; path = ../../../addons/ofxCoreImage/src/composite/ofxCIHueBlendMode.mm; sourceTree = SOURCE_ROOT; };
+		6A75BE2752936009531A35E2 /* ofxCILuminosityBlendMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCILuminosityBlendMode.h; path = ../../../addons/ofxCoreImage/src/composite/ofxCILuminosityBlendMode.h; sourceTree = SOURCE_ROOT; };
+		6C667E7F513841AAD6111DA4 /* ofxCIRippleTransition.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIRippleTransition.mm; path = ../../../addons/ofxCoreImage/src/transitions/ofxCIRippleTransition.mm; sourceTree = SOURCE_ROOT; };
+		6FB1B20CE305E1BE451B7FFD /* ofxCILuminosityBlendMode.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCILuminosityBlendMode.mm; path = ../../../addons/ofxCoreImage/src/composite/ofxCILuminosityBlendMode.mm; sourceTree = SOURCE_ROOT; };
+		6FD58883DEE200C3A8F510AD /* ofxCISoftLightBlendMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCISoftLightBlendMode.h; path = ../../../addons/ofxCoreImage/src/composite/ofxCISoftLightBlendMode.h; sourceTree = SOURCE_ROOT; };
+		70AE20EF7F67850BD622C273 /* ofxCIScreenBlendMode.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIScreenBlendMode.mm; path = ../../../addons/ofxCoreImage/src/composite/ofxCIScreenBlendMode.mm; sourceTree = SOURCE_ROOT; };
+		7A23A525CFD9C0C21FA04085 /* ofxCICircularWrapDistortion.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCICircularWrapDistortion.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCICircularWrapDistortion.mm; sourceTree = SOURCE_ROOT; };
+		7A9EEFFCD598BD3041E48B56 /* ofxCIPinchDistortion.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIPinchDistortion.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIPinchDistortion.mm; sourceTree = SOURCE_ROOT; };
+		7ED025A4F421E51810C43CBA /* ofxCIColorBurnBlendMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIColorBurnBlendMode.h; path = ../../../addons/ofxCoreImage/src/composite/ofxCIColorBurnBlendMode.h; sourceTree = SOURCE_ROOT; };
+		7F9BFE99D67D5B0BBE711729 /* ofxCISourceOverCompositing.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCISourceOverCompositing.mm; path = ../../../addons/ofxCoreImage/src/composite/ofxCISourceOverCompositing.mm; sourceTree = SOURCE_ROOT; };
+		7FB4E0EDA33BADD6334DFE95 /* ofxCIPointillize.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIPointillize.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIPointillize.mm; sourceTree = SOURCE_ROOT; };
+		7FE13791FB309517EC2B6BCC /* ofxCIExclusionBlendMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIExclusionBlendMode.h; path = ../../../addons/ofxCoreImage/src/composite/ofxCIExclusionBlendMode.h; sourceTree = SOURCE_ROOT; };
+		7FF9C4C3ADBB49AA2A858C9A /* ofxCIBloom.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIBloom.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIBloom.h; sourceTree = SOURCE_ROOT; };
+		8133A77401657F07C6F9C90E /* ofxCoreImage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCoreImage.h; path = ../../../addons/ofxCoreImage/src/ofxCoreImage.h; sourceTree = SOURCE_ROOT; };
+		81A4647890ACB1C3E222CDCB /* ofxCIPixellate.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIPixellate.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIPixellate.mm; sourceTree = SOURCE_ROOT; };
+		81D5D2552924FA7D37B5F6BE /* ofxCISourceInCompositing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCISourceInCompositing.h; path = ../../../addons/ofxCoreImage/src/composite/ofxCISourceInCompositing.h; sourceTree = SOURCE_ROOT; };
+		81F117CC26F894C50BFFEA8A /* ofxCIHexagonalPixellate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIHexagonalPixellate.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIHexagonalPixellate.h; sourceTree = SOURCE_ROOT; };
+		826F590A67716C4C1091768A /* ofxCIDroste.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIDroste.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIDroste.h; sourceTree = SOURCE_ROOT; };
+		865D1CBD79A176168FE2D2DA /* ofxCIGammaAdjust.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIGammaAdjust.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIGammaAdjust.mm; sourceTree = SOURCE_ROOT; };
+		86FCE91652F6167D134E1040 /* ofxCIZoomBlur.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIZoomBlur.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIZoomBlur.mm; sourceTree = SOURCE_ROOT; };
+		8711D92F9BD3F6EA1E501D54 /* ofxCIHardLightBlendMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIHardLightBlendMode.h; path = ../../../addons/ofxCoreImage/src/composite/ofxCIHardLightBlendMode.h; sourceTree = SOURCE_ROOT; };
+		891DAC1568CBC8CCD5D0CE29 /* ofxCIBoxBlur.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIBoxBlur.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIBoxBlur.mm; sourceTree = SOURCE_ROOT; };
+		8B796694854A0561E46ED26F /* ofxCIOpTile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIOpTile.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIOpTile.h; sourceTree = SOURCE_ROOT; };
+		8C6C78C9CB3C5C1163ECCDEA /* ofxCIHexagonalPixellate.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIHexagonalPixellate.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIHexagonalPixellate.mm; sourceTree = SOURCE_ROOT; };
+		8E4A06EC72D0E8FBBE206674 /* ofxCIGlassLozenge.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIGlassLozenge.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIGlassLozenge.h; sourceTree = SOURCE_ROOT; };
+		912E8EEB016B494CB6D74BC7 /* ofxCIExclusionBlendMode.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIExclusionBlendMode.mm; path = ../../../addons/ofxCoreImage/src/composite/ofxCIExclusionBlendMode.mm; sourceTree = SOURCE_ROOT; };
+		9434745C8F02FA5CC2C5EF31 /* ofxCIColorControls.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIColorControls.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIColorControls.mm; sourceTree = SOURCE_ROOT; };
+		94A1B31C8B94C29FB23AA3A9 /* ofxCIDifferenceBlendMode.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIDifferenceBlendMode.mm; path = ../../../addons/ofxCoreImage/src/composite/ofxCIDifferenceBlendMode.mm; sourceTree = SOURCE_ROOT; };
+		99341F1A2C652BC5B2FCCC22 /* ofxCIAdditionCompositing.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIAdditionCompositing.mm; path = ../../../addons/ofxCoreImage/src/composite/ofxCIAdditionCompositing.mm; sourceTree = SOURCE_ROOT; };
+		9CE6EC2D80D0E22BF66C01AE /* ofxCIVortexDistortion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIVortexDistortion.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIVortexDistortion.h; sourceTree = SOURCE_ROOT; };
+		A32EA2994AC845B7A38FA491 /* ofxCISourceOverCompositing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCISourceOverCompositing.h; path = ../../../addons/ofxCoreImage/src/composite/ofxCISourceOverCompositing.h; sourceTree = SOURCE_ROOT; };
+		A4F14F2A7CC2541BDC674B1A /* ofxCICrystallize.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCICrystallize.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCICrystallize.h; sourceTree = SOURCE_ROOT; };
+		A528BBA6017B8692A6EC33D9 /* ofxCIBlur.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIBlur.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIBlur.mm; sourceTree = SOURCE_ROOT; };
+		A73132C488F273CF39B99336 /* ofxCIHoleDistortion.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIHoleDistortion.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIHoleDistortion.mm; sourceTree = SOURCE_ROOT; };
+		ACCF804FF63736AA972366BD /* ofxCIDissolveTransition.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIDissolveTransition.mm; path = ../../../addons/ofxCoreImage/src/transitions/ofxCIDissolveTransition.mm; sourceTree = SOURCE_ROOT; };
+		AD3C06466F2270245EC11B5B /* ofxCIMotionBlur.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIMotionBlur.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIMotionBlur.mm; sourceTree = SOURCE_ROOT; };
+		B01F752B551CFAC3DFF6425C /* ofxCIGloom.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIGloom.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIGloom.h; sourceTree = SOURCE_ROOT; };
+		B135CEE4AE77A1F6156B3152 /* ofxCIPixellate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIPixellate.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIPixellate.h; sourceTree = SOURCE_ROOT; };
+		B1C25774B6F4770692ADFB1C /* ofxCIGlassDistortion.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIGlassDistortion.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIGlassDistortion.mm; sourceTree = SOURCE_ROOT; };
+		B4385A5996F7E18F6B4FF924 /* ofxCIGlassLozenge.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIGlassLozenge.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIGlassLozenge.mm; sourceTree = SOURCE_ROOT; };
+		B619AA8180ED97E4FDF21842 /* ofxCIGammaAdjust.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIGammaAdjust.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIGammaAdjust.h; sourceTree = SOURCE_ROOT; };
+		BAFFF76B9429769FABF67382 /* ofxCIEdgeWork.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIEdgeWork.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIEdgeWork.h; sourceTree = SOURCE_ROOT; };
+		BB44372EBD5D31BEE6E38C7A /* ofxCIBarsSwipeTransition.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIBarsSwipeTransition.h; path = ../../../addons/ofxCoreImage/src/transitions/ofxCIBarsSwipeTransition.h; sourceTree = SOURCE_ROOT; };
+		BCC63BDBCF07297959EEE674 /* ofxCITwirlDistortion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCITwirlDistortion.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCITwirlDistortion.h; sourceTree = SOURCE_ROOT; };
+		BE9117E282FF14DC27158DA7 /* ofxCISoftLightBlendMode.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCISoftLightBlendMode.mm; path = ../../../addons/ofxCoreImage/src/composite/ofxCISoftLightBlendMode.mm; sourceTree = SOURCE_ROOT; };
+		BEE066EB2812DA3B6B78CFD6 /* ofxCIPointillize.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIPointillize.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIPointillize.h; sourceTree = SOURCE_ROOT; };
+		C15581F5EC84D83AA45387C2 /* ofxCIKaleidoscope.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIKaleidoscope.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIKaleidoscope.h; sourceTree = SOURCE_ROOT; };
+		C1A51460EFFFEFF4C474DB79 /* ofxCIColorDodgeBlendMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIColorDodgeBlendMode.h; path = ../../../addons/ofxCoreImage/src/composite/ofxCIColorDodgeBlendMode.h; sourceTree = SOURCE_ROOT; };
+		C1B655C3101FC4D162BB0D0D /* ofxCIHueBlendMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIHueBlendMode.h; path = ../../../addons/ofxCoreImage/src/composite/ofxCIHueBlendMode.h; sourceTree = SOURCE_ROOT; };
+		C4D19A74A53372FFDA6782BB /* ofxCIColorMonochrome.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIColorMonochrome.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIColorMonochrome.h; sourceTree = SOURCE_ROOT; };
+		C719A666C6AC85A1D2391A9F /* ofxCITorusLensDistortion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCITorusLensDistortion.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCITorusLensDistortion.h; sourceTree = SOURCE_ROOT; };
+		C7233082ED91D4B51614C190 /* ofxCIEdges.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIEdges.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIEdges.mm; sourceTree = SOURCE_ROOT; };
+		C7EB9DB4166D511042369BD3 /* ofxCIColorDodgeBlendMode.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIColorDodgeBlendMode.mm; path = ../../../addons/ofxCoreImage/src/composite/ofxCIColorDodgeBlendMode.mm; sourceTree = SOURCE_ROOT; };
+		C8303F93DE38028D5F2EABE1 /* ofxCISourceOutCompositing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCISourceOutCompositing.h; path = ../../../addons/ofxCoreImage/src/composite/ofxCISourceOutCompositing.h; sourceTree = SOURCE_ROOT; };
+		C9792D60F2A21591CC6B9694 /* ofxCIHue.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIHue.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIHue.mm; sourceTree = SOURCE_ROOT; };
+		CA230DC80B8F30D269B6FD0B /* ofxCISaturationBlendMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCISaturationBlendMode.h; path = ../../../addons/ofxCoreImage/src/composite/ofxCISaturationBlendMode.h; sourceTree = SOURCE_ROOT; };
+		CEC295A37F95EB0BF268688B /* ofxCIColorPosterize.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIColorPosterize.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIColorPosterize.h; sourceTree = SOURCE_ROOT; };
+		CF00459A514A9113E78B0D29 /* ofxCILightenBlendMode.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCILightenBlendMode.mm; path = ../../../addons/ofxCoreImage/src/composite/ofxCILightenBlendMode.mm; sourceTree = SOURCE_ROOT; };
+		D0EF68DAE7F67686DDD82187 /* ofxCIAdditionCompositing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIAdditionCompositing.h; path = ../../../addons/ofxCoreImage/src/composite/ofxCIAdditionCompositing.h; sourceTree = SOURCE_ROOT; };
+		D3A5258780B4EB4301888099 /* ofxCIDroste.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIDroste.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIDroste.mm; sourceTree = SOURCE_ROOT; };
+		D5EF87B148DAE16D5DE2100C /* ofxCIOverlayBlendMode.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIOverlayBlendMode.mm; path = ../../../addons/ofxCoreImage/src/composite/ofxCIOverlayBlendMode.mm; sourceTree = SOURCE_ROOT; };
+		DA2D5E1EC07946C381C19872 /* ofxCIColorBlendMode.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIColorBlendMode.mm; path = ../../../addons/ofxCoreImage/src/composite/ofxCIColorBlendMode.mm; sourceTree = SOURCE_ROOT; };
+		DC866E8B17F7E719F4803731 /* ofxCISourceInCompositing.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCISourceInCompositing.mm; path = ../../../addons/ofxCoreImage/src/composite/ofxCISourceInCompositing.mm; sourceTree = SOURCE_ROOT; };
+		DDA795BDF91B0F34462CBA46 /* ofxCIColorInvert.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIColorInvert.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIColorInvert.mm; sourceTree = SOURCE_ROOT; };
+		DEA6B639D32D7BBD044B1871 /* ofxCIColorBlendMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIColorBlendMode.h; path = ../../../addons/ofxCoreImage/src/composite/ofxCIColorBlendMode.h; sourceTree = SOURCE_ROOT; };
+		DF5660CE5F9B92F1262BD0B8 /* ofxCIMultiplyBlendMode.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIMultiplyBlendMode.mm; path = ../../../addons/ofxCoreImage/src/composite/ofxCIMultiplyBlendMode.mm; sourceTree = SOURCE_ROOT; };
+		E3C9DBA62299CDD38D6D905D /* ofxCIBarsSwipeTransition.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIBarsSwipeTransition.mm; path = ../../../addons/ofxCoreImage/src/transitions/ofxCIBarsSwipeTransition.mm; sourceTree = SOURCE_ROOT; };
+		E3E12D1D8EBE09421862E579 /* ofxCIFalseColor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIFalseColor.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIFalseColor.h; sourceTree = SOURCE_ROOT; };
+		E3FE5093A1EDF9DD5B837F77 /* ofxCIZoomBlur.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIZoomBlur.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIZoomBlur.h; sourceTree = SOURCE_ROOT; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
-		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
-		E45BE9720E8CC7DD009D7055 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
-		E45BE9730E8CC7DD009D7055 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
-		E45BE9740E8CC7DD009D7055 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
-		E45BE9750E8CC7DD009D7055 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
-		E45BE9760E8CC7DD009D7055 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
-		E45BE9770E8CC7DD009D7055 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
-		E45BE9790E8CC7DD009D7055 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
-		E45BE97A0E8CC7DD009D7055 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		E44A80AFCB98B9DF50B515DC /* ofxCIEdges.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIEdges.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIEdges.h; sourceTree = SOURCE_ROOT; };
+		E47F9F032608ED06B8CEFFB8 /* ofxCIHoleDistortion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIHoleDistortion.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIHoleDistortion.h; sourceTree = SOURCE_ROOT; };
 		E4B69B5B0A3A1756003C02F2 /* Core_Image_Simple_ExampleDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Core_Image_Simple_ExampleDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4B69E1D0A3A1BDC003C02F2 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = src/main.mm; sourceTree = SOURCE_ROOT; };
-		E4B69E1E0A3A1BDC003C02F2 /* ofApp.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofApp.mm; path = src/ofApp.mm; sourceTree = SOURCE_ROOT; };
 		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
 		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
-		E4C2424410CC5A17004149E2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
-		E4C2424510CC5A17004149E2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		E4C2424610CC5A17004149E2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
 		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
 		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
-		E7E077E415D3B63C0020DFD4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
-		E7E077E715D3B6510020DFD4 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
-		E7F985F515E0DE99003869B5 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
+		E4F08530D6B3C9312DA6FF75 /* ofxCIGlassDistortion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIGlassDistortion.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIGlassDistortion.h; sourceTree = SOURCE_ROOT; };
+		E5F890CA7FB84CC7167C1F40 /* ofxCIRippleTransition.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIRippleTransition.h; path = ../../../addons/ofxCoreImage/src/transitions/ofxCIRippleTransition.h; sourceTree = SOURCE_ROOT; };
+		E7A6ED1E212DB7857F7C93B9 /* ofxCIOverlayBlendMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIOverlayBlendMode.h; path = ../../../addons/ofxCoreImage/src/composite/ofxCIOverlayBlendMode.h; sourceTree = SOURCE_ROOT; };
+		E7BFC6478B3B41ED72291A16 /* ofxCIBlur.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIBlur.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIBlur.h; sourceTree = SOURCE_ROOT; };
+		EBC2E3D0AFB35110C40F17EF /* ofxCIEdgeWork.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIEdgeWork.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIEdgeWork.mm; sourceTree = SOURCE_ROOT; };
+		ECE350476251E97DACAD2D92 /* ofxCICrop.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCICrop.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCICrop.mm; sourceTree = SOURCE_ROOT; };
+		EDAC3F2BA9103BBAEA34EBE6 /* ofxCIDifferenceBlendMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIDifferenceBlendMode.h; path = ../../../addons/ofxCoreImage/src/composite/ofxCIDifferenceBlendMode.h; sourceTree = SOURCE_ROOT; };
+		EFE32FD6F03903AA41C69E58 /* ofxCIColorMonochrome.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIColorMonochrome.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIColorMonochrome.mm; sourceTree = SOURCE_ROOT; };
+		F1CF748773DFC13061C812BF /* ofxCIHardLightBlendMode.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIHardLightBlendMode.mm; path = ../../../addons/ofxCoreImage/src/composite/ofxCIHardLightBlendMode.mm; sourceTree = SOURCE_ROOT; };
+		F5B67C3B67AA468696EBD2D3 /* ofxCIColorControls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIColorControls.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIColorControls.h; sourceTree = SOURCE_ROOT; };
+		FACB96D00DEA09D4B802A334 /* ofxCoreImage.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCoreImage.mm; path = ../../../addons/ofxCoreImage/src/ofxCoreImage.mm; sourceTree = SOURCE_ROOT; };
+		FB0CD5F1BBD686353B91D5CD /* ofxCIExposureAdjust.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCIExposureAdjust.h; path = ../../../addons/ofxCoreImage/src/filters/ofxCIExposureAdjust.h; sourceTree = SOURCE_ROOT; };
+		FCECBB1F55EC95505AB769EF /* ofxCISourceAtopCompositing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCISourceAtopCompositing.h; path = ../../../addons/ofxCoreImage/src/composite/ofxCISourceAtopCompositing.h; sourceTree = SOURCE_ROOT; };
+		FE622561D329AE921E986023 /* ofxCILineScreen.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCILineScreen.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCILineScreen.mm; sourceTree = SOURCE_ROOT; };
+		FF247C98D4BEBD80B342077D /* ofxCIKaleidoscope.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = ofxCIKaleidoscope.mm; path = ../../../addons/ofxCoreImage/src/filters/ofxCIKaleidoscope.mm; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -285,234 +249,179 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50AEEBDF18FED51800CD04BD /* QuartzCore.framework in Frameworks */,
-				E7F985F815E0DEA3003869B5 /* Accelerate.framework in Frameworks */,
-				E7E077E815D3B6510020DFD4 /* QTKit.framework in Frameworks */,
-				E4EB6799138ADC1D00A09F29 /* GLUT.framework in Frameworks */,
 				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
-				E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */,
-				E45BE97C0E8CC7DD009D7055 /* ApplicationServices.framework in Frameworks */,
-				E45BE97D0E8CC7DD009D7055 /* AudioToolbox.framework in Frameworks */,
-				E45BE97E0E8CC7DD009D7055 /* Carbon.framework in Frameworks */,
-				E45BE97F0E8CC7DD009D7055 /* CoreAudio.framework in Frameworks */,
-				E45BE9800E8CC7DD009D7055 /* CoreFoundation.framework in Frameworks */,
-				E45BE9810E8CC7DD009D7055 /* CoreServices.framework in Frameworks */,
-				E45BE9830E8CC7DD009D7055 /* OpenGL.framework in Frameworks */,
-				E45BE9840E8CC7DD009D7055 /* QuickTime.framework in Frameworks */,
-				E4C2424710CC5A17004149E2 /* AppKit.framework in Frameworks */,
-				E4C2424810CC5A17004149E2 /* Cocoa.framework in Frameworks */,
-				E4C2424910CC5A17004149E2 /* IOKit.framework in Frameworks */,
-				E7E077E515D3B63C0020DFD4 /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5019FF0119F5BC3200A898FA /* ofxCoreImage */ = {
+		09520DB1FB8198C1FA40E3CD /* filters */ = {
 			isa = PBXGroup;
 			children = (
-				5019FF0219F5BC3200A898FA /* src */,
+				7FF9C4C3ADBB49AA2A858C9A /* ofxCIBloom.h */,
+				620B077FAE129A0BCBDF940A /* ofxCIBloom.mm */,
+				E7BFC6478B3B41ED72291A16 /* ofxCIBlur.h */,
+				A528BBA6017B8692A6EC33D9 /* ofxCIBlur.mm */,
+				28D0D68F4B9634FE0F226199 /* ofxCIBoxBlur.h */,
+				891DAC1568CBC8CCD5D0CE29 /* ofxCIBoxBlur.mm */,
+				474A1B8067A1CBE4ECB4F783 /* ofxCIBumpDistortion.h */,
+				3C8A3F444CADDAA423CD2E8F /* ofxCIBumpDistortion.mm */,
+				5BF574E7E6E086264F08BAF3 /* ofxCIBumpDistortionLinear.h */,
+				628645575090BFD5550908E1 /* ofxCIBumpDistortionLinear.mm */,
+				20C4955A731BBF934ADC8EE9 /* ofxCICircleSplashDistortion.h */,
+				684B7D598A00A64F82A58C32 /* ofxCICircleSplashDistortion.mm */,
+				019B9E7C40EB387ACEE3BE1B /* ofxCICircularScreen.h */,
+				425D72E2388DFB1B652FD779 /* ofxCICircularScreen.mm */,
+				31D067B008325AD5FDCEDF17 /* ofxCICircularWrapDistortion.h */,
+				7A23A525CFD9C0C21FA04085 /* ofxCICircularWrapDistortion.mm */,
+				F5B67C3B67AA468696EBD2D3 /* ofxCIColorControls.h */,
+				9434745C8F02FA5CC2C5EF31 /* ofxCIColorControls.mm */,
+				175868D2C6953E5004E76642 /* ofxCIColorInvert.h */,
+				DDA795BDF91B0F34462CBA46 /* ofxCIColorInvert.mm */,
+				C4D19A74A53372FFDA6782BB /* ofxCIColorMonochrome.h */,
+				EFE32FD6F03903AA41C69E58 /* ofxCIColorMonochrome.mm */,
+				CEC295A37F95EB0BF268688B /* ofxCIColorPosterize.h */,
+				3F061EF99E63933EFA434630 /* ofxCIColorPosterize.mm */,
+				18FCB1D65F4616FE974C1772 /* ofxCICrop.h */,
+				ECE350476251E97DACAD2D92 /* ofxCICrop.mm */,
+				A4F14F2A7CC2541BDC674B1A /* ofxCICrystallize.h */,
+				0AEB0FE1A196D6D93F28588F /* ofxCICrystallize.mm */,
+				826F590A67716C4C1091768A /* ofxCIDroste.h */,
+				D3A5258780B4EB4301888099 /* ofxCIDroste.mm */,
+				E44A80AFCB98B9DF50B515DC /* ofxCIEdges.h */,
+				C7233082ED91D4B51614C190 /* ofxCIEdges.mm */,
+				BAFFF76B9429769FABF67382 /* ofxCIEdgeWork.h */,
+				EBC2E3D0AFB35110C40F17EF /* ofxCIEdgeWork.mm */,
+				FB0CD5F1BBD686353B91D5CD /* ofxCIExposureAdjust.h */,
+				548F29D0F0AAB35CE826D742 /* ofxCIExposureAdjust.mm */,
+				E3E12D1D8EBE09421862E579 /* ofxCIFalseColor.h */,
+				291367ECA8A027BC6AE2854F /* ofxCIFalseColor.mm */,
+				B619AA8180ED97E4FDF21842 /* ofxCIGammaAdjust.h */,
+				865D1CBD79A176168FE2D2DA /* ofxCIGammaAdjust.mm */,
+				E4F08530D6B3C9312DA6FF75 /* ofxCIGlassDistortion.h */,
+				B1C25774B6F4770692ADFB1C /* ofxCIGlassDistortion.mm */,
+				8E4A06EC72D0E8FBBE206674 /* ofxCIGlassLozenge.h */,
+				B4385A5996F7E18F6B4FF924 /* ofxCIGlassLozenge.mm */,
+				B01F752B551CFAC3DFF6425C /* ofxCIGloom.h */,
+				1004E2878B3F5E41F8E2A0BA /* ofxCIGloom.mm */,
+				81F117CC26F894C50BFFEA8A /* ofxCIHexagonalPixellate.h */,
+				8C6C78C9CB3C5C1163ECCDEA /* ofxCIHexagonalPixellate.mm */,
+				E47F9F032608ED06B8CEFFB8 /* ofxCIHoleDistortion.h */,
+				A73132C488F273CF39B99336 /* ofxCIHoleDistortion.mm */,
+				32F1D0898C36E233361AFE79 /* ofxCIHue.h */,
+				C9792D60F2A21591CC6B9694 /* ofxCIHue.mm */,
+				C15581F5EC84D83AA45387C2 /* ofxCIKaleidoscope.h */,
+				FF247C98D4BEBD80B342077D /* ofxCIKaleidoscope.mm */,
+				5B973D997FF7276892721CC8 /* ofxCILineScreen.h */,
+				FE622561D329AE921E986023 /* ofxCILineScreen.mm */,
+				4384F834B793C20F14375B6B /* ofxCIMotionBlur.h */,
+				AD3C06466F2270245EC11B5B /* ofxCIMotionBlur.mm */,
+				8B796694854A0561E46ED26F /* ofxCIOpTile.h */,
+				4E5BD60CA83641255C403753 /* ofxCIOpTile.mm */,
+				3139A7944341124BC01710F0 /* ofxCIPinchDistortion.h */,
+				7A9EEFFCD598BD3041E48B56 /* ofxCIPinchDistortion.mm */,
+				B135CEE4AE77A1F6156B3152 /* ofxCIPixellate.h */,
+				81A4647890ACB1C3E222CDCB /* ofxCIPixellate.mm */,
+				BEE066EB2812DA3B6B78CFD6 /* ofxCIPointillize.h */,
+				7FB4E0EDA33BADD6334DFE95 /* ofxCIPointillize.mm */,
+				04303C68A82D9A8528CDB172 /* ofxCIToneCurve.h */,
+				5AA5158663C0FFFF72B86026 /* ofxCIToneCurve.mm */,
+				C719A666C6AC85A1D2391A9F /* ofxCITorusLensDistortion.h */,
+				4EF0557CC4F82F0397808EBE /* ofxCITorusLensDistortion.mm */,
+				BCC63BDBCF07297959EEE674 /* ofxCITwirlDistortion.h */,
+				29ED34A7CDBAD74DC767344D /* ofxCITwirlDistortion.mm */,
+				9CE6EC2D80D0E22BF66C01AE /* ofxCIVortexDistortion.h */,
+				178B501C73880595C7568509 /* ofxCIVortexDistortion.mm */,
+				E3FE5093A1EDF9DD5B837F77 /* ofxCIZoomBlur.h */,
+				86FCE91652F6167D134E1040 /* ofxCIZoomBlur.mm */,
 			);
-			name = ofxCoreImage;
+			name = filters;
 			sourceTree = "<group>";
 		};
-		5019FF0219F5BC3200A898FA /* src */ = {
+		1DB7D1C3A9E9A50D72C8E271 /* transitions */ = {
 			isa = PBXGroup;
 			children = (
-				5019FF0319F5BC3200A898FA /* composite */,
-				5019FF2C19F5BC3200A898FA /* filters */,
-				5019FF7919F5BC3200A898FA /* ofxCIFilter.h */,
-				5019FF7A19F5BC3200A898FA /* ofxCIFilter.mm */,
-				5019FF7B19F5BC3200A898FA /* ofxCoreImage.h */,
-				5019FF7C19F5BC3200A898FA /* ofxCoreImage.mm */,
-				5019FF7D19F5BC3200A898FA /* transitions */,
+				BB44372EBD5D31BEE6E38C7A /* ofxCIBarsSwipeTransition.h */,
+				E3C9DBA62299CDD38D6D905D /* ofxCIBarsSwipeTransition.mm */,
+				1489B937C8627B030F012FE8 /* ofxCICopyMachineTransition.h */,
+				652C2AE075B245A9C2E1F9B4 /* ofxCICopyMachineTransition.mm */,
+				11A112C39B5C619DB56B65E2 /* ofxCIDissolveTransition.h */,
+				ACCF804FF63736AA972366BD /* ofxCIDissolveTransition.mm */,
+				E5F890CA7FB84CC7167C1F40 /* ofxCIRippleTransition.h */,
+				6C667E7F513841AAD6111DA4 /* ofxCIRippleTransition.mm */,
 			);
-			name = src;
-			path = ../src;
+			name = transitions;
 			sourceTree = "<group>";
 		};
-		5019FF0319F5BC3200A898FA /* composite */ = {
+		6948EE371B920CB800B5AC1A /* local_addons */ = {
 			isa = PBXGroup;
 			children = (
-				5019FF0419F5BC3200A898FA /* ofxCIAdditionCompositing.h */,
-				5019FF0519F5BC3200A898FA /* ofxCIAdditionCompositing.mm */,
-				5019FF0619F5BC3200A898FA /* ofxCIColorBlendMode.h */,
-				5019FF0719F5BC3200A898FA /* ofxCIColorBlendMode.mm */,
-				5019FF0819F5BC3200A898FA /* ofxCIColorBurnBlendMode.h */,
-				5019FF0919F5BC3200A898FA /* ofxCIColorBurnBlendMode.mm */,
-				5019FF0A19F5BC3200A898FA /* ofxCIColorDodgeBlendMode.h */,
-				5019FF0B19F5BC3200A898FA /* ofxCIColorDodgeBlendMode.mm */,
-				5019FF0C19F5BC3200A898FA /* ofxCIDarkenBlendMode.h */,
-				5019FF0D19F5BC3200A898FA /* ofxCIDarkenBlendMode.mm */,
-				5019FF0E19F5BC3200A898FA /* ofxCIDifferenceBlendMode.h */,
-				5019FF0F19F5BC3200A898FA /* ofxCIDifferenceBlendMode.mm */,
-				5019FF1019F5BC3200A898FA /* ofxCIExclusionBlendMode.h */,
-				5019FF1119F5BC3200A898FA /* ofxCIExclusionBlendMode.mm */,
-				5019FF1219F5BC3200A898FA /* ofxCIHardLightBlendMode.h */,
-				5019FF1319F5BC3200A898FA /* ofxCIHardLightBlendMode.mm */,
-				5019FF1419F5BC3200A898FA /* ofxCIHueBlendMode.h */,
-				5019FF1519F5BC3200A898FA /* ofxCIHueBlendMode.mm */,
-				5019FF1619F5BC3200A898FA /* ofxCILightenBlendMode.h */,
-				5019FF1719F5BC3200A898FA /* ofxCILightenBlendMode.mm */,
-				5019FF1819F5BC3200A898FA /* ofxCILuminosityBlendMode.h */,
-				5019FF1919F5BC3200A898FA /* ofxCILuminosityBlendMode.mm */,
-				5019FF1A19F5BC3200A898FA /* ofxCIMultiplyBlendMode.h */,
-				5019FF1B19F5BC3200A898FA /* ofxCIMultiplyBlendMode.mm */,
-				5019FF1C19F5BC3200A898FA /* ofxCIOverlayBlendMode.h */,
-				5019FF1D19F5BC3200A898FA /* ofxCIOverlayBlendMode.mm */,
-				5019FF1E19F5BC3200A898FA /* ofxCISaturationBlendMode.h */,
-				5019FF1F19F5BC3200A898FA /* ofxCISaturationBlendMode.mm */,
-				5019FF2019F5BC3200A898FA /* ofxCIScreenBlendMode.h */,
-				5019FF2119F5BC3200A898FA /* ofxCIScreenBlendMode.mm */,
-				5019FF2219F5BC3200A898FA /* ofxCISoftLightBlendMode.h */,
-				5019FF2319F5BC3200A898FA /* ofxCISoftLightBlendMode.mm */,
-				5019FF2419F5BC3200A898FA /* ofxCISourceAtopCompositing.h */,
-				5019FF2519F5BC3200A898FA /* ofxCISourceAtopCompositing.mm */,
-				5019FF2619F5BC3200A898FA /* ofxCISourceInCompositing.h */,
-				5019FF2719F5BC3200A898FA /* ofxCISourceInCompositing.mm */,
-				5019FF2819F5BC3200A898FA /* ofxCISourceOutCompositing.h */,
-				5019FF2919F5BC3200A898FA /* ofxCISourceOutCompositing.mm */,
-				5019FF2A19F5BC3200A898FA /* ofxCISourceOverCompositing.h */,
-				5019FF2B19F5BC3200A898FA /* ofxCISourceOverCompositing.mm */,
 			);
-			path = composite;
+			name = local_addons;
 			sourceTree = "<group>";
 		};
-		5019FF2C19F5BC3200A898FA /* filters */ = {
+		9682C3A0336720199D369DC0 /* composite */ = {
 			isa = PBXGroup;
 			children = (
-				5019FF2D19F5BC3200A898FA /* ofxCIBloom.h */,
-				5019FF2E19F5BC3200A898FA /* ofxCIBloom.mm */,
-				5019FF2F19F5BC3200A898FA /* ofxCIBlur.h */,
-				5019FF3019F5BC3200A898FA /* ofxCIBlur.mm */,
-				5019FF3119F5BC3200A898FA /* ofxCIBoxBlur.h */,
-				5019FF3219F5BC3200A898FA /* ofxCIBoxBlur.mm */,
-				5019FF3319F5BC3200A898FA /* ofxCIBumpDistortion.h */,
-				5019FF3419F5BC3200A898FA /* ofxCIBumpDistortion.mm */,
-				5019FF3519F5BC3200A898FA /* ofxCIBumpDistortionLinear.h */,
-				5019FF3619F5BC3200A898FA /* ofxCIBumpDistortionLinear.mm */,
-				5019FF3719F5BC3200A898FA /* ofxCICircleSplashDistortion.h */,
-				5019FF3819F5BC3200A898FA /* ofxCICircleSplashDistortion.mm */,
-				5019FF3919F5BC3200A898FA /* ofxCICircularScreen.h */,
-				5019FF3A19F5BC3200A898FA /* ofxCICircularScreen.mm */,
-				5019FF3B19F5BC3200A898FA /* ofxCICircularWrapDistortion.h */,
-				5019FF3C19F5BC3200A898FA /* ofxCICircularWrapDistortion.mm */,
-				5019FF3D19F5BC3200A898FA /* ofxCIColorControls.h */,
-				5019FF3E19F5BC3200A898FA /* ofxCIColorControls.mm */,
-				5019FF3F19F5BC3200A898FA /* ofxCIColorInvert.h */,
-				5019FF4019F5BC3200A898FA /* ofxCIColorInvert.mm */,
-				5019FF4119F5BC3200A898FA /* ofxCIColorMonochrome.h */,
-				5019FF4219F5BC3200A898FA /* ofxCIColorMonochrome.mm */,
-				5019FF4319F5BC3200A898FA /* ofxCIColorPosterize.h */,
-				5019FF4419F5BC3200A898FA /* ofxCIColorPosterize.mm */,
-				5019FF4519F5BC3200A898FA /* ofxCICrop.h */,
-				5019FF4619F5BC3200A898FA /* ofxCICrop.mm */,
-				5019FF4719F5BC3200A898FA /* ofxCICrystallize.h */,
-				5019FF4819F5BC3200A898FA /* ofxCICrystallize.mm */,
-				5019FF4919F5BC3200A898FA /* ofxCIDroste.h */,
-				5019FF4A19F5BC3200A898FA /* ofxCIDroste.mm */,
-				5019FF4B19F5BC3200A898FA /* ofxCIEdges.h */,
-				5019FF4C19F5BC3200A898FA /* ofxCIEdges.mm */,
-				5019FF4D19F5BC3200A898FA /* ofxCIEdgeWork.h */,
-				5019FF4E19F5BC3200A898FA /* ofxCIEdgeWork.mm */,
-				5019FF4F19F5BC3200A898FA /* ofxCIExposureAdjust.h */,
-				5019FF5019F5BC3200A898FA /* ofxCIExposureAdjust.mm */,
-				5019FF5119F5BC3200A898FA /* ofxCIFalseColor.h */,
-				5019FF5219F5BC3200A898FA /* ofxCIFalseColor.mm */,
-				5019FF5319F5BC3200A898FA /* ofxCIGammaAdjust.h */,
-				5019FF5419F5BC3200A898FA /* ofxCIGammaAdjust.mm */,
-				5019FF5519F5BC3200A898FA /* ofxCIGlassDistortion.h */,
-				5019FF5619F5BC3200A898FA /* ofxCIGlassDistortion.mm */,
-				5019FF5719F5BC3200A898FA /* ofxCIGlassLozenge.h */,
-				5019FF5819F5BC3200A898FA /* ofxCIGlassLozenge.mm */,
-				5019FF5919F5BC3200A898FA /* ofxCIGloom.h */,
-				5019FF5A19F5BC3200A898FA /* ofxCIGloom.mm */,
-				5019FF5B19F5BC3200A898FA /* ofxCIHexagonalPixellate.h */,
-				5019FF5C19F5BC3200A898FA /* ofxCIHexagonalPixellate.mm */,
-				5019FF5D19F5BC3200A898FA /* ofxCIHoleDistortion.h */,
-				5019FF5E19F5BC3200A898FA /* ofxCIHoleDistortion.mm */,
-				5019FF5F19F5BC3200A898FA /* ofxCIHue.h */,
-				5019FF6019F5BC3200A898FA /* ofxCIHue.mm */,
-				5019FF6119F5BC3200A898FA /* ofxCIKaleidoscope.h */,
-				5019FF6219F5BC3200A898FA /* ofxCIKaleidoscope.mm */,
-				5019FF6319F5BC3200A898FA /* ofxCILineScreen.h */,
-				5019FF6419F5BC3200A898FA /* ofxCILineScreen.mm */,
-				5019FF6519F5BC3200A898FA /* ofxCIMotionBlur.h */,
-				5019FF6619F5BC3200A898FA /* ofxCIMotionBlur.mm */,
-				5019FF6719F5BC3200A898FA /* ofxCIOpTile.h */,
-				5019FF6819F5BC3200A898FA /* ofxCIOpTile.mm */,
-				5019FF6919F5BC3200A898FA /* ofxCIPinchDistortion.h */,
-				5019FF6A19F5BC3200A898FA /* ofxCIPinchDistortion.mm */,
-				5019FF6B19F5BC3200A898FA /* ofxCIPixellate.h */,
-				5019FF6C19F5BC3200A898FA /* ofxCIPixellate.mm */,
-				5019FF6D19F5BC3200A898FA /* ofxCIPointillize.h */,
-				5019FF6E19F5BC3200A898FA /* ofxCIPointillize.mm */,
-				5019FF6F19F5BC3200A898FA /* ofxCIToneCurve.h */,
-				5019FF7019F5BC3200A898FA /* ofxCIToneCurve.mm */,
-				5019FF7119F5BC3200A898FA /* ofxCITorusLensDistortion.h */,
-				5019FF7219F5BC3200A898FA /* ofxCITorusLensDistortion.mm */,
-				5019FF7319F5BC3200A898FA /* ofxCITwirlDistortion.h */,
-				5019FF7419F5BC3200A898FA /* ofxCITwirlDistortion.mm */,
-				5019FF7519F5BC3200A898FA /* ofxCIVortexDistortion.h */,
-				5019FF7619F5BC3200A898FA /* ofxCIVortexDistortion.mm */,
-				5019FF7719F5BC3200A898FA /* ofxCIZoomBlur.h */,
-				5019FF7819F5BC3200A898FA /* ofxCIZoomBlur.mm */,
+				D0EF68DAE7F67686DDD82187 /* ofxCIAdditionCompositing.h */,
+				99341F1A2C652BC5B2FCCC22 /* ofxCIAdditionCompositing.mm */,
+				DEA6B639D32D7BBD044B1871 /* ofxCIColorBlendMode.h */,
+				DA2D5E1EC07946C381C19872 /* ofxCIColorBlendMode.mm */,
+				7ED025A4F421E51810C43CBA /* ofxCIColorBurnBlendMode.h */,
+				2288983C504C3C26C5691251 /* ofxCIColorBurnBlendMode.mm */,
+				C1A51460EFFFEFF4C474DB79 /* ofxCIColorDodgeBlendMode.h */,
+				C7EB9DB4166D511042369BD3 /* ofxCIColorDodgeBlendMode.mm */,
+				37312088EBD99B018EC1645C /* ofxCIDarkenBlendMode.h */,
+				47BF0060FE3C99A65F3B4A0E /* ofxCIDarkenBlendMode.mm */,
+				EDAC3F2BA9103BBAEA34EBE6 /* ofxCIDifferenceBlendMode.h */,
+				94A1B31C8B94C29FB23AA3A9 /* ofxCIDifferenceBlendMode.mm */,
+				7FE13791FB309517EC2B6BCC /* ofxCIExclusionBlendMode.h */,
+				912E8EEB016B494CB6D74BC7 /* ofxCIExclusionBlendMode.mm */,
+				8711D92F9BD3F6EA1E501D54 /* ofxCIHardLightBlendMode.h */,
+				F1CF748773DFC13061C812BF /* ofxCIHardLightBlendMode.mm */,
+				C1B655C3101FC4D162BB0D0D /* ofxCIHueBlendMode.h */,
+				69A1247E8A49134F9C414311 /* ofxCIHueBlendMode.mm */,
+				1C01DB9E51C7C84291843BBB /* ofxCILightenBlendMode.h */,
+				CF00459A514A9113E78B0D29 /* ofxCILightenBlendMode.mm */,
+				6A75BE2752936009531A35E2 /* ofxCILuminosityBlendMode.h */,
+				6FB1B20CE305E1BE451B7FFD /* ofxCILuminosityBlendMode.mm */,
+				05182F9D16F7504D755341F4 /* ofxCIMultiplyBlendMode.h */,
+				DF5660CE5F9B92F1262BD0B8 /* ofxCIMultiplyBlendMode.mm */,
+				E7A6ED1E212DB7857F7C93B9 /* ofxCIOverlayBlendMode.h */,
+				D5EF87B148DAE16D5DE2100C /* ofxCIOverlayBlendMode.mm */,
+				CA230DC80B8F30D269B6FD0B /* ofxCISaturationBlendMode.h */,
+				59B4A748590C21B9F7CBCA3E /* ofxCISaturationBlendMode.mm */,
+				4EEC15BD9106A2AC395F7960 /* ofxCIScreenBlendMode.h */,
+				70AE20EF7F67850BD622C273 /* ofxCIScreenBlendMode.mm */,
+				6FD58883DEE200C3A8F510AD /* ofxCISoftLightBlendMode.h */,
+				BE9117E282FF14DC27158DA7 /* ofxCISoftLightBlendMode.mm */,
+				FCECBB1F55EC95505AB769EF /* ofxCISourceAtopCompositing.h */,
+				5C083CC20803E149B4418CF1 /* ofxCISourceAtopCompositing.mm */,
+				81D5D2552924FA7D37B5F6BE /* ofxCISourceInCompositing.h */,
+				DC866E8B17F7E719F4803731 /* ofxCISourceInCompositing.mm */,
+				C8303F93DE38028D5F2EABE1 /* ofxCISourceOutCompositing.h */,
+				35673A00EF7F9590FD37BDF3 /* ofxCISourceOutCompositing.mm */,
+				A32EA2994AC845B7A38FA491 /* ofxCISourceOverCompositing.h */,
+				7F9BFE99D67D5B0BBE711729 /* ofxCISourceOverCompositing.mm */,
 			);
-			path = filters;
-			sourceTree = "<group>";
-		};
-		5019FF7D19F5BC3200A898FA /* transitions */ = {
-			isa = PBXGroup;
-			children = (
-				5019FF7E19F5BC3200A898FA /* ofxCIBarsSwipeTransition.h */,
-				5019FF7F19F5BC3200A898FA /* ofxCIBarsSwipeTransition.mm */,
-				5019FF8019F5BC3200A898FA /* ofxCICopyMachineTransition.h */,
-				5019FF8119F5BC3200A898FA /* ofxCICopyMachineTransition.mm */,
-				5019FF8219F5BC3200A898FA /* ofxCIDissolveTransition.h */,
-				5019FF8319F5BC3200A898FA /* ofxCIDissolveTransition.mm */,
-				5019FF8419F5BC3200A898FA /* ofxCIRippleTransition.h */,
-				5019FF8519F5BC3200A898FA /* ofxCIRippleTransition.mm */,
-			);
-			path = transitions;
+			name = composite;
 			sourceTree = "<group>";
 		};
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
-				5019FF0119F5BC3200A898FA /* ofxCoreImage */,
+				BD0632B7EE9EF3D784517661 /* ofxCoreImage */,
 			);
 			name = addons;
 			sourceTree = "<group>";
 		};
-		BBAB23C913894ECA00AA2426 /* system frameworks */ = {
+		BD0632B7EE9EF3D784517661 /* ofxCoreImage */ = {
 			isa = PBXGroup;
 			children = (
-				E7F985F515E0DE99003869B5 /* Accelerate.framework */,
-				E4C2424410CC5A17004149E2 /* AppKit.framework */,
-				E4C2424510CC5A17004149E2 /* Cocoa.framework */,
-				E4C2424610CC5A17004149E2 /* IOKit.framework */,
-				E45BE9710E8CC7DD009D7055 /* AGL.framework */,
-				E45BE9720E8CC7DD009D7055 /* ApplicationServices.framework */,
-				E45BE9730E8CC7DD009D7055 /* AudioToolbox.framework */,
-				E45BE9740E8CC7DD009D7055 /* Carbon.framework */,
-				E45BE9750E8CC7DD009D7055 /* CoreAudio.framework */,
-				E45BE9760E8CC7DD009D7055 /* CoreFoundation.framework */,
-				E45BE9770E8CC7DD009D7055 /* CoreServices.framework */,
-				E45BE9790E8CC7DD009D7055 /* OpenGL.framework */,
-				E45BE97A0E8CC7DD009D7055 /* QuickTime.framework */,
-				E7E077E415D3B63C0020DFD4 /* CoreVideo.framework */,
-				E7E077E715D3B6510020DFD4 /* QTKit.framework */,
+				F59A338CE7C19151F2638612 /* src */,
 			);
-			name = "system frameworks";
-			sourceTree = "<group>";
-		};
-		BBAB23CA13894EDB00AA2426 /* 3rd party frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BBAB23BE13894E4700AA2426 /* GLUT.framework */,
-			);
-			name = "3rd party frameworks";
+			name = ofxCoreImage;
 			sourceTree = "<group>";
 		};
 		E4328144138ABC890047C5CB /* Products */ = {
@@ -523,25 +432,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E45BE5980E8CC70C009D7055 /* frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BBAB23CA13894EDB00AA2426 /* 3rd party frameworks */,
-				BBAB23C913894ECA00AA2426 /* system frameworks */,
-			);
-			name = frameworks;
-			sourceTree = "<group>";
-		};
 		E4B69B4A0A3A1720003C02F2 = {
 			isa = PBXGroup;
 			children = (
-				50AEEBDE18FED51800CD04BD /* QuartzCore.framework */,
 				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
 				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
 				E4B69E1C0A3A1BDC003C02F2 /* src */,
 				E4EEC9E9138DF44700A80321 /* openFrameworks */,
 				BB4B014C10F69532006C3DED /* addons */,
-				E45BE5980E8CC70C009D7055 /* frameworks */,
+				6948EE371B920CB800B5AC1A /* local_addons */,
 				E4B69B5B0A3A1756003C02F2 /* Core_Image_Simple_ExampleDebug.app */,
 			);
 			sourceTree = "<group>";
@@ -549,8 +448,8 @@
 		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				E4B69E1D0A3A1BDC003C02F2 /* main.mm */,
-				E4B69E1E0A3A1BDC003C02F2 /* ofApp.mm */,
+				503C2BC91BF543CE002A5847 /* main.cpp */,
+				503C2BCA1BF543CE002A5847 /* ofApp.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
 			);
 			path = src;
@@ -563,6 +462,20 @@
 				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
 			);
 			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+		F59A338CE7C19151F2638612 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9682C3A0336720199D369DC0 /* composite */,
+				09520DB1FB8198C1FA40E3CD /* filters */,
+				5DD2FB9A782574F08BD0D9FB /* ofxCIFilter.h */,
+				0CFDE1272A0731FDD1100F63 /* ofxCIFilter.mm */,
+				8133A77401657F07C6F9C90E /* ofxCoreImage.h */,
+				FACB96D00DEA09D4B802A334 /* ofxCoreImage.mm */,
+				1DB7D1C3A9E9A50D72C8E271 /* transitions */,
+			);
+			name = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -593,7 +506,7 @@
 		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0600;
 			};
 			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "Core_Image_Simple_Example" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -643,7 +556,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cp -f ../../../libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/libfmodex.dylib\"; install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\nmkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\ncp -f \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n";
+			shellScript = "rsync -aved ../../../libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/\"; install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\nmkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\nrsync -aved ../../../libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -652,72 +565,72 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5019FF9319F5BC3200A898FA /* ofxCISaturationBlendMode.mm in Sources */,
-				5019FF9919F5BC3200A898FA /* ofxCISourceOverCompositing.mm in Sources */,
-				5019FFC019F5BC3200A898FA /* ofxCIFilter.mm in Sources */,
-				5019FFAA19F5BC3200A898FA /* ofxCIEdgeWork.mm in Sources */,
-				5019FFA719F5BC3200A898FA /* ofxCICrystallize.mm in Sources */,
-				5019FF8D19F5BC3200A898FA /* ofxCIHardLightBlendMode.mm in Sources */,
-				5019FFB219F5BC3200A898FA /* ofxCIHoleDistortion.mm in Sources */,
-				5019FFA019F5BC3200A898FA /* ofxCICircularScreen.mm in Sources */,
-				5019FFC119F5BC3200A898FA /* ofxCoreImage.mm in Sources */,
-				5019FF8919F5BC3200A898FA /* ofxCIColorDodgeBlendMode.mm in Sources */,
-				5019FF9819F5BC3200A898FA /* ofxCISourceOutCompositing.mm in Sources */,
-				5019FF8F19F5BC3200A898FA /* ofxCILightenBlendMode.mm in Sources */,
-				5019FFB019F5BC3200A898FA /* ofxCIGloom.mm in Sources */,
-				5019FFA519F5BC3200A898FA /* ofxCIColorPosterize.mm in Sources */,
-				5019FF8E19F5BC3200A898FA /* ofxCIHueBlendMode.mm in Sources */,
-				5019FF9519F5BC3200A898FA /* ofxCISoftLightBlendMode.mm in Sources */,
-				5019FFB319F5BC3200A898FA /* ofxCIHue.mm in Sources */,
-				5019FF9119F5BC3200A898FA /* ofxCIMultiplyBlendMode.mm in Sources */,
-				5019FFB119F5BC3200A898FA /* ofxCIHexagonalPixellate.mm in Sources */,
-				5019FFBD19F5BC3200A898FA /* ofxCITwirlDistortion.mm in Sources */,
-				5019FF8C19F5BC3200A898FA /* ofxCIExclusionBlendMode.mm in Sources */,
-				5019FFA319F5BC3200A898FA /* ofxCIColorInvert.mm in Sources */,
-				5019FF9B19F5BC3200A898FA /* ofxCIBlur.mm in Sources */,
-				5019FF9A19F5BC3200A898FA /* ofxCIBloom.mm in Sources */,
-				5019FF9D19F5BC3200A898FA /* ofxCIBumpDistortion.mm in Sources */,
-				5019FFC219F5BC3200A898FA /* ofxCIBarsSwipeTransition.mm in Sources */,
-				5019FFA619F5BC3200A898FA /* ofxCICrop.mm in Sources */,
-				5019FFB519F5BC3200A898FA /* ofxCILineScreen.mm in Sources */,
-				5019FFC519F5BC3200A898FA /* ofxCIRippleTransition.mm in Sources */,
-				5019FFAF19F5BC3200A898FA /* ofxCIGlassLozenge.mm in Sources */,
-				5019FFBA19F5BC3200A898FA /* ofxCIPointillize.mm in Sources */,
-				5019FF9E19F5BC3200A898FA /* ofxCIBumpDistortionLinear.mm in Sources */,
-				5019FF8B19F5BC3200A898FA /* ofxCIDifferenceBlendMode.mm in Sources */,
-				5019FFB619F5BC3200A898FA /* ofxCIMotionBlur.mm in Sources */,
-				5019FFAB19F5BC3200A898FA /* ofxCIExposureAdjust.mm in Sources */,
-				5019FFB419F5BC3200A898FA /* ofxCIKaleidoscope.mm in Sources */,
-				5019FFBC19F5BC3200A898FA /* ofxCITorusLensDistortion.mm in Sources */,
-				5019FFAC19F5BC3200A898FA /* ofxCIFalseColor.mm in Sources */,
-				5019FF8719F5BC3200A898FA /* ofxCIColorBlendMode.mm in Sources */,
-				5019FF9219F5BC3200A898FA /* ofxCIOverlayBlendMode.mm in Sources */,
-				5019FF9019F5BC3200A898FA /* ofxCILuminosityBlendMode.mm in Sources */,
-				5019FF9719F5BC3200A898FA /* ofxCISourceInCompositing.mm in Sources */,
-				5019FFA919F5BC3200A898FA /* ofxCIEdges.mm in Sources */,
-				5019FF9F19F5BC3200A898FA /* ofxCICircleSplashDistortion.mm in Sources */,
-				5019FFA119F5BC3200A898FA /* ofxCICircularWrapDistortion.mm in Sources */,
-				5019FFAD19F5BC3200A898FA /* ofxCIGammaAdjust.mm in Sources */,
-				5019FFB819F5BC3200A898FA /* ofxCIPinchDistortion.mm in Sources */,
-				E4B69E200A3A1BDC003C02F2 /* main.mm in Sources */,
-				5019FFAE19F5BC3200A898FA /* ofxCIGlassDistortion.mm in Sources */,
-				5019FF9619F5BC3200A898FA /* ofxCISourceAtopCompositing.mm in Sources */,
-				5019FFA419F5BC3200A898FA /* ofxCIColorMonochrome.mm in Sources */,
-				5019FFB919F5BC3200A898FA /* ofxCIPixellate.mm in Sources */,
-				5019FF9C19F5BC3200A898FA /* ofxCIBoxBlur.mm in Sources */,
-				5019FFC419F5BC3200A898FA /* ofxCIDissolveTransition.mm in Sources */,
-				E4B69E210A3A1BDC003C02F2 /* ofApp.mm in Sources */,
-				5019FF8819F5BC3200A898FA /* ofxCIColorBurnBlendMode.mm in Sources */,
-				5019FFBF19F5BC3200A898FA /* ofxCIZoomBlur.mm in Sources */,
-				5019FF8619F5BC3200A898FA /* ofxCIAdditionCompositing.mm in Sources */,
-				5019FF8A19F5BC3200A898FA /* ofxCIDarkenBlendMode.mm in Sources */,
-				5019FFC319F5BC3200A898FA /* ofxCICopyMachineTransition.mm in Sources */,
-				5019FFB719F5BC3200A898FA /* ofxCIOpTile.mm in Sources */,
-				5019FFA819F5BC3200A898FA /* ofxCIDroste.mm in Sources */,
-				5019FFBE19F5BC3200A898FA /* ofxCIVortexDistortion.mm in Sources */,
-				5019FFBB19F5BC3200A898FA /* ofxCIToneCurve.mm in Sources */,
-				5019FFA219F5BC3200A898FA /* ofxCIColorControls.mm in Sources */,
-				5019FF9419F5BC3200A898FA /* ofxCIScreenBlendMode.mm in Sources */,
+				3BD0F154AB85274F14951748 /* ofxCIAdditionCompositing.mm in Sources */,
+				8A25CB6F0C3B5C5FD367B527 /* ofxCIColorBlendMode.mm in Sources */,
+				4A20652009810918A69B9212 /* ofxCIColorBurnBlendMode.mm in Sources */,
+				8A21A4C3E896D93CC30785B0 /* ofxCIColorDodgeBlendMode.mm in Sources */,
+				7862F11AFCBB92134265B067 /* ofxCIDarkenBlendMode.mm in Sources */,
+				71DE8412221AF4C0FCB6C058 /* ofxCIDifferenceBlendMode.mm in Sources */,
+				2C59C2AED14BD766BEBF30D0 /* ofxCIExclusionBlendMode.mm in Sources */,
+				86F90573E41A7B860E712901 /* ofxCIHardLightBlendMode.mm in Sources */,
+				B3355B37DF5A927786F708B8 /* ofxCIHueBlendMode.mm in Sources */,
+				891BFCC802A9ABBB797D6834 /* ofxCILightenBlendMode.mm in Sources */,
+				86BDC927AD3B5555AF6D74A5 /* ofxCILuminosityBlendMode.mm in Sources */,
+				723D1D825C7F3E9DA834654C /* ofxCIMultiplyBlendMode.mm in Sources */,
+				BA4F397523CF522876BB5ED5 /* ofxCIOverlayBlendMode.mm in Sources */,
+				8022BE1A794E080EC4112972 /* ofxCISaturationBlendMode.mm in Sources */,
+				B78118CAF831E45BEAD9F857 /* ofxCIScreenBlendMode.mm in Sources */,
+				5415D487965A26FDA8A626CD /* ofxCISoftLightBlendMode.mm in Sources */,
+				B56D6AC69293368BB22A9BEF /* ofxCISourceAtopCompositing.mm in Sources */,
+				BAB3A4807001D4EB03273D5C /* ofxCISourceInCompositing.mm in Sources */,
+				8BB44D744175FCFBE47D3D62 /* ofxCISourceOutCompositing.mm in Sources */,
+				90FE24EEAD1A153436D10B4B /* ofxCISourceOverCompositing.mm in Sources */,
+				41CBDBBA2331E53BA93268F6 /* ofxCIBloom.mm in Sources */,
+				5451EAFF86D36F77E9D11654 /* ofxCIBlur.mm in Sources */,
+				BE84E8E15A08BE7C7DAB03D2 /* ofxCIBoxBlur.mm in Sources */,
+				03B616DFDC9A2166DC2F55BC /* ofxCIBumpDistortion.mm in Sources */,
+				A202CB7AAB94B8A400246FE0 /* ofxCIBumpDistortionLinear.mm in Sources */,
+				3562B748DEC32EF60D2FF8A5 /* ofxCICircleSplashDistortion.mm in Sources */,
+				18A4BA4B5142137DD5CE6A47 /* ofxCICircularScreen.mm in Sources */,
+				077D9154BA3246F0D540BF23 /* ofxCICircularWrapDistortion.mm in Sources */,
+				B60C728A4F2B6C2A684356FA /* ofxCIColorControls.mm in Sources */,
+				C85E293ACD637AE8236A47BF /* ofxCIColorInvert.mm in Sources */,
+				C4A8F0E4E7D8751FB8521A05 /* ofxCIColorMonochrome.mm in Sources */,
+				6A92BF5BE3222386C0EE0856 /* ofxCIColorPosterize.mm in Sources */,
+				2BC0DACFE4CFF1635CAC51A5 /* ofxCICrop.mm in Sources */,
+				503C2BCB1BF543CE002A5847 /* main.cpp in Sources */,
+				0BDE05146CE6226BE3A229FB /* ofxCICrystallize.mm in Sources */,
+				0EE12384604DCD15F03027CB /* ofxCIDroste.mm in Sources */,
+				2E1F8466346EC66E6310469A /* ofxCIEdges.mm in Sources */,
+				178B2C21472754117696AAAB /* ofxCIEdgeWork.mm in Sources */,
+				0DD897497FE609B9105A5900 /* ofxCIExposureAdjust.mm in Sources */,
+				D7D2C85F9F075B9C71E0F257 /* ofxCIFalseColor.mm in Sources */,
+				CA2CC286A3EC690FC221B202 /* ofxCIGammaAdjust.mm in Sources */,
+				EC359EBE0698DC73D36919F0 /* ofxCIGlassDistortion.mm in Sources */,
+				9BC728CB7503495718233041 /* ofxCIGlassLozenge.mm in Sources */,
+				62A1BC98CCE43EA89FC216B9 /* ofxCIGloom.mm in Sources */,
+				6FD3E7CEDA40068AB815C0D2 /* ofxCIHexagonalPixellate.mm in Sources */,
+				3944E71A74F1C55FF3CE7D77 /* ofxCIHoleDistortion.mm in Sources */,
+				F1D0E126E80DDB07F58955C5 /* ofxCIHue.mm in Sources */,
+				C414AF1ADFAC4A19D7934B7A /* ofxCIKaleidoscope.mm in Sources */,
+				9B8DFD4D8FBD036548D88C3F /* ofxCILineScreen.mm in Sources */,
+				D5F48A9EB9F4572A71B82AA6 /* ofxCIMotionBlur.mm in Sources */,
+				7C6A44AEC1D843E2F77A9099 /* ofxCIOpTile.mm in Sources */,
+				2E9FCED609B935E53AF37B0F /* ofxCIPinchDistortion.mm in Sources */,
+				11930E6238649BFEE898F582 /* ofxCIPixellate.mm in Sources */,
+				DF0263FBAACAC694373F3839 /* ofxCIPointillize.mm in Sources */,
+				EA31164F452066BE46682CB4 /* ofxCIToneCurve.mm in Sources */,
+				07D6D8ED366586F8FD116FAF /* ofxCITorusLensDistortion.mm in Sources */,
+				6CE22B65FFAD854CF7D44C92 /* ofxCITwirlDistortion.mm in Sources */,
+				54D6C7444B126D54CF038E1F /* ofxCIVortexDistortion.mm in Sources */,
+				503C2BCC1BF543CE002A5847 /* ofApp.cpp in Sources */,
+				114B24A4F9B66BCDDD95ACD1 /* ofxCIZoomBlur.mm in Sources */,
+				6E7A2C16D2AF515042F4D00D /* ofxCIFilter.mm in Sources */,
+				38672D27C985B97ED23201E2 /* ofxCoreImage.mm in Sources */,
+				5F14E145F3B1985A3947D501 /* ofxCIBarsSwipeTransition.mm in Sources */,
+				8D900E01647B3F2EB71F4E40 /* ofxCICopyMachineTransition.mm in Sources */,
+				886EAC34FD30EB4D959CDB62 /* ofxCIDissolveTransition.mm in Sources */,
+				C65CCD58EF882B385963241C /* ofxCIRippleTransition.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -736,7 +649,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH)";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
@@ -754,14 +666,16 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
-					../../../addons/ofxCoreImage/libs,
+					src,
 					../../../addons/ofxCoreImage/src,
+					../../../addons/ofxCoreImage/src/composite,
 					../../../addons/ofxCoreImage/src/filters,
+					../../../addons/ofxCoreImage/src/transitions,
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CPLUSPLUSFLAGS = (
 					"-D__MACOSX_CORE__",
-					"-lpthread",
 					"-mtune=native",
 				);
 				SDKROOT = macosx;
@@ -772,7 +686,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH)";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = YES;
@@ -791,14 +704,15 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
-					../../../addons/ofxCoreImage/libs,
+					src,
 					../../../addons/ofxCoreImage/src,
+					../../../addons/ofxCoreImage/src/composite,
 					../../../addons/ofxCoreImage/src/filters,
+					../../../addons/ofxCoreImage/src/transitions,
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_CPLUSPLUSFLAGS = (
 					"-D__MACOSX_CORE__",
-					"-lpthread",
 					"-mtune=native",
 				);
 				SDKROOT = macosx;
@@ -807,6 +721,7 @@
 		};
 		E4B69B600A3A1757003C02F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
@@ -818,82 +733,27 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../addons/ofxCoreImage/src,
+					../../../addons/ofxCoreImage/src/composite,
+					../../../addons/ofxCoreImage/src/filters,
+					../../../addons/ofxCoreImage/src/transitions,
+				);
 				ICON = "$(ICON_NAME_DEBUG)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_6)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_11)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_12)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_13)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_14)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_15)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_11)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_12)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_13)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_16)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_17)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_18)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_19)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_20)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_21)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_22)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_23)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_24)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_25)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_26)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_27)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_28)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_29)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_30)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_31)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_32)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_33)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_34)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_35)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_36)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_37)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_38)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_39)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_40)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_41)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_42)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_43)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_44)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_45)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_46)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_47)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_48)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_49)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_50)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_51)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_52)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
-				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		E4B69B610A3A1757003C02F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
@@ -904,77 +764,22 @@
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../addons/ofxCoreImage/src,
+					../../../addons/ofxCoreImage/src/composite,
+					../../../addons/ofxCoreImage/src/filters,
+					../../../addons/ofxCoreImage/src/transitions,
+				);
 				ICON = "$(ICON_NAME_RELEASE)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_6)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_11)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_12)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_13)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_14)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_15)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_11)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_12)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_13)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_16)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_17)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_18)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_19)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_20)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_21)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_22)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_23)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_24)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_25)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_26)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_27)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_28)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_29)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_30)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_31)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_32)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_33)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_34)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_35)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_36)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_37)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_38)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_39)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_40)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_41)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_42)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_43)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_44)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_45)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_46)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_47)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_48)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_49)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_50)",
-					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_51)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
 			};
 			name = Release;
 		};

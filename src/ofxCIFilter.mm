@@ -22,14 +22,15 @@ void ofxCIFilter::loadFilter(){
 //-------------------------
 void ofxCIFilter::update(ofTexture tex){ //this takes an ofTexture and lets you use it as a CI image
     
+
     texID = tex.texData.textureID;
-    
     inputCIImage = [CIImage imageWithTexture:texID
                                         size:texSize
                                      flipped:NO
                                   colorSpace:genericRGB];
     
     [filter setValue:inputCIImage forKey:@"inputImage"];
+    
 }
 //-------------------------
 void ofxCIFilter::update(CIImage* inputImage){
